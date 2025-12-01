@@ -3,6 +3,7 @@ import CaseConverter from './01-text/CaseConverter'
 import TextCounter from './01-text/TextCounter'
 import TextDiff from './01-text/TextDiff'
 import DuplicateRemover from './01-text/DuplicateRemover'
+import TextSorter from './01-text/TextSorter'
 
 export interface ToolInfo {
   id: string
@@ -45,6 +46,14 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.duplicateRemover.description',
     category: '01-text',
     component: DuplicateRemover,
+  },
+  {
+    id: '005',
+    path: 'text-sorter',
+    nameKey: 'tools.textSorter.name',
+    descriptionKey: 'tools.textSorter.description',
+    category: '01-text',
+    component: TextSorter,
   },
 ]
 

@@ -91,6 +91,27 @@
       "unique": "唯一項目",
       "duplicatesFound": "發現的重複項目",
       "more": "更多"
+    },
+    "textSorter": {
+      "name": "文字排序工具",
+      "description": "按字母、數字、長度等方式排序文字行，支援升序、降序與隨機排列",
+      "modeLabel": "排序方式",
+      "modes": {
+        "alphabetical": "字母排序",
+        "natural": "自然排序",
+        "length": "長度排序",
+        "numeric": "數字排序",
+        "random": "隨機排列",
+        "reverse": "反轉順序"
+      },
+      "order": "順序",
+      "ascending": "升序",
+      "descending": "降序",
+      "caseSensitive": "區分大小寫",
+      "trimWhitespace": "去除首尾空白",
+      "removeEmpty": "移除空行",
+      "inputPlaceholder": "輸入要排序的文字（每行一個項目）...",
+      "linesCount": "{{count}} 行"
     }
   }
 }

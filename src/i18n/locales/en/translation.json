@@ -91,6 +91,27 @@
       "unique": "Unique",
       "duplicatesFound": "Duplicates Found",
       "more": "more"
+    },
+    "textSorter": {
+      "name": "Text Sorter",
+      "description": "Sort text lines alphabetically, numerically, by length, or randomly with ascending/descending options",
+      "modeLabel": "Sort Mode",
+      "modes": {
+        "alphabetical": "Alphabetical",
+        "natural": "Natural Sort",
+        "length": "By Length",
+        "numeric": "Numeric",
+        "random": "Random Shuffle",
+        "reverse": "Reverse Order"
+      },
+      "order": "Order",
+      "ascending": "Ascending",
+      "descending": "Descending",
+      "caseSensitive": "Case Sensitive",
+      "trimWhitespace": "Trim Whitespace",
+      "removeEmpty": "Remove Empty Lines",
+      "inputPlaceholder": "Enter text to sort (one item per line)...",
+      "linesCount": "{{count}} lines"
     }
   }
 }

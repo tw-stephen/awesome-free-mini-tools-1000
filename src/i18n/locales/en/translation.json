@@ -1,0 +1,33 @@
+{
+  "common": {
+    "appName": "Mini Tools 1000",
+    "input": "Input",
+    "output": "Output",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "clear": "Clear",
+    "download": "Download",
+    "placeholder": "Enter your text here...",
+    "noContent": "No content yet",
+    "footer": {
+      "privacy": "All data processing is done locally. No data is uploaded to any server.",
+      "copyright": "© 2024 Awesome Free Mini Tools 1000. MIT License."
+    }
+  },
+  "tools": {
+    "caseConverter": {
+      "name": "Case Converter",
+      "description": "Convert text case: UPPERCASE, lowercase, Capitalize, Sentence case, aLtErNaTiNg, and more",
+      "modes": {
+        "uppercase": "UPPERCASE",
+        "lowercase": "lowercase",
+        "capitalize": "Capitalize Each Word",
+        "sentence": "Sentence case",
+        "alternating": "aLtErNaTiNg CaSe",
+        "inverse": "iNVERSE cASE"
+      },
+      "charCount": "Characters",
+      "wordCount": "Words"
+    }
+  }
+}

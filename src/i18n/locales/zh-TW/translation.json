@@ -9,10 +9,20 @@
     "download": "下載",
     "placeholder": "在此輸入文字...",
     "noContent": "尚無內容",
+    "home": "首頁",
+    "allTools": "所有工具",
     "footer": {
       "privacy": "所有資料處理皆在本地完成，不會上傳至伺服器",
       "copyright": "© 2024 Awesome Free Mini Tools 1000. MIT License."
     }
+  },
+  "home": {
+    "title": "免費線上工具集",
+    "subtitle": "1000 個純前端小工具，隱私安全，離線可用",
+    "searchPlaceholder": "搜尋工具..."
+  },
+  "categories": {
+    "01-text": "文字處理"
   },
   "tools": {
     "caseConverter": {
@@ -28,6 +38,22 @@
       },
       "charCount": "字元數",
       "wordCount": "單詞數"
+    },
+    "textCounter": {
+      "name": "文字計數器",
+      "description": "統計字元數、單詞數、句子數、段落數、行數，以及閱讀與朗讀時間",
+      "copyStats": "複製統計結果",
+      "minutes": "分鐘",
+      "stats": {
+        "characters": "字元數",
+        "charactersNoSpaces": "字元數（不含空格）",
+        "words": "單詞數",
+        "sentences": "句子數",
+        "paragraphs": "段落數",
+        "lines": "行數",
+        "readingTime": "閱讀時間",
+        "speakingTime": "朗讀時間"
+      }
     }
   }
 }

@@ -68,6 +68,29 @@
       "additions": "Additions",
       "deletions": "Deletions",
       "unchanged": "Unchanged"
+    },
+    "duplicateRemover": {
+      "name": "Duplicate Remover",
+      "description": "Remove duplicate lines or words with options for case sensitivity and keeping first/last occurrence",
+      "modeLabel": "Remove Mode",
+      "modes": {
+        "lines": "Duplicate Lines",
+        "words": "Duplicate Words"
+      },
+      "keepLabel": "Keep Occurrence",
+      "keep": {
+        "first": "Keep First",
+        "last": "Keep Last"
+      },
+      "caseSensitive": "Case Sensitive",
+      "trimWhitespace": "Trim Whitespace",
+      "inputPlaceholder": "Enter text with duplicates...",
+      "linesCount": "{{count}} lines",
+      "wordsCount": "{{count}} words",
+      "removed": "Removed",
+      "unique": "Unique",
+      "duplicatesFound": "Duplicates Found",
+      "more": "more"
     }
   }
 }

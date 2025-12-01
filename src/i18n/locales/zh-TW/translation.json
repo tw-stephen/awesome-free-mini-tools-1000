@@ -68,6 +68,29 @@
       "additions": "新增",
       "deletions": "刪除",
       "unchanged": "未變更"
+    },
+    "duplicateRemover": {
+      "name": "重複文字移除",
+      "description": "移除重複的行或單詞，支援大小寫敏感與保留首次/最後出現的選項",
+      "modeLabel": "移除模式",
+      "modes": {
+        "lines": "重複行",
+        "words": "重複單詞"
+      },
+      "keepLabel": "保留方式",
+      "keep": {
+        "first": "保留首次出現",
+        "last": "保留最後出現"
+      },
+      "caseSensitive": "區分大小寫",
+      "trimWhitespace": "忽略首尾空白",
+      "inputPlaceholder": "輸入包含重複內容的文字...",
+      "linesCount": "{{count}} 行",
+      "wordsCount": "{{count}} 個單詞",
+      "removed": "已移除",
+      "unique": "唯一項目",
+      "duplicatesFound": "發現的重複項目",
+      "more": "更多"
     }
   }
 }

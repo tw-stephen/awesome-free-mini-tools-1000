@@ -2,6 +2,7 @@ import { ComponentType } from 'react'
 import CaseConverter from './01-text/CaseConverter'
 import TextCounter from './01-text/TextCounter'
 import TextDiff from './01-text/TextDiff'
+import DuplicateRemover from './01-text/DuplicateRemover'
 
 export interface ToolInfo {
   id: string
@@ -36,6 +37,14 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.textDiff.description',
     category: '01-text',
     component: TextDiff,
+  },
+  {
+    id: '004',
+    path: 'duplicate-remover',
+    nameKey: 'tools.duplicateRemover.name',
+    descriptionKey: 'tools.duplicateRemover.description',
+    category: '01-text',
+    component: DuplicateRemover,
   },
 ]
 

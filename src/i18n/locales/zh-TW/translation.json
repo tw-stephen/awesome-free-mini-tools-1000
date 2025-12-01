@@ -54,6 +54,20 @@
         "readingTime": "閱讀時間",
         "speakingTime": "朗讀時間"
       }
+    },
+    "textDiff": {
+      "name": "文字比較器",
+      "description": "比較兩段文字的差異，以高亮方式顯示新增、刪除與修改的部分",
+      "original": "原始文字",
+      "modified": "修改後文字",
+      "originalPlaceholder": "貼上原始文字...",
+      "modifiedPlaceholder": "貼上修改後文字...",
+      "swap": "交換",
+      "splitView": "並排檢視",
+      "unifiedView": "統一檢視",
+      "additions": "新增",
+      "deletions": "刪除",
+      "unchanged": "未變更"
     }
   }
 }

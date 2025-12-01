@@ -54,6 +54,20 @@
         "readingTime": "Reading Time",
         "speakingTime": "Speaking Time"
       }
+    },
+    "textDiff": {
+      "name": "Text Diff",
+      "description": "Compare two texts and highlight the differences with additions, deletions, and changes",
+      "original": "Original Text",
+      "modified": "Modified Text",
+      "originalPlaceholder": "Paste original text...",
+      "modifiedPlaceholder": "Paste modified text...",
+      "swap": "Swap",
+      "splitView": "Split View",
+      "unifiedView": "Unified View",
+      "additions": "Additions",
+      "deletions": "Deletions",
+      "unchanged": "Unchanged"
     }
   }
 }

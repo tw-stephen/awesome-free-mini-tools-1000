@@ -1,6 +1,7 @@
 import { ComponentType } from 'react'
 import CaseConverter from './01-text/CaseConverter'
 import TextCounter from './01-text/TextCounter'
+import TextDiff from './01-text/TextDiff'
 
 export interface ToolInfo {
   id: string
@@ -27,6 +28,14 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.textCounter.description',
     category: '01-text',
     component: TextCounter,
+  },
+  {
+    id: '003',
+    path: 'text-diff',
+    nameKey: 'tools.textDiff.name',
+    descriptionKey: 'tools.textDiff.description',
+    category: '01-text',
+    component: TextDiff,
   },
 ]
 

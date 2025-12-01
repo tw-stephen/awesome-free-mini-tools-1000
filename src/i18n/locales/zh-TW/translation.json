@@ -1,0 +1,33 @@
+{
+  "common": {
+    "appName": "Mini Tools 1000",
+    "input": "輸入",
+    "output": "輸出",
+    "copy": "複製",
+    "copied": "已複製！",
+    "clear": "清除",
+    "download": "下載",
+    "placeholder": "在此輸入文字...",
+    "noContent": "尚無內容",
+    "footer": {
+      "privacy": "所有資料處理皆在本地完成，不會上傳至伺服器",
+      "copyright": "© 2024 Awesome Free Mini Tools 1000. MIT License."
+    }
+  },
+  "tools": {
+    "caseConverter": {
+      "name": "大小寫轉換器",
+      "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",
+      "modes": {
+        "uppercase": "全部大寫",
+        "lowercase": "全部小寫",
+        "capitalize": "每字首字母大寫",
+        "sentence": "句首大寫",
+        "alternating": "交替大小寫",
+        "inverse": "反轉大小寫"
+      },
+      "charCount": "字元數",
+      "wordCount": "單詞數"
+    }
+  }
+}

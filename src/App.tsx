@@ -1,23 +1,20 @@
-import { useTranslation } from 'react-i18next'
 import Layout from './components/layout/Layout'
-import CaseConverter from './tools/01-text/CaseConverter'
+import Home from './pages/Home'
+import ToolPage from './pages/ToolPage'
+import { useHashRouter } from './hooks/useHashRouter'
+import { getToolByPath } from './tools/registry'
 
 function App() {
-  const { t } = useTranslation()
+  const { path, navigate } = useHashRouter()
+  const tool = getToolByPath(path)
 
   return (
     <Layout>
-      <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-slate-800 mb-2">
-            {t('tools.caseConverter.name')}
-          </h1>
-          <p className="text-slate-600">
-            {t('tools.caseConverter.description')}
-          </p>
-        </div>
-        <CaseConverter />
-      </div>
+      {tool ? (
+        <ToolPage tool={tool} onBack={() => navigate('')} />
+      ) : (
+        <Home onNavigate={navigate} />
+      )}
     </Layout>
   )
 }

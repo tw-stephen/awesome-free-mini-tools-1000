@@ -1,0 +1,70 @@
+import { ComponentType } from 'react'
+import CaseConverter from './01-text/CaseConverter'
+import TextCounter from './01-text/TextCounter'
+import TextDiff from './01-text/TextDiff'
+import DuplicateRemover from './01-text/DuplicateRemover'
+import TextSorter from './01-text/TextSorter'
+
+export interface ToolInfo {
+  id: string
+  path: string
+  nameKey: string
+  descriptionKey: string
+  category: string
+  component: ComponentType
+}
+
+export const tools: ToolInfo[] = [
+  {
+    id: '001',
+    path: 'case-converter',
+    nameKey: 'tools.caseConverter.name',
+    descriptionKey: 'tools.caseConverter.description',
+    category: '01-text',
+    component: CaseConverter,
+  },
+  {
+    id: '002',
+    path: 'text-counter',
+    nameKey: 'tools.textCounter.name',
+    descriptionKey: 'tools.textCounter.description',
+    category: '01-text',
+    component: TextCounter,
+  },
+  {
+    id: '003',
+    path: 'text-diff',
+    nameKey: 'tools.textDiff.name',
+    descriptionKey: 'tools.textDiff.description',
+    category: '01-text',
+    component: TextDiff,
+  },
+  {
+    id: '004',
+    path: 'duplicate-remover',
+    nameKey: 'tools.duplicateRemover.name',
+    descriptionKey: 'tools.duplicateRemover.description',
+    category: '01-text',
+    component: DuplicateRemover,
+  },
+  {
+    id: '005',
+    path: 'text-sorter',
+    nameKey: 'tools.textSorter.name',
+    descriptionKey: 'tools.textSorter.description',
+    category: '01-text',
+    component: TextSorter,
+  },
+]
+
+export const categories = [
+  { id: '01-text', nameKey: 'categories.01-text' },
+]
+
+export function getToolByPath(path: string): ToolInfo | undefined {
+  return tools.find((tool) => tool.path === path)
+}
+
+export function getToolsByCategory(categoryId: string): ToolInfo[] {
+  return tools.filter((tool) => tool.category === categoryId)
+}

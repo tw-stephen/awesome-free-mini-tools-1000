@@ -9,10 +9,20 @@
     "download": "Download",
     "placeholder": "Enter your text here...",
     "noContent": "No content yet",
+    "home": "Home",
+    "allTools": "All Tools",
     "footer": {
       "privacy": "All data processing is done locally. No data is uploaded to any server.",
       "copyright": "© 2024 Awesome Free Mini Tools 1000. MIT License."
     }
+  },
+  "home": {
+    "title": "Free Online Tools",
+    "subtitle": "1000 frontend-only mini tools, privacy-first, works offline",
+    "searchPlaceholder": "Search tools..."
+  },
+  "categories": {
+    "01-text": "Text Processing"
   },
   "tools": {
     "caseConverter": {
@@ -28,6 +38,80 @@
       },
       "charCount": "Characters",
       "wordCount": "Words"
+    },
+    "textCounter": {
+      "name": "Text Counter",
+      "description": "Count characters, words, sentences, paragraphs, lines, and estimate reading/speaking time",
+      "copyStats": "Copy Stats",
+      "minutes": "min",
+      "stats": {
+        "characters": "Characters",
+        "charactersNoSpaces": "Characters (no spaces)",
+        "words": "Words",
+        "sentences": "Sentences",
+        "paragraphs": "Paragraphs",
+        "lines": "Lines",
+        "readingTime": "Reading Time",
+        "speakingTime": "Speaking Time"
+      }
+    },
+    "textDiff": {
+      "name": "Text Diff",
+      "description": "Compare two texts and highlight the differences with additions, deletions, and changes",
+      "original": "Original Text",
+      "modified": "Modified Text",
+      "originalPlaceholder": "Paste original text...",
+      "modifiedPlaceholder": "Paste modified text...",
+      "swap": "Swap",
+      "splitView": "Split View",
+      "unifiedView": "Unified View",
+      "additions": "Additions",
+      "deletions": "Deletions",
+      "unchanged": "Unchanged"
+    },
+    "duplicateRemover": {
+      "name": "Duplicate Remover",
+      "description": "Remove duplicate lines or words with options for case sensitivity and keeping first/last occurrence",
+      "modeLabel": "Remove Mode",
+      "modes": {
+        "lines": "Duplicate Lines",
+        "words": "Duplicate Words"
+      },
+      "keepLabel": "Keep Occurrence",
+      "keep": {
+        "first": "Keep First",
+        "last": "Keep Last"
+      },
+      "caseSensitive": "Case Sensitive",
+      "trimWhitespace": "Trim Whitespace",
+      "inputPlaceholder": "Enter text with duplicates...",
+      "linesCount": "{{count}} lines",
+      "wordsCount": "{{count}} words",
+      "removed": "Removed",
+      "unique": "Unique",
+      "duplicatesFound": "Duplicates Found",
+      "more": "more"
+    },
+    "textSorter": {
+      "name": "Text Sorter",
+      "description": "Sort text lines alphabetically, numerically, by length, or randomly with ascending/descending options",
+      "modeLabel": "Sort Mode",
+      "modes": {
+        "alphabetical": "Alphabetical",
+        "natural": "Natural Sort",
+        "length": "By Length",
+        "numeric": "Numeric",
+        "random": "Random Shuffle",
+        "reverse": "Reverse Order"
+      },
+      "order": "Order",
+      "ascending": "Ascending",
+      "descending": "Descending",
+      "caseSensitive": "Case Sensitive",
+      "trimWhitespace": "Trim Whitespace",
+      "removeEmpty": "Remove Empty Lines",
+      "inputPlaceholder": "Enter text to sort (one item per line)...",
+      "linesCount": "{{count}} lines"
     }
   }
 }

@@ -9,10 +9,20 @@
     "download": "下載",
     "placeholder": "在此輸入文字...",
     "noContent": "尚無內容",
+    "home": "首頁",
+    "allTools": "所有工具",
     "footer": {
       "privacy": "所有資料處理皆在本地完成，不會上傳至伺服器",
       "copyright": "© 2024 Awesome Free Mini Tools 1000. MIT License."
     }
+  },
+  "home": {
+    "title": "免費線上工具集",
+    "subtitle": "1000 個純前端小工具，隱私安全，離線可用",
+    "searchPlaceholder": "搜尋工具..."
+  },
+  "categories": {
+    "01-text": "文字處理"
   },
   "tools": {
     "caseConverter": {
@@ -28,6 +38,80 @@
       },
       "charCount": "字元數",
       "wordCount": "單詞數"
+    },
+    "textCounter": {
+      "name": "文字計數器",
+      "description": "統計字元數、單詞數、句子數、段落數、行數，以及閱讀與朗讀時間",
+      "copyStats": "複製統計結果",
+      "minutes": "分鐘",
+      "stats": {
+        "characters": "字元數",
+        "charactersNoSpaces": "字元數（不含空格）",
+        "words": "單詞數",
+        "sentences": "句子數",
+        "paragraphs": "段落數",
+        "lines": "行數",
+        "readingTime": "閱讀時間",
+        "speakingTime": "朗讀時間"
+      }
+    },
+    "textDiff": {
+      "name": "文字比較器",
+      "description": "比較兩段文字的差異，以高亮方式顯示新增、刪除與修改的部分",
+      "original": "原始文字",
+      "modified": "修改後文字",
+      "originalPlaceholder": "貼上原始文字...",
+      "modifiedPlaceholder": "貼上修改後文字...",
+      "swap": "交換",
+      "splitView": "並排檢視",
+      "unifiedView": "統一檢視",
+      "additions": "新增",
+      "deletions": "刪除",
+      "unchanged": "未變更"
+    },
+    "duplicateRemover": {
+      "name": "重複文字移除",
+      "description": "移除重複的行或單詞，支援大小寫敏感與保留首次/最後出現的選項",
+      "modeLabel": "移除模式",
+      "modes": {
+        "lines": "重複行",
+        "words": "重複單詞"
+      },
+      "keepLabel": "保留方式",
+      "keep": {
+        "first": "保留首次出現",
+        "last": "保留最後出現"
+      },
+      "caseSensitive": "區分大小寫",
+      "trimWhitespace": "忽略首尾空白",
+      "inputPlaceholder": "輸入包含重複內容的文字...",
+      "linesCount": "{{count}} 行",
+      "wordsCount": "{{count}} 個單詞",
+      "removed": "已移除",
+      "unique": "唯一項目",
+      "duplicatesFound": "發現的重複項目",
+      "more": "更多"
+    },
+    "textSorter": {
+      "name": "文字排序工具",
+      "description": "按字母、數字、長度等方式排序文字行，支援升序、降序與隨機排列",
+      "modeLabel": "排序方式",
+      "modes": {
+        "alphabetical": "字母排序",
+        "natural": "自然排序",
+        "length": "長度排序",
+        "numeric": "數字排序",
+        "random": "隨機排列",
+        "reverse": "反轉順序"
+      },
+      "order": "順序",
+      "ascending": "升序",
+      "descending": "降序",
+      "caseSensitive": "區分大小寫",
+      "trimWhitespace": "去除首尾空白",
+      "removeEmpty": "移除空行",
+      "inputPlaceholder": "輸入要排序的文字（每行一個項目）...",
+      "linesCount": "{{count}} 行"
     }
   }
 }

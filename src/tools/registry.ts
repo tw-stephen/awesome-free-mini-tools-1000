@@ -36,6 +36,9 @@ import CSSFilterGenerator from './25-other/CSSFilterGenerator'
 import TextShadowGenerator from './25-other/TextShadowGenerator'
 import CSSTransformGenerator from './25-other/CSSTransformGenerator'
 import FlexboxGenerator from './25-other/FlexboxGenerator'
+import GridGenerator from './25-other/GridGenerator'
+import AspectRatioCalculator from './25-other/AspectRatioCalculator'
+import CSSUnitConverter from './25-other/CSSUnitConverter'
 
 export interface ToolInfo {
   id: string
@@ -302,6 +305,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.flexbox.description',
     category: '25-other',
     component: FlexboxGenerator,
+  },
+  {
+    id: '968',
+    path: 'grid-generator',
+    nameKey: 'tools.grid.name',
+    descriptionKey: 'tools.grid.description',
+    category: '25-other',
+    component: GridGenerator,
+  },
+  {
+    id: '967',
+    path: 'aspect-ratio-calculator',
+    nameKey: 'tools.aspectRatio.name',
+    descriptionKey: 'tools.aspectRatio.description',
+    category: '25-other',
+    component: AspectRatioCalculator,
+  },
+  {
+    id: '966',
+    path: 'css-unit-converter',
+    nameKey: 'tools.unitConverter.name',
+    descriptionKey: 'tools.unitConverter.description',
+    category: '25-other',
+    component: CSSUnitConverter,
   },
   {
     id: '001',

@@ -6,6 +6,7 @@ import DuplicateRemover from './01-text/DuplicateRemover'
 import TextSorter from './01-text/TextSorter'
 import ToolIndex from './25-other/ToolIndex'
 import InfographicGenerator from './25-other/InfographicGenerator'
+import TimelineGenerator from './25-other/TimelineGenerator'
 
 export interface ToolInfo {
   id: string
@@ -32,6 +33,14 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.infographicGenerator.description',
     category: '25-other',
     component: InfographicGenerator,
+  },
+  {
+    id: '998',
+    path: 'timeline-generator',
+    nameKey: 'tools.timelineGenerator.name',
+    descriptionKey: 'tools.timelineGenerator.description',
+    category: '25-other',
+    component: TimelineGenerator,
   },
   {
     id: '001',

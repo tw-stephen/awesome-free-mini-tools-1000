@@ -43,6 +43,16 @@
       "delete": "刪除",
       "selectHint": "選取元素以編輯屬性"
     },
+    "timelineGenerator": {
+      "name": "時間軸產生器",
+      "description": "將事件製作成垂直時間軸圖表",
+      "addEvent": "新增事件",
+      "eventList": "事件列表",
+      "date": "日期",
+      "title": "標題",
+      "description": "描述",
+      "add": "新增事件"
+    },
     "caseConverter": {
       "name": "大小寫轉換器",
       "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",

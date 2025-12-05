@@ -21,6 +21,9 @@ import RadarChartGenerator from './25-other/RadarChartGenerator'
 import AreaChartGenerator from './25-other/AreaChartGenerator'
 import BubbleChartGenerator from './25-other/BubbleChartGenerator'
 import HeatmapGenerator from './25-other/HeatmapGenerator'
+import FunnelChartGenerator from './25-other/FunnelChartGenerator'
+import WaterfallChartGenerator from './25-other/WaterfallChartGenerator'
+import GaugeChartGenerator from './25-other/GaugeChartGenerator'
 
 export interface ToolInfo {
   id: string
@@ -167,6 +170,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.heatmap.description',
     category: '25-other',
     component: HeatmapGenerator,
+  },
+  {
+    id: '983',
+    path: 'funnel-chart-generator',
+    nameKey: 'tools.funnelChart.name',
+    descriptionKey: 'tools.funnelChart.description',
+    category: '25-other',
+    component: FunnelChartGenerator,
+  },
+  {
+    id: '982',
+    path: 'waterfall-chart-generator',
+    nameKey: 'tools.waterfallChart.name',
+    descriptionKey: 'tools.waterfallChart.description',
+    category: '25-other',
+    component: WaterfallChartGenerator,
+  },
+  {
+    id: '981',
+    path: 'gauge-chart-generator',
+    nameKey: 'tools.gaugeChart.name',
+    descriptionKey: 'tools.gaugeChart.description',
+    category: '25-other',
+    component: GaugeChartGenerator,
   },
   {
     id: '001',

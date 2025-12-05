@@ -423,6 +423,53 @@
         "conic": "Conic"
       }
     },
+    "boxShadow": {
+      "name": "Box Shadow Generator",
+      "description": "Create CSS box shadows with multiple layers and live preview",
+      "addShadow": "Add Shadow",
+      "copyCSS": "Copy CSS",
+      "shadows": "Shadows",
+      "layer": "Layer",
+      "editShadow": "Edit Shadow",
+      "blur": "Blur",
+      "spread": "Spread",
+      "color": "Color",
+      "opacity": "Opacity",
+      "inset": "Inset",
+      "delete": "Delete",
+      "boxColor": "Box Color",
+      "bgColor": "Background"
+    },
+    "borderRadius": {
+      "name": "Border Radius Generator",
+      "description": "Create CSS border-radius with individual corner control",
+      "linked": "Link Corners",
+      "copyCSS": "Copy CSS",
+      "corners": "Corners",
+      "topLeft": "Top Left",
+      "topRight": "Top Right",
+      "bottomRight": "Bottom Right",
+      "bottomLeft": "Bottom Left",
+      "quickInput": "Quick Input",
+      "boxColor": "Box Color",
+      "bgColor": "Background"
+    },
+    "cssFilter": {
+      "name": "CSS Filter Generator",
+      "description": "Apply CSS filter effects like blur, brightness, contrast and more",
+      "reset": "Reset",
+      "copyCSS": "Copy CSS",
+      "filters": "Filters",
+      "blur": "Blur",
+      "brightness": "Brightness",
+      "contrast": "Contrast",
+      "grayscale": "Grayscale",
+      "hueRotate": "Hue Rotate",
+      "invert": "Invert",
+      "opacity": "Opacity",
+      "saturate": "Saturate",
+      "sepia": "Sepia"
+    },
     "caseConverter": {
       "name": "Case Converter",
       "description": "Convert text case: UPPERCASE, lowercase, Capitalize, Sentence case, aLtErNaTiNg, and more",

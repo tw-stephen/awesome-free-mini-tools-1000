@@ -30,6 +30,9 @@ import QRCodeGenerator from './25-other/QRCodeGenerator'
 import BarcodeGenerator from './25-other/BarcodeGenerator'
 import ColorPaletteGenerator from './25-other/ColorPaletteGenerator'
 import GradientGenerator from './25-other/GradientGenerator'
+import BoxShadowGenerator from './25-other/BoxShadowGenerator'
+import BorderRadiusGenerator from './25-other/BorderRadiusGenerator'
+import CSSFilterGenerator from './25-other/CSSFilterGenerator'
 
 export interface ToolInfo {
   id: string
@@ -248,6 +251,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.gradient.description',
     category: '25-other',
     component: GradientGenerator,
+  },
+  {
+    id: '974',
+    path: 'box-shadow-generator',
+    nameKey: 'tools.boxShadow.name',
+    descriptionKey: 'tools.boxShadow.description',
+    category: '25-other',
+    component: BoxShadowGenerator,
+  },
+  {
+    id: '973',
+    path: 'border-radius-generator',
+    nameKey: 'tools.borderRadius.name',
+    descriptionKey: 'tools.borderRadius.description',
+    category: '25-other',
+    component: BorderRadiusGenerator,
+  },
+  {
+    id: '972',
+    path: 'css-filter-generator',
+    nameKey: 'tools.cssFilter.name',
+    descriptionKey: 'tools.cssFilter.description',
+    category: '25-other',
+    component: CSSFilterGenerator,
   },
   {
     id: '001',

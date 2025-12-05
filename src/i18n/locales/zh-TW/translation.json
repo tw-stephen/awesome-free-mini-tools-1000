@@ -423,6 +423,53 @@
         "conic": "錐形"
       }
     },
+    "boxShadow": {
+      "name": "陰影產生器",
+      "description": "建立多層 CSS 陰影效果，即時預覽",
+      "addShadow": "新增陰影",
+      "copyCSS": "複製 CSS",
+      "shadows": "陰影",
+      "layer": "圖層",
+      "editShadow": "編輯陰影",
+      "blur": "模糊",
+      "spread": "擴散",
+      "color": "顏色",
+      "opacity": "透明度",
+      "inset": "內陰影",
+      "delete": "刪除",
+      "boxColor": "方塊顏色",
+      "bgColor": "背景色"
+    },
+    "borderRadius": {
+      "name": "圓角產生器",
+      "description": "建立 CSS 圓角，可個別控制四角",
+      "linked": "連動四角",
+      "copyCSS": "複製 CSS",
+      "corners": "圓角",
+      "topLeft": "左上",
+      "topRight": "右上",
+      "bottomRight": "右下",
+      "bottomLeft": "左下",
+      "quickInput": "快速輸入",
+      "boxColor": "方塊顏色",
+      "bgColor": "背景色"
+    },
+    "cssFilter": {
+      "name": "CSS 濾鏡產生器",
+      "description": "套用 CSS 濾鏡效果，如模糊、亮度、對比等",
+      "reset": "重設",
+      "copyCSS": "複製 CSS",
+      "filters": "濾鏡",
+      "blur": "模糊",
+      "brightness": "亮度",
+      "contrast": "對比",
+      "grayscale": "灰階",
+      "hueRotate": "色相旋轉",
+      "invert": "反轉",
+      "opacity": "透明度",
+      "saturate": "飽和度",
+      "sepia": "復古"
+    },
     "caseConverter": {
       "name": "大小寫轉換器",
       "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",

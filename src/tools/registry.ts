@@ -33,6 +33,9 @@ import GradientGenerator from './25-other/GradientGenerator'
 import BoxShadowGenerator from './25-other/BoxShadowGenerator'
 import BorderRadiusGenerator from './25-other/BorderRadiusGenerator'
 import CSSFilterGenerator from './25-other/CSSFilterGenerator'
+import TextShadowGenerator from './25-other/TextShadowGenerator'
+import CSSTransformGenerator from './25-other/CSSTransformGenerator'
+import FlexboxGenerator from './25-other/FlexboxGenerator'
 
 export interface ToolInfo {
   id: string
@@ -275,6 +278,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.cssFilter.description',
     category: '25-other',
     component: CSSFilterGenerator,
+  },
+  {
+    id: '971',
+    path: 'text-shadow-generator',
+    nameKey: 'tools.textShadow.name',
+    descriptionKey: 'tools.textShadow.description',
+    category: '25-other',
+    component: TextShadowGenerator,
+  },
+  {
+    id: '970',
+    path: 'css-transform-generator',
+    nameKey: 'tools.cssTransform.name',
+    descriptionKey: 'tools.cssTransform.description',
+    category: '25-other',
+    component: CSSTransformGenerator,
+  },
+  {
+    id: '969',
+    path: 'flexbox-generator',
+    nameKey: 'tools.flexbox.name',
+    descriptionKey: 'tools.flexbox.description',
+    category: '25-other',
+    component: FlexboxGenerator,
   },
   {
     id: '001',

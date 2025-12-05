@@ -7,6 +7,7 @@ import TextSorter from './01-text/TextSorter'
 import ToolIndex from './25-other/ToolIndex'
 import InfographicGenerator from './25-other/InfographicGenerator'
 import TimelineGenerator from './25-other/TimelineGenerator'
+import TreeDiagramGenerator from './25-other/TreeDiagramGenerator'
 
 export interface ToolInfo {
   id: string
@@ -41,6 +42,14 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.timelineGenerator.description',
     category: '25-other',
     component: TimelineGenerator,
+  },
+  {
+    id: '997',
+    path: 'tree-diagram-generator',
+    nameKey: 'tools.treeDiagram.name',
+    descriptionKey: 'tools.treeDiagram.description',
+    category: '25-other',
+    component: TreeDiagramGenerator,
   },
   {
     id: '001',

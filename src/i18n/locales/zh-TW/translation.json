@@ -53,6 +53,13 @@
       "description": "描述",
       "add": "新增事件"
     },
+    "treeDiagram": {
+      "name": "樹狀圖產生器",
+      "description": "將縮排文字轉換為樹狀結構圖",
+      "input": "樹狀結構（縮排文字）",
+      "hint": "使用 2 個空格進行縮排",
+      "empty": "輸入文字以產生樹狀圖"
+    },
     "caseConverter": {
       "name": "大小寫轉換器",
       "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",

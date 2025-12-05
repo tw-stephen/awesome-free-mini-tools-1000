@@ -53,6 +53,13 @@
       "description": "Description",
       "add": "Add Event"
     },
+    "treeDiagram": {
+      "name": "Tree Diagram Generator",
+      "description": "Generate tree structure diagrams from indented text",
+      "input": "Tree Structure (Indented Text)",
+      "hint": "Use 2 spaces for indentation",
+      "empty": "Enter text to generate tree"
+    },
     "caseConverter": {
       "name": "Case Converter",
       "description": "Convert text case: UPPERCASE, lowercase, Capitalize, Sentence case, aLtErNaTiNg, and more",

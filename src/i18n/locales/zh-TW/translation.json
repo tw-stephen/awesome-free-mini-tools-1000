@@ -60,6 +60,19 @@
       "hint": "使用 2 個空格進行縮排",
       "empty": "輸入文字以產生樹狀圖"
     },
+    "relationshipDiagram": {
+      "name": "關係圖產生器",
+      "description": "建立可互動的關係圖，包含節點與連接線",
+      "select": "選取",
+      "addNode": "新增節點",
+      "addLink": "新增連線",
+      "selectTarget": "點擊另一個節點以建立連線...",
+      "properties": "屬性",
+      "label": "標籤",
+      "color": "顏色",
+      "delete": "刪除",
+      "selectHint": "點擊節點以編輯其屬性"
+    },
     "caseConverter": {
       "name": "大小寫轉換器",
       "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",

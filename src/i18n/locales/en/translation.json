@@ -60,6 +60,19 @@
       "hint": "Use 2 spaces for indentation",
       "empty": "Enter text to generate tree"
     },
+    "relationshipDiagram": {
+      "name": "Relationship Diagram Generator",
+      "description": "Create interactive relationship diagrams with nodes and connections",
+      "select": "Select",
+      "addNode": "Add Node",
+      "addLink": "Add Link",
+      "selectTarget": "Click another node to create link...",
+      "properties": "Properties",
+      "label": "Label",
+      "color": "Color",
+      "delete": "Delete",
+      "selectHint": "Click on a node to edit its properties"
+    },
     "caseConverter": {
       "name": "Case Converter",
       "description": "Convert text case: UPPERCASE, lowercase, Capitalize, Sentence case, aLtErNaTiNg, and more",

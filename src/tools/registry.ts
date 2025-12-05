@@ -8,6 +8,7 @@ import ToolIndex from './25-other/ToolIndex'
 import InfographicGenerator from './25-other/InfographicGenerator'
 import TimelineGenerator from './25-other/TimelineGenerator'
 import TreeDiagramGenerator from './25-other/TreeDiagramGenerator'
+import RelationshipDiagramGenerator from './25-other/RelationshipDiagramGenerator'
 
 export interface ToolInfo {
   id: string
@@ -50,6 +51,14 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.treeDiagram.description',
     category: '25-other',
     component: TreeDiagramGenerator,
+  },
+  {
+    id: '996',
+    path: 'relationship-diagram-generator',
+    nameKey: 'tools.relationshipDiagram.name',
+    descriptionKey: 'tools.relationshipDiagram.description',
+    category: '25-other',
+    component: RelationshipDiagramGenerator,
   },
   {
     id: '001',

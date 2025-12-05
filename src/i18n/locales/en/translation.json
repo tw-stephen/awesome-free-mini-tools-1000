@@ -22,9 +22,17 @@
     "searchPlaceholder": "Search tools..."
   },
   "categories": {
-    "01-text": "Text Processing"
+    "01-text": "Text Processing",
+    "25-other": "Other Tools"
   },
   "tools": {
+    "toolIndex": {
+      "name": "Tool Index",
+      "description": "Quickly find and access all 1000 tools with search and filtering",
+      "searchPlaceholder": "Search by name or description...",
+      "showing": "Showing",
+      "tools": "tools"
+    },
     "caseConverter": {
       "name": "Case Converter",
       "description": "Convert text case: UPPERCASE, lowercase, Capitalize, Sentence case, aLtErNaTiNg, and more",

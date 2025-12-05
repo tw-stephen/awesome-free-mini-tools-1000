@@ -22,9 +22,17 @@
     "searchPlaceholder": "搜尋工具..."
   },
   "categories": {
-    "01-text": "文字處理"
+    "01-text": "文字處理",
+    "25-other": "其他實用工具"
   },
   "tools": {
+    "toolIndex": {
+      "name": "工具索引",
+      "description": "快速搜尋與存取所有 1000 個工具",
+      "searchPlaceholder": "搜尋工具名稱或說明...",
+      "showing": "顯示",
+      "tools": "個工具"
+    },
     "caseConverter": {
       "name": "大小寫轉換器",
       "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",

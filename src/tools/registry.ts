@@ -4,6 +4,7 @@ import TextCounter from './01-text/TextCounter'
 import TextDiff from './01-text/TextDiff'
 import DuplicateRemover from './01-text/DuplicateRemover'
 import TextSorter from './01-text/TextSorter'
+import ToolIndex from './25-other/ToolIndex'
 
 export interface ToolInfo {
   id: string
@@ -15,6 +16,14 @@ export interface ToolInfo {
 }
 
 export const tools: ToolInfo[] = [
+  {
+    id: '1000',
+    path: 'tool-index',
+    nameKey: 'tools.toolIndex.name',
+    descriptionKey: 'tools.toolIndex.description',
+    category: '25-other',
+    component: ToolIndex,
+  },
   {
     id: '001',
     path: 'case-converter',
@@ -59,6 +68,7 @@ export const tools: ToolInfo[] = [
 
 export const categories = [
   { id: '01-text', nameKey: 'categories.01-text' },
+  { id: '25-other', nameKey: 'categories.25-other' },
 ]
 
 export function getToolByPath(path: string): ToolInfo | undefined {

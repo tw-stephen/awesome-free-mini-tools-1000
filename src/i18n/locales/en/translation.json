@@ -372,6 +372,57 @@
       "chars": "Characters",
       "bytes": "Bytes"
     },
+    "barcode": {
+      "name": "Barcode Generator",
+      "description": "Generate Code 128 barcodes from text with customizable size and colors",
+      "content": "Content",
+      "placeholder": "Enter text...",
+      "showText": "Show Text",
+      "settings": "Settings",
+      "width": "Width",
+      "height": "Height",
+      "barColor": "Bar Color",
+      "bgColor": "Background Color",
+      "info": "Info",
+      "format": "Format",
+      "chars": "Characters"
+    },
+    "colorPalette": {
+      "name": "Color Palette Generator",
+      "description": "Generate harmonious color palettes with various color schemes",
+      "random": "Random",
+      "export": "Export CSS",
+      "baseColor": "Base Color",
+      "info": "Info",
+      "hint": "Click on colors to copy HEX values",
+      "types": {
+        "complementary": "Complementary",
+        "analogous": "Analogous",
+        "triadic": "Triadic",
+        "split": "Split",
+        "tetradic": "Tetradic",
+        "monochromatic": "Mono"
+      }
+    },
+    "gradient": {
+      "name": "Gradient Generator",
+      "description": "Create beautiful CSS gradients with multiple color stops",
+      "random": "Random",
+      "copyCSS": "Copy CSS",
+      "settings": "Settings",
+      "angle": "Angle",
+      "colorStops": "Color Stops",
+      "addStop": "Add",
+      "editStop": "Edit Stop",
+      "color": "Color",
+      "position": "Position",
+      "deleteStop": "Delete Stop",
+      "types": {
+        "linear": "Linear",
+        "radial": "Radial",
+        "conic": "Conic"
+      }
+    },
     "caseConverter": {
       "name": "Case Converter",
       "description": "Convert text case: UPPERCASE, lowercase, Capitalize, Sentence case, aLtErNaTiNg, and more",

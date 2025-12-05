@@ -27,6 +27,9 @@ import GaugeChartGenerator from './25-other/GaugeChartGenerator'
 import ProgressRingGenerator from './25-other/ProgressRingGenerator'
 import WordCloudGenerator from './25-other/WordCloudGenerator'
 import QRCodeGenerator from './25-other/QRCodeGenerator'
+import BarcodeGenerator from './25-other/BarcodeGenerator'
+import ColorPaletteGenerator from './25-other/ColorPaletteGenerator'
+import GradientGenerator from './25-other/GradientGenerator'
 
 export interface ToolInfo {
   id: string
@@ -221,6 +224,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.qrCode.description',
     category: '25-other',
     component: QRCodeGenerator,
+  },
+  {
+    id: '977',
+    path: 'barcode-generator',
+    nameKey: 'tools.barcode.name',
+    descriptionKey: 'tools.barcode.description',
+    category: '25-other',
+    component: BarcodeGenerator,
+  },
+  {
+    id: '976',
+    path: 'color-palette-generator',
+    nameKey: 'tools.colorPalette.name',
+    descriptionKey: 'tools.colorPalette.description',
+    category: '25-other',
+    component: ColorPaletteGenerator,
+  },
+  {
+    id: '975',
+    path: 'gradient-generator',
+    nameKey: 'tools.gradient.name',
+    descriptionKey: 'tools.gradient.description',
+    category: '25-other',
+    component: GradientGenerator,
   },
   {
     id: '001',

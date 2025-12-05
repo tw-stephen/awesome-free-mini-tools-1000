@@ -372,6 +372,57 @@
       "chars": "字元數",
       "bytes": "位元組"
     },
+    "barcode": {
+      "name": "條碼產生器",
+      "description": "從文字產生 Code 128 條碼，可自訂尺寸與顏色",
+      "content": "內容",
+      "placeholder": "輸入文字...",
+      "showText": "顯示文字",
+      "settings": "設定",
+      "width": "寬度",
+      "height": "高度",
+      "barColor": "條碼顏色",
+      "bgColor": "背景顏色",
+      "info": "資訊",
+      "format": "格式",
+      "chars": "字元數"
+    },
+    "colorPalette": {
+      "name": "調色盤產生器",
+      "description": "使用各種配色方案產生和諧的調色盤",
+      "random": "隨機",
+      "export": "匯出 CSS",
+      "baseColor": "基礎色",
+      "info": "資訊",
+      "hint": "點擊顏色複製 HEX 值",
+      "types": {
+        "complementary": "互補色",
+        "analogous": "類似色",
+        "triadic": "三等分",
+        "split": "分裂互補",
+        "tetradic": "四等分",
+        "monochromatic": "單色"
+      }
+    },
+    "gradient": {
+      "name": "漸層產生器",
+      "description": "建立漂亮的 CSS 漸層，支援多個色標",
+      "random": "隨機",
+      "copyCSS": "複製 CSS",
+      "settings": "設定",
+      "angle": "角度",
+      "colorStops": "色標",
+      "addStop": "新增",
+      "editStop": "編輯色標",
+      "color": "顏色",
+      "position": "位置",
+      "deleteStop": "刪除色標",
+      "types": {
+        "linear": "線性",
+        "radial": "放射",
+        "conic": "錐形"
+      }
+    },
     "caseConverter": {
       "name": "大小寫轉換器",
       "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",

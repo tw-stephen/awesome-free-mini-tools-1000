@@ -15,6 +15,9 @@ import GanttChartGenerator from './25-other/GanttChartGenerator'
 import OrgChartGenerator from './25-other/OrgChartGenerator'
 import PieChartGenerator from './25-other/PieChartGenerator'
 import BarChartGenerator from './25-other/BarChartGenerator'
+import LineChartGenerator from './25-other/LineChartGenerator'
+import ScatterPlotGenerator from './25-other/ScatterPlotGenerator'
+import RadarChartGenerator from './25-other/RadarChartGenerator'
 
 export interface ToolInfo {
   id: string
@@ -113,6 +116,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.barChart.description',
     category: '25-other',
     component: BarChartGenerator,
+  },
+  {
+    id: '989',
+    path: 'line-chart-generator',
+    nameKey: 'tools.lineChart.name',
+    descriptionKey: 'tools.lineChart.description',
+    category: '25-other',
+    component: LineChartGenerator,
+  },
+  {
+    id: '988',
+    path: 'scatter-plot-generator',
+    nameKey: 'tools.scatterPlot.name',
+    descriptionKey: 'tools.scatterPlot.description',
+    category: '25-other',
+    component: ScatterPlotGenerator,
+  },
+  {
+    id: '987',
+    path: 'radar-chart-generator',
+    nameKey: 'tools.radarChart.name',
+    descriptionKey: 'tools.radarChart.description',
+    category: '25-other',
+    component: RadarChartGenerator,
   },
   {
     id: '001',

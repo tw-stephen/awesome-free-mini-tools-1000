@@ -39,6 +39,9 @@ import FlexboxGenerator from './25-other/FlexboxGenerator'
 import GridGenerator from './25-other/GridGenerator'
 import AspectRatioCalculator from './25-other/AspectRatioCalculator'
 import CSSUnitConverter from './25-other/CSSUnitConverter'
+import LoremIpsumGenerator from './25-other/LoremIpsumGenerator'
+import PlaceholderImageGenerator from './25-other/PlaceholderImageGenerator'
+import FaviconGenerator from './25-other/FaviconGenerator'
 
 export interface ToolInfo {
   id: string
@@ -329,6 +332,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.unitConverter.description',
     category: '25-other',
     component: CSSUnitConverter,
+  },
+  {
+    id: '965',
+    path: 'lorem-ipsum-generator',
+    nameKey: 'tools.loremIpsum.name',
+    descriptionKey: 'tools.loremIpsum.description',
+    category: '25-other',
+    component: LoremIpsumGenerator,
+  },
+  {
+    id: '964',
+    path: 'placeholder-image-generator',
+    nameKey: 'tools.placeholder.name',
+    descriptionKey: 'tools.placeholder.description',
+    category: '25-other',
+    component: PlaceholderImageGenerator,
+  },
+  {
+    id: '963',
+    path: 'favicon-generator',
+    nameKey: 'tools.favicon.name',
+    descriptionKey: 'tools.favicon.description',
+    category: '25-other',
+    component: FaviconGenerator,
   },
   {
     id: '001',

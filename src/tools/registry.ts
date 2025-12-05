@@ -12,6 +12,9 @@ import RelationshipDiagramGenerator from './25-other/RelationshipDiagramGenerato
 import FlowchartGenerator from './25-other/FlowchartGenerator'
 import MindMapGenerator from './25-other/MindMapGenerator'
 import GanttChartGenerator from './25-other/GanttChartGenerator'
+import OrgChartGenerator from './25-other/OrgChartGenerator'
+import PieChartGenerator from './25-other/PieChartGenerator'
+import BarChartGenerator from './25-other/BarChartGenerator'
 
 export interface ToolInfo {
   id: string
@@ -86,6 +89,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.gantt.description',
     category: '25-other',
     component: GanttChartGenerator,
+  },
+  {
+    id: '992',
+    path: 'org-chart-generator',
+    nameKey: 'tools.orgChart.name',
+    descriptionKey: 'tools.orgChart.description',
+    category: '25-other',
+    component: OrgChartGenerator,
+  },
+  {
+    id: '991',
+    path: 'pie-chart-generator',
+    nameKey: 'tools.pieChart.name',
+    descriptionKey: 'tools.pieChart.description',
+    category: '25-other',
+    component: PieChartGenerator,
+  },
+  {
+    id: '990',
+    path: 'bar-chart-generator',
+    nameKey: 'tools.barChart.name',
+    descriptionKey: 'tools.barChart.description',
+    category: '25-other',
+    component: BarChartGenerator,
   },
   {
     id: '001',

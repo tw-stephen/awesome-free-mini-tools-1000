@@ -73,6 +73,53 @@
       "delete": "刪除",
       "selectHint": "點擊節點以編輯其屬性"
     },
+    "flowchart": {
+      "name": "流程圖產生器",
+      "description": "使用各種形狀和連接線建立流程圖",
+      "select": "選取",
+      "addNode": "新增節點",
+      "addLink": "新增連線",
+      "selectTarget": "點擊另一個節點以連接...",
+      "properties": "屬性",
+      "label": "標籤",
+      "type": "類型",
+      "delete": "刪除",
+      "selectHint": "點擊形狀以編輯其屬性",
+      "legend": "圖例",
+      "types": {
+        "start": "開始/結束",
+        "end": "結束",
+        "process": "處理",
+        "decision": "判斷",
+        "io": "輸入/輸出"
+      }
+    },
+    "mindMap": {
+      "name": "心智圖產生器",
+      "description": "建立可互動的心智圖，包含分支與子主題",
+      "addChild": "新增子節點",
+      "delete": "刪除",
+      "properties": "屬性",
+      "text": "文字",
+      "children": "子節點",
+      "selectHint": "點擊節點以編輯",
+      "hint": "雙擊以收合/展開分支"
+    },
+    "gantt": {
+      "name": "甘特圖產生器",
+      "description": "建立專案時程甘特圖，包含任務與進度",
+      "tasks": "任務",
+      "taskName": "任務名稱",
+      "taskNamePlaceholder": "輸入任務名稱...",
+      "startDate": "開始日期",
+      "endDate": "結束日期",
+      "progress": "進度",
+      "color": "顏色",
+      "addTask": "新增任務",
+      "delete": "刪除",
+      "properties": "屬性",
+      "selectHint": "點擊任務以編輯"
+    },
     "caseConverter": {
       "name": "大小寫轉換器",
       "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",

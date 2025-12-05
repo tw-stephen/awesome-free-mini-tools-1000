@@ -9,6 +9,9 @@ import InfographicGenerator from './25-other/InfographicGenerator'
 import TimelineGenerator from './25-other/TimelineGenerator'
 import TreeDiagramGenerator from './25-other/TreeDiagramGenerator'
 import RelationshipDiagramGenerator from './25-other/RelationshipDiagramGenerator'
+import FlowchartGenerator from './25-other/FlowchartGenerator'
+import MindMapGenerator from './25-other/MindMapGenerator'
+import GanttChartGenerator from './25-other/GanttChartGenerator'
 
 export interface ToolInfo {
   id: string
@@ -59,6 +62,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.relationshipDiagram.description',
     category: '25-other',
     component: RelationshipDiagramGenerator,
+  },
+  {
+    id: '995',
+    path: 'flowchart-generator',
+    nameKey: 'tools.flowchart.name',
+    descriptionKey: 'tools.flowchart.description',
+    category: '25-other',
+    component: FlowchartGenerator,
+  },
+  {
+    id: '994',
+    path: 'mind-map-generator',
+    nameKey: 'tools.mindMap.name',
+    descriptionKey: 'tools.mindMap.description',
+    category: '25-other',
+    component: MindMapGenerator,
+  },
+  {
+    id: '993',
+    path: 'gantt-chart-generator',
+    nameKey: 'tools.gantt.name',
+    descriptionKey: 'tools.gantt.description',
+    category: '25-other',
+    component: GanttChartGenerator,
   },
   {
     id: '001',

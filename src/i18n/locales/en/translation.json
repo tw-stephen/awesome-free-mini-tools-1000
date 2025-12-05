@@ -73,6 +73,53 @@
       "delete": "Delete",
       "selectHint": "Click on a node to edit its properties"
     },
+    "flowchart": {
+      "name": "Flowchart Generator",
+      "description": "Create flowcharts with various shapes and connectors",
+      "select": "Select",
+      "addNode": "Add Node",
+      "addLink": "Add Link",
+      "selectTarget": "Click another node to connect...",
+      "properties": "Properties",
+      "label": "Label",
+      "type": "Type",
+      "delete": "Delete",
+      "selectHint": "Click on a shape to edit its properties",
+      "legend": "Legend",
+      "types": {
+        "start": "Start/End",
+        "end": "End",
+        "process": "Process",
+        "decision": "Decision",
+        "io": "Input/Output"
+      }
+    },
+    "mindMap": {
+      "name": "Mind Map Generator",
+      "description": "Create interactive mind maps with branches and sub-topics",
+      "addChild": "Add Child",
+      "delete": "Delete",
+      "properties": "Properties",
+      "text": "Text",
+      "children": "Children",
+      "selectHint": "Click on a node to edit it",
+      "hint": "Double-click to collapse/expand branches"
+    },
+    "gantt": {
+      "name": "Gantt Chart Generator",
+      "description": "Create project timeline Gantt charts with tasks and progress",
+      "tasks": "Tasks",
+      "taskName": "Task Name",
+      "taskNamePlaceholder": "Enter task name...",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "progress": "Progress",
+      "color": "Color",
+      "addTask": "Add Task",
+      "delete": "Delete",
+      "properties": "Properties",
+      "selectHint": "Click on a task to edit it"
+    },
     "caseConverter": {
       "name": "Case Converter",
       "description": "Convert text case: UPPERCASE, lowercase, Capitalize, Sentence case, aLtErNaTiNg, and more",

@@ -42,6 +42,9 @@ import CSSUnitConverter from './25-other/CSSUnitConverter'
 import LoremIpsumGenerator from './25-other/LoremIpsumGenerator'
 import PlaceholderImageGenerator from './25-other/PlaceholderImageGenerator'
 import FaviconGenerator from './25-other/FaviconGenerator'
+import SVGIconEditor from './25-other/SVGIconEditor'
+import SpriteSheetGenerator from './25-other/SpriteSheetGenerator'
+import ImageCropper from './25-other/ImageCropper'
 
 export interface ToolInfo {
   id: string
@@ -356,6 +359,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.favicon.description',
     category: '25-other',
     component: FaviconGenerator,
+  },
+  {
+    id: '962',
+    path: 'svg-icon-editor',
+    nameKey: 'tools.svgIcon.name',
+    descriptionKey: 'tools.svgIcon.description',
+    category: '25-other',
+    component: SVGIconEditor,
+  },
+  {
+    id: '961',
+    path: 'sprite-sheet-generator',
+    nameKey: 'tools.spriteSheet.name',
+    descriptionKey: 'tools.spriteSheet.description',
+    category: '25-other',
+    component: SpriteSheetGenerator,
+  },
+  {
+    id: '960',
+    path: 'image-cropper',
+    nameKey: 'tools.imageCropper.name',
+    descriptionKey: 'tools.imageCropper.description',
+    category: '25-other',
+    component: ImageCropper,
   },
   {
     id: '001',

@@ -18,6 +18,9 @@ import BarChartGenerator from './25-other/BarChartGenerator'
 import LineChartGenerator from './25-other/LineChartGenerator'
 import ScatterPlotGenerator from './25-other/ScatterPlotGenerator'
 import RadarChartGenerator from './25-other/RadarChartGenerator'
+import AreaChartGenerator from './25-other/AreaChartGenerator'
+import BubbleChartGenerator from './25-other/BubbleChartGenerator'
+import HeatmapGenerator from './25-other/HeatmapGenerator'
 
 export interface ToolInfo {
   id: string
@@ -140,6 +143,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.radarChart.description',
     category: '25-other',
     component: RadarChartGenerator,
+  },
+  {
+    id: '986',
+    path: 'area-chart-generator',
+    nameKey: 'tools.areaChart.name',
+    descriptionKey: 'tools.areaChart.description',
+    category: '25-other',
+    component: AreaChartGenerator,
+  },
+  {
+    id: '985',
+    path: 'bubble-chart-generator',
+    nameKey: 'tools.bubbleChart.name',
+    descriptionKey: 'tools.bubbleChart.description',
+    category: '25-other',
+    component: BubbleChartGenerator,
+  },
+  {
+    id: '984',
+    path: 'heatmap-generator',
+    nameKey: 'tools.heatmap.name',
+    descriptionKey: 'tools.heatmap.description',
+    category: '25-other',
+    component: HeatmapGenerator,
   },
   {
     id: '001',

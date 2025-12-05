@@ -24,6 +24,9 @@ import HeatmapGenerator from './25-other/HeatmapGenerator'
 import FunnelChartGenerator from './25-other/FunnelChartGenerator'
 import WaterfallChartGenerator from './25-other/WaterfallChartGenerator'
 import GaugeChartGenerator from './25-other/GaugeChartGenerator'
+import ProgressRingGenerator from './25-other/ProgressRingGenerator'
+import WordCloudGenerator from './25-other/WordCloudGenerator'
+import QRCodeGenerator from './25-other/QRCodeGenerator'
 
 export interface ToolInfo {
   id: string
@@ -194,6 +197,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.gaugeChart.description',
     category: '25-other',
     component: GaugeChartGenerator,
+  },
+  {
+    id: '980',
+    path: 'progress-ring-generator',
+    nameKey: 'tools.progressRing.name',
+    descriptionKey: 'tools.progressRing.description',
+    category: '25-other',
+    component: ProgressRingGenerator,
+  },
+  {
+    id: '979',
+    path: 'word-cloud-generator',
+    nameKey: 'tools.wordCloud.name',
+    descriptionKey: 'tools.wordCloud.description',
+    category: '25-other',
+    component: WordCloudGenerator,
+  },
+  {
+    id: '978',
+    path: 'qr-code-generator',
+    nameKey: 'tools.qrCode.name',
+    descriptionKey: 'tools.qrCode.description',
+    category: '25-other',
+    component: QRCodeGenerator,
   },
   {
     id: '001',

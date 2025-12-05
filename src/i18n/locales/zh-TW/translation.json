@@ -33,6 +33,16 @@
       "showing": "顯示",
       "tools": "個工具"
     },
+    "infographicGenerator": {
+      "name": "資訊圖產生器",
+      "description": "使用形狀和文字建立簡易資訊圖表",
+      "addRect": "新增矩形",
+      "addCircle": "新增圓形",
+      "addText": "新增文字",
+      "properties": "屬性",
+      "delete": "刪除",
+      "selectHint": "選取元素以編輯屬性"
+    },
     "caseConverter": {
       "name": "大小寫轉換器",
       "description": "轉換文字大小寫：全大寫、全小寫、首字母大寫、句首大寫、交替大小寫等",

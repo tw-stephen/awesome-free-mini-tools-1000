@@ -33,6 +33,16 @@
       "showing": "Showing",
       "tools": "tools"
     },
+    "infographicGenerator": {
+      "name": "Infographic Generator",
+      "description": "Create simple infographics with shapes and text",
+      "addRect": "Add Rectangle",
+      "addCircle": "Add Circle",
+      "addText": "Add Text",
+      "properties": "Properties",
+      "delete": "Delete",
+      "selectHint": "Select an element to edit its properties"
+    },
     "caseConverter": {
       "name": "Case Converter",
       "description": "Convert text case: UPPERCASE, lowercase, Capitalize, Sentence case, aLtErNaTiNg, and more",

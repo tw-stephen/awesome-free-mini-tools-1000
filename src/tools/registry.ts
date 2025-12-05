@@ -5,6 +5,7 @@ import TextDiff from './01-text/TextDiff'
 import DuplicateRemover from './01-text/DuplicateRemover'
 import TextSorter from './01-text/TextSorter'
 import ToolIndex from './25-other/ToolIndex'
+import InfographicGenerator from './25-other/InfographicGenerator'
 
 export interface ToolInfo {
   id: string
@@ -23,6 +24,14 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.toolIndex.description',
     category: '25-other',
     component: ToolIndex,
+  },
+  {
+    id: '999',
+    path: 'infographic-generator',
+    nameKey: 'tools.infographicGenerator.name',
+    descriptionKey: 'tools.infographicGenerator.description',
+    category: '25-other',
+    component: InfographicGenerator,
   },
   {
     id: '001',

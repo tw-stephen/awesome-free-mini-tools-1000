@@ -51,6 +51,9 @@ import ImageFormatConverter from './25-other/ImageFormatConverter'
 import ImageRotator from './25-other/ImageRotator'
 import ImageFlipper from './25-other/ImageFlipper'
 import ImageFilter from './25-other/ImageFilter'
+import ImageWatermark from './25-other/ImageWatermark'
+import ImageColorPicker from './25-other/ImageColorPicker'
+import ImageMetadataViewer from './25-other/ImageMetadataViewer'
 
 export interface ToolInfo {
   id: string
@@ -437,6 +440,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.imageFilter.description',
     category: '25-other',
     component: ImageFilter,
+  },
+  {
+    id: '953',
+    path: 'image-watermark',
+    nameKey: 'tools.imageWatermark.name',
+    descriptionKey: 'tools.imageWatermark.description',
+    category: '25-other',
+    component: ImageWatermark,
+  },
+  {
+    id: '952',
+    path: 'image-color-picker',
+    nameKey: 'tools.imageColorPicker.name',
+    descriptionKey: 'tools.imageColorPicker.description',
+    category: '25-other',
+    component: ImageColorPicker,
+  },
+  {
+    id: '951',
+    path: 'image-metadata-viewer',
+    nameKey: 'tools.imageMetadata.name',
+    descriptionKey: 'tools.imageMetadata.description',
+    category: '25-other',
+    component: ImageMetadataViewer,
   },
   {
     id: '001',

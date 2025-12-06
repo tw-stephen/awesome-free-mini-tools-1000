@@ -57,6 +57,9 @@ import ImageMetadataViewer from './25-other/ImageMetadataViewer'
 import ScreenshotTool from './25-other/ScreenshotTool'
 import ImageCollageMaker from './25-other/ImageCollageMaker'
 import ImageBackgroundRemover from './25-other/ImageBackgroundRemover'
+import ImageAnnotator from './25-other/ImageAnnotator'
+import ImageBlurTool from './25-other/ImageBlurTool'
+import ImageMosaicTool from './25-other/ImageMosaicTool'
 
 export interface ToolInfo {
   id: string
@@ -491,6 +494,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.bgRemover.description',
     category: '25-other',
     component: ImageBackgroundRemover,
+  },
+  {
+    id: '947',
+    path: 'image-annotator',
+    nameKey: 'tools.imageAnnotator.name',
+    descriptionKey: 'tools.imageAnnotator.description',
+    category: '25-other',
+    component: ImageAnnotator,
+  },
+  {
+    id: '946',
+    path: 'image-blur-tool',
+    nameKey: 'tools.imageBlur.name',
+    descriptionKey: 'tools.imageBlur.description',
+    category: '25-other',
+    component: ImageBlurTool,
+  },
+  {
+    id: '945',
+    path: 'image-mosaic-tool',
+    nameKey: 'tools.imageMosaic.name',
+    descriptionKey: 'tools.imageMosaic.description',
+    category: '25-other',
+    component: ImageMosaicTool,
   },
   {
     id: '001',

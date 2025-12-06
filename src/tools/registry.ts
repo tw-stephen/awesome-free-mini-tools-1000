@@ -48,6 +48,9 @@ import ImageCropper from './25-other/ImageCropper'
 import ImageResizer from './25-other/ImageResizer'
 import ImageCompressor from './25-other/ImageCompressor'
 import ImageFormatConverter from './25-other/ImageFormatConverter'
+import ImageRotator from './25-other/ImageRotator'
+import ImageFlipper from './25-other/ImageFlipper'
+import ImageFilter from './25-other/ImageFilter'
 
 export interface ToolInfo {
   id: string
@@ -410,6 +413,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.imageConverter.description',
     category: '25-other',
     component: ImageFormatConverter,
+  },
+  {
+    id: '956',
+    path: 'image-rotator',
+    nameKey: 'tools.imageRotator.name',
+    descriptionKey: 'tools.imageRotator.description',
+    category: '25-other',
+    component: ImageRotator,
+  },
+  {
+    id: '955',
+    path: 'image-flipper',
+    nameKey: 'tools.imageFlipper.name',
+    descriptionKey: 'tools.imageFlipper.description',
+    category: '25-other',
+    component: ImageFlipper,
+  },
+  {
+    id: '954',
+    path: 'image-filter',
+    nameKey: 'tools.imageFilter.name',
+    descriptionKey: 'tools.imageFilter.description',
+    category: '25-other',
+    component: ImageFilter,
   },
   {
     id: '001',

@@ -54,6 +54,9 @@ import ImageFilter from './25-other/ImageFilter'
 import ImageWatermark from './25-other/ImageWatermark'
 import ImageColorPicker from './25-other/ImageColorPicker'
 import ImageMetadataViewer from './25-other/ImageMetadataViewer'
+import ScreenshotTool from './25-other/ScreenshotTool'
+import ImageCollageMaker from './25-other/ImageCollageMaker'
+import ImageBackgroundRemover from './25-other/ImageBackgroundRemover'
 
 export interface ToolInfo {
   id: string
@@ -464,6 +467,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.imageMetadata.description',
     category: '25-other',
     component: ImageMetadataViewer,
+  },
+  {
+    id: '950',
+    path: 'screenshot-tool',
+    nameKey: 'tools.screenshotTool.name',
+    descriptionKey: 'tools.screenshotTool.description',
+    category: '25-other',
+    component: ScreenshotTool,
+  },
+  {
+    id: '949',
+    path: 'image-collage-maker',
+    nameKey: 'tools.imageCollage.name',
+    descriptionKey: 'tools.imageCollage.description',
+    category: '25-other',
+    component: ImageCollageMaker,
+  },
+  {
+    id: '948',
+    path: 'image-background-remover',
+    nameKey: 'tools.bgRemover.name',
+    descriptionKey: 'tools.bgRemover.description',
+    category: '25-other',
+    component: ImageBackgroundRemover,
   },
   {
     id: '001',

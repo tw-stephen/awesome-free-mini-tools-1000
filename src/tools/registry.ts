@@ -45,6 +45,9 @@ import FaviconGenerator from './25-other/FaviconGenerator'
 import SVGIconEditor from './25-other/SVGIconEditor'
 import SpriteSheetGenerator from './25-other/SpriteSheetGenerator'
 import ImageCropper from './25-other/ImageCropper'
+import ImageResizer from './25-other/ImageResizer'
+import ImageCompressor from './25-other/ImageCompressor'
+import ImageFormatConverter from './25-other/ImageFormatConverter'
 
 export interface ToolInfo {
   id: string
@@ -383,6 +386,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.imageCropper.description',
     category: '25-other',
     component: ImageCropper,
+  },
+  {
+    id: '959',
+    path: 'image-resizer',
+    nameKey: 'tools.imageResizer.name',
+    descriptionKey: 'tools.imageResizer.description',
+    category: '25-other',
+    component: ImageResizer,
+  },
+  {
+    id: '958',
+    path: 'image-compressor',
+    nameKey: 'tools.imageCompressor.name',
+    descriptionKey: 'tools.imageCompressor.description',
+    category: '25-other',
+    component: ImageCompressor,
+  },
+  {
+    id: '957',
+    path: 'image-format-converter',
+    nameKey: 'tools.imageConverter.name',
+    descriptionKey: 'tools.imageConverter.description',
+    category: '25-other',
+    component: ImageFormatConverter,
   },
   {
     id: '001',

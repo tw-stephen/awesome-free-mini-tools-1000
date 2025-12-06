@@ -60,6 +60,9 @@ import ImageBackgroundRemover from './25-other/ImageBackgroundRemover'
 import ImageAnnotator from './25-other/ImageAnnotator'
 import ImageBlurTool from './25-other/ImageBlurTool'
 import ImageMosaicTool from './25-other/ImageMosaicTool'
+import ImageHistogram from './25-other/ImageHistogram'
+import ImageSplitter from './25-other/ImageSplitter'
+import ImageMerger from './25-other/ImageMerger'
 
 export interface ToolInfo {
   id: string
@@ -518,6 +521,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.imageMosaic.description',
     category: '25-other',
     component: ImageMosaicTool,
+  },
+  {
+    id: '944',
+    path: 'image-histogram',
+    nameKey: 'tools.imageHistogram.name',
+    descriptionKey: 'tools.imageHistogram.description',
+    category: '25-other',
+    component: ImageHistogram,
+  },
+  {
+    id: '943',
+    path: 'image-splitter',
+    nameKey: 'tools.imageSplitter.name',
+    descriptionKey: 'tools.imageSplitter.description',
+    category: '25-other',
+    component: ImageSplitter,
+  },
+  {
+    id: '942',
+    path: 'image-merger',
+    nameKey: 'tools.imageMerger.name',
+    descriptionKey: 'tools.imageMerger.description',
+    category: '25-other',
+    component: ImageMerger,
   },
   {
     id: '001',

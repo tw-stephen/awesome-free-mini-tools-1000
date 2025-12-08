@@ -9,6 +9,11 @@ import WhitespaceCleaner from './01-text/WhitespaceCleaner'
 import NewlineConverter from './01-text/NewlineConverter'
 import TextTruncator from './01-text/TextTruncator'
 import TextSplitter from './01-text/TextSplitter'
+import TextJoiner from './01-text/TextJoiner'
+import LineNumberAdder from './01-text/LineNumberAdder'
+import IndentationConverter from './01-text/IndentationConverter'
+import UnicodeConverter from './01-text/UnicodeConverter'
+import HtmlEntityConverter from './01-text/HtmlEntityConverter'
 import ToolIndex from './25-other/ToolIndex'
 import InfographicGenerator from './25-other/InfographicGenerator'
 import TimelineGenerator from './25-other/TimelineGenerator'
@@ -630,6 +635,46 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.textSplitter.description',
     category: '01-text',
     component: TextSplitter,
+  },
+  {
+    id: '011',
+    path: 'text-joiner',
+    nameKey: 'tools.textJoiner.name',
+    descriptionKey: 'tools.textJoiner.description',
+    category: '01-text',
+    component: TextJoiner,
+  },
+  {
+    id: '012',
+    path: 'line-number-adder',
+    nameKey: 'tools.lineNumberAdder.name',
+    descriptionKey: 'tools.lineNumberAdder.description',
+    category: '01-text',
+    component: LineNumberAdder,
+  },
+  {
+    id: '013',
+    path: 'indentation-converter',
+    nameKey: 'tools.indentationConverter.name',
+    descriptionKey: 'tools.indentationConverter.description',
+    category: '01-text',
+    component: IndentationConverter,
+  },
+  {
+    id: '014',
+    path: 'unicode-converter',
+    nameKey: 'tools.unicodeConverter.name',
+    descriptionKey: 'tools.unicodeConverter.description',
+    category: '01-text',
+    component: UnicodeConverter,
+  },
+  {
+    id: '015',
+    path: 'html-entity-converter',
+    nameKey: 'tools.htmlEntityConverter.name',
+    descriptionKey: 'tools.htmlEntityConverter.description',
+    category: '01-text',
+    component: HtmlEntityConverter,
   },
 ]
 

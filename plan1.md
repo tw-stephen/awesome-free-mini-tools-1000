@@ -20,11 +20,11 @@
 | #008 | 換行轉換器 | 轉換 Windows/Unix/Mac 換行符號 | Regex | L1 | [x] |
 | #009 | 文字截取器 | 按字數或位元組截取文字 | String.slice | L1 | [x] |
 | #010 | 文字分割器 | 按分隔符號分割文字為多行 | String.split | L1 | [x] |
-| #011 | 文字合併器 | 將多行文字合併為單行 | Array.join | L1 | [ ] |
-| #012 | 行號添加器 | 為每行文字添加行號 | Array.map | L1 | [ ] |
-| #013 | 縮排轉換器 | Tab 與空格互轉，調整縮排寬度 | Regex | L1 | [ ] |
-| #014 | Unicode 轉換器 | 文字與 Unicode 編碼互轉 | charCodeAt, fromCharCode | L1 | [ ] |
-| #015 | HTML 實體轉換 | HTML 實體編碼與解碼 | DOM API | L1 | [ ] |
+| #011 | 文字合併器 | 將多行文字合併為單行 | Array.join | L1 | [x] |
+| #012 | 行號添加器 | 為每行文字添加行號 | Array.map | L1 | [x] |
+| #013 | 縮排轉換器 | Tab 與空格互轉，調整縮排寬度 | Regex | L1 | [x] |
+| #014 | Unicode 轉換器 | 文字與 Unicode 編碼互轉 | charCodeAt, fromCharCode | L1 | [x] |
+| #015 | HTML 實體轉換 | HTML 實體編碼與解碼 | DOM API | L1 | [x] |
 | #016 | URL 編碼轉換 | URL 編碼與解碼 | encodeURI, decodeURI | L1 | [ ] |
 | #017 | Base64 編碼轉換 | Base64 編碼與解碼 | btoa, atob | L1 | [ ] |
 | #018 | 進位轉換器 | 二進位、八進位、十進位、十六進位互轉 | parseInt, toString | L1 | [ ] |

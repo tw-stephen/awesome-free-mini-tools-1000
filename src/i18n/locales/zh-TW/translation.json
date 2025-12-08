@@ -1223,6 +1223,45 @@
       "ignoreEmpty": "忽略空項目",
       "trimItems": "修剪項目",
       "items": "個項目"
+    },
+    "textJoiner": {
+      "name": "文字合併器",
+      "description": "將多行文字合併為單行",
+      "delimiter": "分隔符號",
+      "delimiterPlaceholder": "輸入分隔符號（例如 ,）",
+      "quoteItems": "加上引號",
+      "lines": "行"
+    },
+    "lineNumberAdder": {
+      "name": "行號添加器",
+      "description": "為每行文字添加行號",
+      "startNumber": "起始號碼",
+      "separator": "分隔符號"
+    },
+    "indentationConverter": {
+      "name": "縮排轉換器",
+      "description": "Tab 與空格互轉，調整縮排寬度",
+      "mode": "轉換模式",
+      "toSpaces": "Tab 轉空格",
+      "toTabs": "空格轉 Tab",
+      "tabWidth": "Tab 寬度",
+      "spacesPerTab": "每 Tab 空格數"
+    },
+    "unicodeConverter": {
+      "name": "Unicode 轉換器",
+      "description": "文字與 Unicode 編碼互轉",
+      "text": "文字",
+      "unicode": "Unicode",
+      "textPlaceholder": "輸入文字...",
+      "unicodePlaceholder": "輸入 Unicode（例如 \\u0041）"
+    },
+    "htmlEntityConverter": {
+      "name": "HTML 實體轉換",
+      "description": "HTML 實體編碼與解碼",
+      "text": "文字",
+      "html": "HTML 實體",
+      "textPlaceholder": "輸入文字...",
+      "htmlPlaceholder": "輸入 HTML 實體（例如 &lt;div&gt;）"
     }
   }
 }

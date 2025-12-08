@@ -4,6 +4,11 @@ import TextCounter from './01-text/TextCounter'
 import TextDiff from './01-text/TextDiff'
 import DuplicateRemover from './01-text/DuplicateRemover'
 import TextSorter from './01-text/TextSorter'
+import TextReverser from './01-text/TextReverser'
+import WhitespaceCleaner from './01-text/WhitespaceCleaner'
+import NewlineConverter from './01-text/NewlineConverter'
+import TextTruncator from './01-text/TextTruncator'
+import TextSplitter from './01-text/TextSplitter'
 import ToolIndex from './25-other/ToolIndex'
 import InfographicGenerator from './25-other/InfographicGenerator'
 import TimelineGenerator from './25-other/TimelineGenerator'
@@ -585,6 +590,46 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.textSorter.description',
     category: '01-text',
     component: TextSorter,
+  },
+  {
+    id: '006',
+    path: 'text-reverser',
+    nameKey: 'tools.textReverser.name',
+    descriptionKey: 'tools.textReverser.description',
+    category: '01-text',
+    component: TextReverser,
+  },
+  {
+    id: '007',
+    path: 'whitespace-cleaner',
+    nameKey: 'tools.whitespaceCleaner.name',
+    descriptionKey: 'tools.whitespaceCleaner.description',
+    category: '01-text',
+    component: WhitespaceCleaner,
+  },
+  {
+    id: '008',
+    path: 'newline-converter',
+    nameKey: 'tools.newlineConverter.name',
+    descriptionKey: 'tools.newlineConverter.description',
+    category: '01-text',
+    component: NewlineConverter,
+  },
+  {
+    id: '009',
+    path: 'text-truncator',
+    nameKey: 'tools.textTruncator.name',
+    descriptionKey: 'tools.textTruncator.description',
+    category: '01-text',
+    component: TextTruncator,
+  },
+  {
+    id: '010',
+    path: 'text-splitter',
+    nameKey: 'tools.textSplitter.name',
+    descriptionKey: 'tools.textSplitter.description',
+    category: '01-text',
+    component: TextSplitter,
   },
 ]
 

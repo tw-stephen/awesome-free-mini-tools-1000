@@ -1170,6 +1170,59 @@
       "removeEmpty": "Remove Empty Lines",
       "inputPlaceholder": "Enter text to sort (one item per line)...",
       "linesCount": "{{count}} lines"
+    },
+    "textReverser": {
+      "name": "Text Reverser",
+      "description": "Reverse text characters, words, or lines",
+      "modes": {
+        "text": "Reverse Text",
+        "words": "Reverse Words",
+        "lines": "Reverse Lines"
+      }
+    },
+    "whitespaceCleaner": {
+      "name": "Whitespace Cleaner",
+      "description": "Remove extra whitespace, empty lines, and trim text",
+      "options": {
+        "trimLines": "Trim Lines",
+        "removeEmptyLines": "Remove Empty Lines",
+        "removeExtraSpaces": "Remove Extra Spaces",
+        "trimText": "Trim Text"
+      }
+    },
+    "newlineConverter": {
+      "name": "Newline Converter",
+      "description": "Convert newline characters between Windows, Unix, and Mac formats",
+      "targetFormat": "Target Format",
+      "modes": {
+        "windows": "Windows (CRLF)",
+        "unix": "Unix/Linux (LF)",
+        "mac": "Classic Mac (CR)"
+      },
+      "convertedTo": "Converted to {{format}}"
+    },
+    "textTruncator": {
+      "name": "Text Truncator",
+      "description": "Truncate text by number of characters or bytes",
+      "limit": "Limit",
+      "mode": "Mode",
+      "modes": {
+        "chars": "Characters",
+        "bytes": "Bytes"
+      },
+      "suffix": "Suffix",
+      "chars": "chars",
+      "bytes": "bytes"
+    },
+    "textSplitter": {
+      "name": "Text Splitter",
+      "description": "Split text into multiple lines by a delimiter",
+      "separator": "Separator",
+      "separatorPlaceholder": "Enter separator (e.g., , or |)",
+      "separatorHint": "Text will be split at each occurrence of this separator",
+      "ignoreEmpty": "Ignore Empty Items",
+      "trimItems": "Trim Items",
+      "items": "items"
     }
   }
 }

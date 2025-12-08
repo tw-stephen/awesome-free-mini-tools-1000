@@ -1170,6 +1170,98 @@
       "removeEmpty": "移除空行",
       "inputPlaceholder": "輸入要排序的文字（每行一個項目）...",
       "linesCount": "{{count}} 行"
+    },
+    "textReverser": {
+      "name": "文字反轉器",
+      "description": "反轉文字字元、單詞或行",
+      "modes": {
+        "text": "反轉文字",
+        "words": "反轉單詞",
+        "lines": "反轉行"
+      }
+    },
+    "whitespaceCleaner": {
+      "name": "空白清理器",
+      "description": "移除多餘空白、空行與修剪文字",
+      "options": {
+        "trimLines": "修剪行",
+        "removeEmptyLines": "移除空行",
+        "removeExtraSpaces": "移除多餘空白",
+        "trimText": "修剪文字"
+      }
+    },
+    "newlineConverter": {
+      "name": "換行轉換器",
+      "description": "在 Windows、Unix 與 Mac 格式間轉換換行字元",
+      "targetFormat": "目標格式",
+      "modes": {
+        "windows": "Windows (CRLF)",
+        "unix": "Unix/Linux (LF)",
+        "mac": "Classic Mac (CR)"
+      },
+      "convertedTo": "已轉換為 {{format}}"
+    },
+    "textTruncator": {
+      "name": "文字截取器",
+      "description": "依據字元數或位元組數截取文字",
+      "limit": "限制",
+      "mode": "模式",
+      "modes": {
+        "chars": "字元",
+        "bytes": "位元組"
+      },
+      "suffix": "後綴",
+      "chars": "字元",
+      "bytes": "位元組"
+    },
+    "textSplitter": {
+      "name": "文字分割器",
+      "description": "使用分隔符號將文字分割為多行",
+      "separator": "分隔符號",
+      "separatorPlaceholder": "輸入分隔符號（例如 , 或 |）",
+      "separatorHint": "文字將在每個分隔符號處分割",
+      "ignoreEmpty": "忽略空項目",
+      "trimItems": "修剪項目",
+      "items": "個項目"
+    },
+    "textJoiner": {
+      "name": "文字合併器",
+      "description": "將多行文字合併為單行",
+      "delimiter": "分隔符號",
+      "delimiterPlaceholder": "輸入分隔符號（例如 ,）",
+      "quoteItems": "加上引號",
+      "lines": "行"
+    },
+    "lineNumberAdder": {
+      "name": "行號添加器",
+      "description": "為每行文字添加行號",
+      "startNumber": "起始號碼",
+      "separator": "分隔符號"
+    },
+    "indentationConverter": {
+      "name": "縮排轉換器",
+      "description": "Tab 與空格互轉，調整縮排寬度",
+      "mode": "轉換模式",
+      "toSpaces": "Tab 轉空格",
+      "toTabs": "空格轉 Tab",
+      "tabWidth": "Tab 寬度",
+      "spacesPerTab": "每 Tab 空格數"
+    },
+    "unicodeConverter": {
+      "name": "Unicode 轉換器",
+      "description": "文字與 Unicode 編碼互轉",
+      "text": "文字",
+      "unicode": "Unicode",
+      "textPlaceholder": "輸入文字...",
+      "unicodePlaceholder": "輸入 Unicode（例如 \\u0041）"
+    },
+    "htmlEntityConverter": {
+      "name": "HTML 實體轉換",
+      "description": "HTML 實體編碼與解碼",
+      "text": "文字",
+      "html": "HTML 實體",
+      "textPlaceholder": "輸入文字...",
+      "htmlPlaceholder": "輸入 HTML 實體（例如 &lt;div&gt;）"
     }
   }
 }

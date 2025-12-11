@@ -14,6 +14,9 @@ import LineNumberAdder from './01-text/LineNumberAdder'
 import IndentationConverter from './01-text/IndentationConverter'
 import UnicodeConverter from './01-text/UnicodeConverter'
 import HtmlEntityConverter from './01-text/HtmlEntityConverter'
+import UrlEncoder from './01-text/UrlEncoder'
+import Base64Converter from './01-text/Base64Converter'
+import NumberBaseConverter from './01-text/NumberBaseConverter'
 import ToolIndex from './25-other/ToolIndex'
 import InfographicGenerator from './25-other/InfographicGenerator'
 import TimelineGenerator from './25-other/TimelineGenerator'
@@ -675,6 +678,30 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.htmlEntityConverter.description',
     category: '01-text',
     component: HtmlEntityConverter,
+  },
+  {
+    id: '016',
+    path: 'url-encoder',
+    nameKey: 'tools.urlEncoder.name',
+    descriptionKey: 'tools.urlEncoder.description',
+    category: '01-text',
+    component: UrlEncoder,
+  },
+  {
+    id: '017',
+    path: 'base64-converter',
+    nameKey: 'tools.base64Converter.name',
+    descriptionKey: 'tools.base64Converter.description',
+    category: '01-text',
+    component: Base64Converter,
+  },
+  {
+    id: '018',
+    path: 'number-base-converter',
+    nameKey: 'tools.numberBaseConverter.name',
+    descriptionKey: 'tools.numberBaseConverter.description',
+    category: '01-text',
+    component: NumberBaseConverter,
   },
 ]
 

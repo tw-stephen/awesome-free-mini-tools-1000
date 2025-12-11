@@ -1262,6 +1262,35 @@
       "html": "HTML 實體",
       "textPlaceholder": "輸入文字...",
       "htmlPlaceholder": "輸入 HTML 實體（例如 &lt;div&gt;）"
+    },
+    "urlEncoder": {
+      "name": "URL 編碼轉換",
+      "description": "URL 編碼與解碼 (encodeURI/encodeURIComponent)",
+      "inputPlaceholder": "輸入要編碼或解碼的文字...",
+      "actions": "操作",
+      "encode": "編碼 (Component)",
+      "decode": "解碼 (Component)",
+      "encodeFull": "完整編碼 (URI)",
+      "decodeFull": "完整解碼 (URI)",
+      "encodeDesc": "Component: 編碼特殊字元（如 / ? : @ & = + $ #），適用於參數值。",
+      "encodeFullDesc": "URI: 不編碼 URL 保留字元，適用於完整網址。"
+    },
+    "base64Converter": {
+      "name": "Base64 編碼轉換",
+      "description": "Base64 編碼與解碼 (btoa/atob)，支援 UTF-8 字元",
+      "inputPlaceholder": "輸入要編碼或解碼的文字...",
+      "encode": "編碼 (Base64)",
+      "decode": "解碼 (Text)",
+      "swap": "交換內容"
+    },
+    "numberBaseConverter": {
+      "name": "進位轉換器",
+      "description": "二進位、八進位、十進位、十六進位即時互轉",
+      "binary": "二進位 (Binary)",
+      "octal": "八進位 (Octal)",
+      "decimal": "十進位 (Decimal)",
+      "hex": "十六進位 (Hex)",
+      "invalidInput": "輸入無效，請檢查該進位制的合法字元"
     }
   }
 }

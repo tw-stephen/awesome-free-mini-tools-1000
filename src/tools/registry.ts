@@ -17,6 +17,11 @@ import HtmlEntityConverter from './01-text/HtmlEntityConverter'
 import UrlEncoder from './01-text/UrlEncoder'
 import Base64Converter from './01-text/Base64Converter'
 import NumberBaseConverter from './01-text/NumberBaseConverter'
+import AsciiArtGenerator from './01-text/AsciiArtGenerator'
+import MorseCodeConverter from './01-text/MorseCodeConverter'
+import Rot13Converter from './01-text/Rot13Converter'
+import PigLatinConverter from './01-text/PigLatinConverter'
+import FullHalfWidthConverter from './01-text/FullHalfWidthConverter'
 import ToolIndex from './25-other/ToolIndex'
 import InfographicGenerator from './25-other/InfographicGenerator'
 import TimelineGenerator from './25-other/TimelineGenerator'
@@ -702,6 +707,46 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.numberBaseConverter.description',
     category: '01-text',
     component: NumberBaseConverter,
+  },
+  {
+    id: '019',
+    path: 'ascii-art-generator',
+    nameKey: 'tools.asciiArt.name',
+    descriptionKey: 'tools.asciiArt.description',
+    category: '01-text',
+    component: AsciiArtGenerator,
+  },
+  {
+    id: '020',
+    path: 'morse-code-converter',
+    nameKey: 'tools.morseCode.name',
+    descriptionKey: 'tools.morseCode.description',
+    category: '01-text',
+    component: MorseCodeConverter,
+  },
+  {
+    id: '021',
+    path: 'rot13-converter',
+    nameKey: 'tools.rot13.name',
+    descriptionKey: 'tools.rot13.description',
+    category: '01-text',
+    component: Rot13Converter,
+  },
+  {
+    id: '022',
+    path: 'pig-latin-converter',
+    nameKey: 'tools.pigLatin.name',
+    descriptionKey: 'tools.pigLatin.description',
+    category: '01-text',
+    component: PigLatinConverter,
+  },
+  {
+    id: '023',
+    path: 'full-half-width-converter',
+    nameKey: 'tools.fullHalfWidth.name',
+    descriptionKey: 'tools.fullHalfWidth.description',
+    category: '01-text',
+    component: FullHalfWidthConverter,
   },
 ]
 

@@ -1262,65 +1262,6 @@
       "html": "HTML 實體",
       "textPlaceholder": "輸入文字...",
       "htmlPlaceholder": "輸入 HTML 實體（例如 &lt;div&gt;）"
-    },
-    "urlEncoder": {
-      "name": "URL 編碼轉換",
-      "description": "URL 編碼與解碼 (encodeURI/encodeURIComponent)",
-      "inputPlaceholder": "輸入要編碼或解碼的文字...",
-      "actions": "操作",
-      "encode": "編碼 (Component)",
-      "decode": "解碼 (Component)",
-      "encodeFull": "完整編碼 (URI)",
-      "decodeFull": "完整解碼 (URI)",
-      "encodeDesc": "Component: 編碼特殊字元（如 / ? : @ & = + $ #），適用於參數值。",
-      "encodeFullDesc": "URI: 不編碼 URL 保留字元，適用於完整網址。"
-    },
-    "base64Converter": {
-      "name": "Base64 編碼轉換",
-      "description": "Base64 編碼與解碼 (btoa/atob)，支援 UTF-8 字元",
-      "inputPlaceholder": "輸入要編碼或解碼的文字...",
-      "encode": "編碼 (Base64)",
-      "decode": "解碼 (Text)",
-      "swap": "交換內容"
-    },
-    "numberBaseConverter": {
-      "name": "進位轉換器",
-      "description": "二進位、八進位、十進位、十六進位即時互轉",
-      "binary": "二進位 (Binary)",
-      "octal": "八進位 (Octal)",
-      "decimal": "十進位 (Decimal)",
-      "hex": "十六進位 (Hex)",
-      "invalidInput": "輸入無效，請檢查該進位制的合法字元"
-    },
-    "asciiArt": {
-      "name": "ASCII 藝術產生器",
-      "description": "將文字轉換為 ASCII 藝術字（基於 FIGlet Standard 字體）",
-      "inputPlaceholder": "輸入文字 (僅限英數字)...",
-      "limitNotice": "為確保顯示效果，建議長度不超過 20 字元"
-    },
-    "morseCode": {
-      "name": "摩斯密碼轉換",
-      "description": "文字與摩斯密碼互轉",
-      "inputPlaceholder": "輸入文字或摩斯密碼...",
-      "encode": "編碼 (Text → Morse)",
-      "decode": "解碼 (Morse → Text)",
-      "swap": "交換內容"
-    },
-    "rot13": {
-      "name": "ROT13 加密",
-      "description": "ROT13 與 ROT47 替換式加密",
-      "mode": "加密模式"
-    },
-    "pigLatin": {
-      "name": "豬拉丁文轉換",
-      "description": "將英語轉換為 Pig Latin (Igpay Atinlay)",
-      "instructions": "規則：母音開頭加 'way'，子音開頭移至字尾加 'ay'。"
-    },
-    "fullHalfWidth": {
-      "name": "全形半形轉換",
-      "description": "全形字元與半形字元互轉",
-      "toFull": "轉全形",
-      "toHalf": "轉半形"
     }
   }
 }

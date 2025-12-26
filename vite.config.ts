@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/open-source/awesome-free-mini-tools-1000/dist/',
   plugins: [
     react(),
     VitePWA({

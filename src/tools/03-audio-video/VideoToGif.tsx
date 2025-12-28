@@ -121,7 +121,7 @@ export default function VideoToGif() {
   }, [startTime, endTime, fps, width, captureFrame, gifUrl])
 
   // Create animated WebP from frames
-  async function createAnimatedWebP(frames: string[], delay: number): Promise<Blob> {
+  async function createAnimatedWebP(frames: string[], _delay: number): Promise<Blob> {
     // Convert first frame to blob for demo
     // In production, use proper GIF/WebP animation library
     const response = await fetch(frames[0])

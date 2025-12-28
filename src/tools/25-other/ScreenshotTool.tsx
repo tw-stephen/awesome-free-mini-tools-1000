@@ -45,6 +45,7 @@ export default function ScreenshotTool() {
     if (!element) return
 
     try {
+      // @ts-ignore - html2canvas is loaded dynamically
       const html2canvas = (await import('html2canvas')).default
 
       const canvas = await html2canvas(element, {

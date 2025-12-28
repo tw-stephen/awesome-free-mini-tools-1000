@@ -8,8 +8,8 @@ export default function HtaccessGenerator() {
   const [enableRewrite, setEnableRewrite] = useState(true)
   const [httpsRedirect, setHttpsRedirect] = useState(false)
   const [wwwRedirect, setWwwRedirect] = useState<'none' | 'www' | 'non-www'>('none')
-  const [defaultIndex, setDefaultIndex] = useState('index.php index.html')
-  const [errorPages, setErrorPages] = useState([
+  const [defaultIndex, _setDefaultIndex] = useState('index.php index.html')
+  const [errorPages, _setErrorPages] = useState([
     { code: '404', page: '/404.html' },
     { code: '500', page: '/500.html' },
   ])
@@ -18,8 +18,8 @@ export default function HtaccessGenerator() {
   const [cacheDays, setCacheDays] = useState(30)
   const [preventHotlinking, setPreventHotlinking] = useState(false)
   const [hotlinkDomains, setHotlinkDomains] = useState('example.com')
-  const [blockIps, setBlockIps] = useState<string[]>([])
-  const [customRules, setCustomRules] = useState('')
+  const [blockIps, _setBlockIps] = useState<string[]>([])
+  const [customRules, _setCustomRules] = useState('')
   const { copy, copied } = useClipboard()
 
   const output = useMemo(() => {

@@ -215,7 +215,7 @@ export default function HistoryTimelineMaker() {
         {filteredEvents.length > 0 && (
           <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-slate-200" />
         )}
-        {filteredEvents.map((event, index) => (
+        {filteredEvents.map((event) => (
           <div key={event.id} className="relative pl-10 pb-4">
             <div className={`absolute left-2 w-4 h-4 rounded-full ${categoryColors[event.category]} border-2 border-white`} />
             <div className={`card p-3 ${getImportanceStyle(event.importance)}`}>

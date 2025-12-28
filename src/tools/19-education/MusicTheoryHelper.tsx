@@ -21,7 +21,6 @@ export default function MusicTheoryHelper() {
   const [selectedChord, setSelectedChord] = useState('major')
 
   const notes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
-  const noteNames = ['C', 'Db/C#', 'D', 'Eb/D#', 'E', 'F', 'Gb/F#', 'G', 'Ab/G#', 'A', 'Bb/A#', 'B']
 
   const scales: { [key: string]: Scale } = {
     major: { name: 'Major', pattern: [0, 2, 4, 5, 7, 9, 11], description: 'Happy, bright sound. W-W-H-W-W-W-H' },
@@ -85,7 +84,7 @@ export default function MusicTheoryHelper() {
 
     return (
       <div className="relative h-24 flex">
-        {whiteKeys.map((note, i) => (
+        {whiteKeys.map((note) => (
           <div
             key={note}
             className={`flex-1 h-full border border-slate-300 rounded-b flex items-end justify-center pb-1 text-xs ${

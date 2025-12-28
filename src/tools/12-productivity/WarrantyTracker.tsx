@@ -128,7 +128,7 @@ export default function WarrantyTracker() {
   const filteredWarranties = useMemo(() => {
     let filtered = warranties.map(w => ({
       ...w,
-      status: w.status === 'claimed' ? 'claimed' : getStatus(w.expirationDate)
+      status: (w.status === 'claimed' ? 'claimed' : getStatus(w.expirationDate)) as 'active' | 'expired' | 'claimed'
     }))
 
     if (searchQuery) {

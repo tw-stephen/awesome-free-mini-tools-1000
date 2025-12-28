@@ -61,7 +61,7 @@ export default function MeetingPlanner() {
     }))
   }
 
-  const getTimeInTimezone = (hour: number, fromTz: string, toTz: string) => {
+  const getTimeInTimezone = (hour: number, _fromTz: string, toTz: string) => {
     const date = new Date(`${meetingDate}T${hour.toString().padStart(2, '0')}:00:00`)
     const formatter = new Intl.DateTimeFormat('en-US', {
       hour: 'numeric',

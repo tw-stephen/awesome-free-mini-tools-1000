@@ -9,9 +9,6 @@ export default function ScientificCalculator() {
   const [isRadians, setIsRadians] = useState(true)
   const [lastOperation, setLastOperation] = useState('')
 
-  const toRadians = (degrees: number) => degrees * (Math.PI / 180)
-  const toDegrees = (radians: number) => radians * (180 / Math.PI)
-
   const calculate = (expression: string): number => {
     try {
       // Replace scientific functions

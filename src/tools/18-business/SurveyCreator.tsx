@@ -34,10 +34,6 @@ export default function SurveyCreator() {
     setShowForm(false)
   }
 
-  const updateQuestion = (id: number, field: keyof Question, value: string | string[] | boolean) => {
-    setQuestions(questions.map(q => q.id === id ? { ...q, [field]: value } : q))
-  }
-
   const removeQuestion = (id: number) => {
     setQuestions(questions.filter(q => q.id !== id))
   }

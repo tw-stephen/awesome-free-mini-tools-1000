@@ -48,7 +48,7 @@ function parseYaml(yaml: string): { data: unknown; error?: string; line?: number
     }
 
     const key = keyMatch[1].trim()
-    let value: unknown = keyMatch[2].trim()
+    const value: string = keyMatch[2].trim()
 
     // Pop stack until we find the right parent
     while (stack.length > 1 && stack[stack.length - 1].indent >= indent) {
@@ -64,7 +64,7 @@ function parseYaml(yaml: string): { data: unknown; error?: string; line?: number
       stack.push({ indent, obj: newObj, key })
     } else if (value.startsWith('[') && value.endsWith(']')) {
       // Inline array
-      const items = value.slice(1, -1).split(',').map(s => parseValue(s.trim()))
+      const items = value.slice(1, -1).split(',').map((s: string) => parseValue(s.trim()))
       parent.obj[key] = items
     } else {
       parent.obj[key] = parseValue(value)

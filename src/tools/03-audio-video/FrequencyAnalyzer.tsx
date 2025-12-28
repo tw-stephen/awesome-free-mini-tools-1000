@@ -170,7 +170,7 @@ export default function FrequencyAnalyzer() {
               {t('tools.frequencyAnalyzer.start')}
             </Button>
           ) : (
-            <Button variant="danger" onClick={stopAnalyzing}>
+            <Button variant="secondary" className="bg-red-500 hover:bg-red-600 text-white" onClick={stopAnalyzing}>
               {t('tools.frequencyAnalyzer.stop')}
             </Button>
           )}

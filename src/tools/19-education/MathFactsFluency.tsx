@@ -22,7 +22,7 @@ export default function MathFactsFluency() {
   const inputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
-    let timer: NodeJS.Timeout
+    let timer: ReturnType<typeof setTimeout>
     if (practicing && timeLeft > 0) {
       timer = setInterval(() => {
         setTimeLeft(prev => {

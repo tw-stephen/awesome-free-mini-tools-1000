@@ -132,7 +132,7 @@ export default function InvoiceGenerator() {
       <div className="card p-4">
         <h3 className="font-medium mb-3">{t('tools.invoiceGenerator.items')}</h3>
         <div className="space-y-2">
-          {items.map((item, index) => (
+          {items.map((item) => (
             <div key={item.id} className="grid grid-cols-12 gap-2">
               <input type="text" value={item.description} onChange={(e) => updateItem(item.id, 'description', e.target.value)} placeholder="Description" className="col-span-6 px-3 py-2 border border-slate-300 rounded" />
               <input type="number" value={item.quantity} onChange={(e) => updateItem(item.id, 'quantity', Number(e.target.value))} min="1" className="col-span-2 px-3 py-2 border border-slate-300 rounded" />

@@ -34,7 +34,7 @@ const parseMarkdown = (text: string): string => {
   html = html.replace(/~~(.+?)~~/g, '<del>$1</del>')
 
   // Code blocks
-  html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (_, lang, code) => {
+  html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (_, _lang, code) => {
     return `<pre class="bg-slate-800 text-slate-100 p-4 rounded-lg overflow-x-auto my-3"><code>${code.trim()}</code></pre>`
   })
 

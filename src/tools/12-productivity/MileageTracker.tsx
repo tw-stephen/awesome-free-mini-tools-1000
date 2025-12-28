@@ -29,14 +29,23 @@ export default function MileageTracker() {
   const [selectedVehicle, setSelectedVehicle] = useState('1')
   const [filterMonth, setFilterMonth] = useState(new Date().toISOString().slice(0, 7))
   const [ratePerMile, setRatePerMile] = useState(0.67)
-  const [form, setForm] = useState({
+  const [form, setForm] = useState<{
+    date: string
+    startOdometer: number
+    endOdometer: number
+    purpose: string
+    destination: string
+    vehicle: string
+    category: 'business' | 'personal' | 'medical' | 'charity'
+    notes: string
+  }>({
     date: new Date().toISOString().split('T')[0],
     startOdometer: 0,
     endOdometer: 0,
     purpose: '',
     destination: '',
     vehicle: '1',
-    category: 'business' as const,
+    category: 'business',
     notes: ''
   })
 

@@ -44,26 +44,22 @@ export default function LifeCalendar() {
 
     let total: number
     let lived: number
-    let cellsPerRow: number
     let cellSize: string
 
     switch (viewMode) {
       case 'years':
         total = stats.totalYears
         lived = stats.ageYears
-        cellsPerRow = 10
         cellSize = 'w-6 h-6'
         break
       case 'months':
         total = stats.totalMonths
         lived = stats.ageMonths
-        cellsPerRow = 12
         cellSize = 'w-4 h-4'
         break
       case 'weeks':
         total = stats.totalWeeks
         lived = stats.ageWeeks
-        cellsPerRow = 52
         cellSize = 'w-2 h-2'
         break
     }

@@ -13,8 +13,8 @@ export default function MetaTagGenerator() {
   const [siteUrl, setSiteUrl] = useState('https://example.com')
   const [twitterHandle, setTwitterHandle] = useState('@mysite')
   const [robots, setRobots] = useState('index, follow')
-  const [charset, setCharset] = useState('UTF-8')
-  const [viewport, setViewport] = useState('width=device-width, initial-scale=1.0')
+  const [charset, _setCharset] = useState('UTF-8')
+  const [viewport, _setViewport] = useState('width=device-width, initial-scale=1.0')
   const { copy, copied } = useClipboard()
 
   const metaTags = useMemo(() => {

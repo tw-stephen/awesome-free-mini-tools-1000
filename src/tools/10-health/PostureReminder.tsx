@@ -8,7 +8,6 @@ export default function PostureReminder() {
   const [lastReminder, setLastReminder] = useState<Date | null>(null)
   const [reminderCount, setReminderCount] = useState(0)
   const [timeUntilNext, setTimeUntilNext] = useState(0)
-  const timerRef = useRef<number | null>(null)
   const countdownRef = useRef<number | null>(null)
 
   useEffect(() => {

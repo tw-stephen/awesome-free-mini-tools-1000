@@ -274,7 +274,7 @@ export default function MemoMaker() {
           <div className="space-y-2">
             {memos.map(memo => (
               <div key={memo.id} className="flex items-center justify-between p-2 bg-slate-50 rounded">
-                <div className="flex-1" onClick={() => loadMemo(memo)} className="cursor-pointer">
+                <div className="flex-1 cursor-pointer" onClick={() => loadMemo(memo)}>
                   <div className="flex items-center gap-2">
                     {memo.urgent && <span>⚠️</span>}
                     {memo.confidential && <span>🔒</span>}

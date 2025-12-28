@@ -70,7 +70,7 @@ export default function VisionTest() {
     return visionScores[level] || '20/20'
   }
 
-  const generateColorPlate = (number: number) => {
+  const generateColorPlate = (_number: number) => {
     const dots: { x: number; y: number; r: number; color: string }[] = []
     const bgColors = ['#e8d4a8', '#c9b896', '#d4c4a2', '#dcd0ae']
     const numColors = ['#b64e4e', '#c75050', '#a84545', '#d06060']
@@ -87,7 +87,6 @@ export default function VisionTest() {
       })
     }
 
-    const numStr = number.toString()
     const centerX = 75
     const centerY = 75
 

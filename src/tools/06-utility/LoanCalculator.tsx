@@ -27,6 +27,7 @@ export default function LoanCalculator() {
 
     const totalPayment = monthlyPayment * months
     const totalInterest = totalPayment - principal
+    const biweeklyPayment = monthlyPayment / 2
 
     // Generate amortization schedule (first 12 months)
     const schedule = []

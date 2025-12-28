@@ -270,7 +270,7 @@ import RecipeScaler from './07-lifestyle/RecipeScaler'
 import FitnessCalculator from './07-lifestyle/FitnessCalculator'
 import SleepCalculator from './07-lifestyle/SleepCalculator'
 import CalorieCounter from './07-lifestyle/CalorieCounter'
-import WaterIntakeTracker from './07-lifestyle/WaterIntakeTracker'
+import LifestyleWaterIntakeTracker from './07-lifestyle/WaterIntakeTracker'
 import HabitTracker from './07-lifestyle/HabitTracker'
 import TodoList from './07-lifestyle/TodoList'
 import BudgetTracker from './07-lifestyle/BudgetTracker'
@@ -401,7 +401,7 @@ import HeartRateMonitor from './10-health/HeartRateMonitor'
 import BloodPressureLog from './10-health/BloodPressureLog'
 import WeightTracker from './10-health/WeightTracker'
 import HealthMealPlanner from './10-health/MealPlanner'
-import ExerciseTimer from './10-health/ExerciseTimer'
+import Health10ExerciseTimer from './10-health/ExerciseTimer'
 import FastingTimer from './10-health/FastingTimer'
 import PregnancyCalculator from './10-health/PregnancyCalculator'
 import OvulationCalculator from './10-health/OvulationCalculator'
@@ -414,7 +414,7 @@ import WorkoutLog from './10-health/WorkoutLog'
 import RunningPaceCalculator from './10-health/RunningPaceCalculator'
 import YogaPoseGuide from './10-health/YogaPoseGuide'
 import FirstAidGuide from './10-health/FirstAidGuide'
-import StepCounter from './10-health/StepCounter'
+import Health10StepCounter from './10-health/StepCounter'
 import HydrationTracker from './10-health/HydrationTracker'
 import ProteinIntakeCalculator from './10-health/ProteinIntakeCalculator'
 import VisionTest from './10-health/VisionTest'
@@ -594,14 +594,14 @@ import MadLibs from './14-games/MadLibs'
 import FortuneWheel from './14-games/FortuneWheel'
 
 // Category 15: Art & Design (#563-#602)
-import ColorPaletteGenerator from './15-art/ColorPaletteGenerator'
-import GradientGenerator from './15-art/GradientGenerator'
+import ArtColorPaletteGenerator from './15-art/ColorPaletteGenerator'
+import ArtGradientGenerator from './15-art/GradientGenerator'
 import PatternMaker from './15-art/PatternMaker'
 import PixelArtMaker from './15-art/PixelArtMaker'
 import IconGenerator from './15-art/IconGenerator'
 import LogoMaker from './15-art/LogoMaker'
 import BannerCreator from './15-art/BannerCreator'
-import FaviconGenerator from './15-art/FaviconGenerator'
+import ArtFaviconGenerator from './15-art/FaviconGenerator'
 import MockupGenerator from './15-art/MockupGenerator'
 import ColorBlindSimulator from './15-art/ColorBlindSimulator'
 import ImageFilters from './15-art/ImageFilters'
@@ -630,8 +630,8 @@ import ASCIIArtGenerator from './15-art/ASCIIArtGenerator'
 import TypographyTool from './15-art/TypographyTool'
 import FontPairer from './15-art/FontPairer'
 import DesignInspiration from './15-art/DesignInspiration'
-import ColorConverter from './15-art/ColorConverter'
-import ImageCropper from './15-art/ImageCropper'
+import ArtColorConverter from './15-art/ColorConverter'
+import ArtImageCropper from './15-art/ImageCropper'
 import ThumbnailMaker from './15-art/ThumbnailMaker'
 import SocialMediaImageCreator from './15-art/SocialMediaImageCreator'
 
@@ -656,9 +656,9 @@ import OneOnOneAgenda from './16-communication/OneOnOneAgenda'
 import StatusUpdateFormatter from './16-communication/StatusUpdateFormatter'
 import TaskDelegator from './16-communication/TaskDelegator'
 import TeamRoleAssigner from './16-communication/TeamRoleAssigner'
-import DecisionMatrix from './16-communication/DecisionMatrix'
+import CommDecisionMatrix from './16-communication/DecisionMatrix'
 import BrainstormBoard from './16-communication/BrainstormBoard'
-import ProjectTimeline from './16-communication/ProjectTimeline'
+import CommProjectTimeline from './16-communication/ProjectTimeline'
 import MilestoneTracker from './16-communication/MilestoneTracker'
 import ResourcePlanner from './16-communication/ResourcePlanner'
 import WorkloadBalancer from './16-communication/WorkloadBalancer'
@@ -730,21 +730,21 @@ import ElevatorPitch from './18-business/ElevatorPitch'
 import CustomerPersona from './18-business/CustomerPersona'
 import PricingCalculator from './18-business/PricingCalculator'
 import MarketSizeCalculator from './18-business/MarketSizeCalculator'
-import BreakEvenCalculator from './18-business/BreakEvenCalculator'
+import BizBreakEvenCalculator from './18-business/BreakEvenCalculator'
 import ROICalculator from './18-business/ROICalculator'
 import SocialMediaPlanner from './18-business/SocialMediaPlanner'
-import EmailSignatureGenerator from './18-business/EmailSignatureGenerator'
-import InvoiceGenerator from './18-business/InvoiceGenerator'
+import BizEmailSignatureGenerator from './18-business/EmailSignatureGenerator'
+import BizInvoiceGenerator from './18-business/InvoiceGenerator'
 import ProposalTemplate from './18-business/ProposalTemplate'
-import ContractTemplate from './18-business/ContractTemplate'
+import BizContractTemplate from './18-business/ContractTemplate'
 import BrandingKit from './18-business/BrandingKit'
 import MeetingAgenda from './18-business/MeetingAgenda'
-import ProjectTimeline from './18-business/ProjectTimeline'
+import BizProjectTimeline from './18-business/ProjectTimeline'
 import OKRTracker from './18-business/OKRTracker'
 import KPIDashboard from './18-business/KPIDashboard'
-import BudgetPlanner from './18-business/BudgetPlanner'
+import BizBudgetPlanner from './18-business/BudgetPlanner'
 import CashFlowTracker from './18-business/CashFlowTracker'
-import ProfitMarginCalculator from './18-business/ProfitMarginCalculator'
+import BizProfitMarginCalculator from './18-business/ProfitMarginCalculator'
 import SalesForecaster from './18-business/SalesForecaster'
 import LeadScoring from './18-business/LeadScoring'
 import EmailCampaign from './18-business/EmailCampaign'
@@ -752,7 +752,7 @@ import ABTestPlanner from './18-business/ABTestPlanner'
 import ContentCalendar from './18-business/ContentCalendar'
 import SEOChecker from './18-business/SEOChecker'
 import KeywordPlanner from './18-business/KeywordPlanner'
-import HashtagGenerator from './18-business/HashtagGenerator'
+import BizHashtagGenerator from './18-business/HashtagGenerator'
 import PressRelease from './18-business/PressRelease'
 import MediaKit from './18-business/MediaKit'
 import TestimonialCollector from './18-business/TestimonialCollector'
@@ -760,30 +760,30 @@ import CaseStudyTemplate from './18-business/CaseStudyTemplate'
 import NewsletterBuilder from './18-business/NewsletterBuilder'
 import SurveyCreator from './18-business/SurveyCreator'
 import FeedbackForm from './18-business/FeedbackForm'
-import FlashcardMaker from './19-education/FlashcardMaker'
+import Edu19FlashcardMaker from './19-education/FlashcardMaker'
 import QuizGenerator from './19-education/QuizGenerator'
-import StudyTimer from './19-education/StudyTimer'
+import Edu19StudyTimer from './19-education/StudyTimer'
 import NoteSummarizer from './19-education/NoteSummarizer'
-import VocabularyBuilder from './19-education/VocabularyBuilder'
+import Edu19VocabularyBuilder from './19-education/VocabularyBuilder'
 import GrammarChecker from './19-education/GrammarChecker'
-import CitationGenerator from './19-education/CitationGenerator'
+import Edu19CitationGenerator from './19-education/CitationGenerator'
 import BibliographyMaker from './19-education/BibliographyMaker'
-import EssayOutliner from './19-education/EssayOutliner'
+import Edu19EssayOutliner from './19-education/EssayOutliner'
 import MindMapper from './19-education/MindMapper'
 import MathProblemSolver from './19-education/MathProblemSolver'
-import PeriodicTable from './19-education/PeriodicTable'
-import MultiplicationTable from './19-education/MultiplicationTable'
-import FractionCalculator from './19-education/FractionCalculator'
-import GradeCalculator from './19-education/GradeCalculator'
+import Edu19PeriodicTable from './19-education/PeriodicTable'
+import Edu19MultiplicationTable from './19-education/MultiplicationTable'
+import Edu19FractionCalculator from './19-education/FractionCalculator'
+import Edu19GradeCalculator from './19-education/GradeCalculator'
 import GPACalculator from './19-education/GPACalculator'
-import ReadingSpeedTest from './19-education/ReadingSpeedTest'
-import TypingSpeedTest from './19-education/TypingSpeedTest'
+import Edu19ReadingSpeedTest from './19-education/ReadingSpeedTest'
+import Edu19TypingSpeedTest from './19-education/TypingSpeedTest'
 import LearningGoalTracker from './19-education/LearningGoalTracker'
 import HomeworkPlanner from './19-education/HomeworkPlanner'
 import ExamCountdown from './19-education/ExamCountdown'
 import StudyGroupOrganizer from './19-education/StudyGroupOrganizer'
 import LanguageLearningTracker from './19-education/LanguageLearningTracker'
-import SpellingPractice from './19-education/SpellingPractice'
+import Edu19SpellingPractice from './19-education/SpellingPractice'
 import MathFactsFluency from './19-education/MathFactsFluency'
 import CourseScheduler from './19-education/CourseScheduler'
 import ResearchPaperOutliner from './19-education/ResearchPaperOutliner'
@@ -3238,7 +3238,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.waterIntakeTracker.name',
     descriptionKey: 'tools.waterIntakeTracker.description',
     category: '07-lifestyle',
-    component: WaterIntakeTracker,
+    component: LifestyleWaterIntakeTracker,
   },
   {
     id: '246',
@@ -4265,7 +4265,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.exerciseTimer.name',
     descriptionKey: 'tools.exerciseTimer.description',
     category: '10-health',
-    component: ExerciseTimer,
+    component: Health10ExerciseTimer,
   },
   {
     id: '375',
@@ -4369,7 +4369,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.stepCounter.name',
     descriptionKey: 'tools.stepCounter.description',
     category: '10-health',
-    component: StepCounter,
+    component: Health10StepCounter,
   },
   {
     id: '388',
@@ -5779,7 +5779,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.colorPaletteGenerator.name',
     descriptionKey: 'tools.colorPaletteGenerator.description',
     category: '15-art',
-    component: ColorPaletteGenerator,
+    component: ArtColorPaletteGenerator,
   },
   {
     id: '564',
@@ -5787,7 +5787,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.gradientGenerator.name',
     descriptionKey: 'tools.gradientGenerator.description',
     category: '15-art',
-    component: GradientGenerator,
+    component: ArtGradientGenerator,
   },
   {
     id: '565',
@@ -5835,7 +5835,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.faviconGenerator.name',
     descriptionKey: 'tools.faviconGenerator.description',
     category: '15-art',
-    component: FaviconGenerator,
+    component: ArtFaviconGenerator,
   },
   {
     id: '571',
@@ -6067,7 +6067,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.colorConverter.name',
     descriptionKey: 'tools.colorConverter.description',
     category: '15-art',
-    component: ColorConverter,
+    component: ArtColorConverter,
   },
   {
     id: '600',
@@ -6075,7 +6075,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.imageCropper.name',
     descriptionKey: 'tools.imageCropper.description',
     category: '15-art',
-    component: ImageCropper,
+    component: ArtImageCropper,
   },
   {
     id: '601',
@@ -6260,7 +6260,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.decisionMatrix.name',
     descriptionKey: 'tools.decisionMatrix.description',
     category: '16-communication',
-    component: DecisionMatrix,
+    component: CommDecisionMatrix,
   },
   {
     id: '624',
@@ -6276,7 +6276,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.projectTimeline.name',
     descriptionKey: 'tools.projectTimeline.description',
     category: '16-communication',
-    component: ProjectTimeline,
+    component: CommProjectTimeline,
   },
   {
     id: '626',
@@ -6822,7 +6822,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.breakEvenCalculator.name',
     descriptionKey: 'tools.breakEvenCalculator.description',
     category: '18-business',
-    component: BreakEvenCalculator,
+    component: BizBreakEvenCalculator,
   },
   {
     id: '694',
@@ -6846,7 +6846,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.emailSignatureGenerator.name',
     descriptionKey: 'tools.emailSignatureGenerator.description',
     category: '18-business',
-    component: EmailSignatureGenerator,
+    component: BizEmailSignatureGenerator,
   },
   {
     id: '697',
@@ -6854,7 +6854,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.invoiceGenerator.name',
     descriptionKey: 'tools.invoiceGenerator.description',
     category: '18-business',
-    component: InvoiceGenerator,
+    component: BizInvoiceGenerator,
   },
   {
     id: '698',
@@ -6870,7 +6870,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.contractTemplate.name',
     descriptionKey: 'tools.contractTemplate.description',
     category: '18-business',
-    component: ContractTemplate,
+    component: BizContractTemplate,
   },
   {
     id: '700',
@@ -6894,7 +6894,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.projectTimeline.name',
     descriptionKey: 'tools.projectTimeline.description',
     category: '18-business',
-    component: ProjectTimeline,
+    component: BizProjectTimeline,
   },
   {
     id: '703',
@@ -6918,7 +6918,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.budgetPlanner.name',
     descriptionKey: 'tools.budgetPlanner.description',
     category: '18-business',
-    component: BudgetPlanner,
+    component: BizBudgetPlanner,
   },
   {
     id: '706',
@@ -6934,7 +6934,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.profitMarginCalculator.name',
     descriptionKey: 'tools.profitMarginCalculator.description',
     category: '18-business',
-    component: ProfitMarginCalculator,
+    component: BizProfitMarginCalculator,
   },
   {
     id: '708',
@@ -6998,7 +6998,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.hashtagGenerator.name',
     descriptionKey: 'tools.hashtagGenerator.description',
     category: '18-business',
-    component: HashtagGenerator,
+    component: BizHashtagGenerator,
   },
   {
     id: '716',
@@ -7062,7 +7062,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.flashcardMaker.name',
     descriptionKey: 'tools.flashcardMaker.description',
     category: '19-education',
-    component: FlashcardMaker,
+    component: Edu19FlashcardMaker,
   },
   {
     id: '724',
@@ -7078,7 +7078,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.studyTimer.name',
     descriptionKey: 'tools.studyTimer.description',
     category: '19-education',
-    component: StudyTimer,
+    component: Edu19StudyTimer,
   },
   {
     id: '726',
@@ -7094,7 +7094,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.vocabularyBuilder.name',
     descriptionKey: 'tools.vocabularyBuilder.description',
     category: '19-education',
-    component: VocabularyBuilder,
+    component: Edu19VocabularyBuilder,
   },
   {
     id: '728',
@@ -7110,7 +7110,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.citationGenerator.name',
     descriptionKey: 'tools.citationGenerator.description',
     category: '19-education',
-    component: CitationGenerator,
+    component: Edu19CitationGenerator,
   },
   {
     id: '730',
@@ -7126,7 +7126,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.essayOutliner.name',
     descriptionKey: 'tools.essayOutliner.description',
     category: '19-education',
-    component: EssayOutliner,
+    component: Edu19EssayOutliner,
   },
   {
     id: '732',
@@ -7150,7 +7150,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.periodicTable.name',
     descriptionKey: 'tools.periodicTable.description',
     category: '19-education',
-    component: PeriodicTable,
+    component: Edu19PeriodicTable,
   },
   {
     id: '735',
@@ -7158,7 +7158,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.multiplicationTable.name',
     descriptionKey: 'tools.multiplicationTable.description',
     category: '19-education',
-    component: MultiplicationTable,
+    component: Edu19MultiplicationTable,
   },
   {
     id: '736',
@@ -7166,7 +7166,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.fractionCalculator.name',
     descriptionKey: 'tools.fractionCalculator.description',
     category: '19-education',
-    component: FractionCalculator,
+    component: Edu19FractionCalculator,
   },
   {
     id: '737',
@@ -7174,7 +7174,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.gradeCalculator.name',
     descriptionKey: 'tools.gradeCalculator.description',
     category: '19-education',
-    component: GradeCalculator,
+    component: Edu19GradeCalculator,
   },
   {
     id: '738',
@@ -7190,7 +7190,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.readingSpeedTest.name',
     descriptionKey: 'tools.readingSpeedTest.description',
     category: '19-education',
-    component: ReadingSpeedTest,
+    component: Edu19ReadingSpeedTest,
   },
   {
     id: '740',
@@ -7198,7 +7198,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.typingSpeedTest.name',
     descriptionKey: 'tools.typingSpeedTest.description',
     category: '19-education',
-    component: TypingSpeedTest,
+    component: Edu19TypingSpeedTest,
   },
   {
     id: '741',
@@ -7246,7 +7246,7 @@ export const tools: ToolInfo[] = [
     nameKey: 'tools.spellingPractice.name',
     descriptionKey: 'tools.spellingPractice.description',
     category: '19-education',
-    component: SpellingPractice,
+    component: Edu19SpellingPractice,
   },
   {
     id: '747',

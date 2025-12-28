@@ -21,11 +21,20 @@ export default function SubscriptionTracker() {
   const [showForm, setShowForm] = useState(false)
   const [editingId, setEditingId] = useState<string | null>(null)
   const [filterCategory, setFilterCategory] = useState<string>('all')
-  const [form, setForm] = useState({
+  const [form, setForm] = useState<{
+    name: string
+    category: string
+    cost: number
+    billingCycle: 'monthly' | 'yearly' | 'weekly' | 'quarterly'
+    startDate: string
+    autoRenew: boolean
+    reminder: boolean
+    notes: string
+  }>({
     name: '',
     category: 'entertainment',
     cost: 0,
-    billingCycle: 'monthly' as const,
+    billingCycle: 'monthly',
     startDate: new Date().toISOString().split('T')[0],
     autoRenew: true,
     reminder: true,

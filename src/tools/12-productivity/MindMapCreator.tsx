@@ -20,7 +20,7 @@ export default function MindMapCreator() {
   const [maps, setMaps] = useState<MindMap[]>([])
   const [currentMap, setCurrentMap] = useState<MindMap | null>(null)
   const [editingNode, setEditingNode] = useState<string | null>(null)
-  const [newNodeText, setNewNodeText] = useState('')
+  const [_newNodeText, _setNewNodeText] = useState('')
   const [copied, setCopied] = useState(false)
 
   useEffect(() => {

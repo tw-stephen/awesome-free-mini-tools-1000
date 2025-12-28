@@ -71,7 +71,7 @@ export default function SpotDifference() {
     return () => clearInterval(timer)
   }, [startTime, puzzle, foundDiffs.size])
 
-  const handleClick = (gridNum: number, row: number, col: number) => {
+  const handleClick = (_gridNum: number, row: number, col: number) => {
     if (!puzzle) return
 
     const key = `${row}-${col}`
@@ -154,7 +154,6 @@ export default function SpotDifference() {
                     row.map((cell, colIndex) => {
                       const key = `${rowIndex}-${colIndex}`
                       const isFound = foundDiffs.has(key)
-                      const isDiff = puzzle.differences.some(([r, c]) => r === rowIndex && c === colIndex)
 
                       return (
                         <button

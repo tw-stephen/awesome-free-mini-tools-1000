@@ -44,16 +44,6 @@ export default function CashFlowTracker() {
   const netCashFlow = totalInflows - totalOutflows
   const closingBalance = openingBalance + netCashFlow
 
-  const groupByMonth = () => {
-    const grouped: Record<string, Transaction[]> = {}
-    sortedTransactions.forEach(t => {
-      const month = t.date.substring(0, 7)
-      if (!grouped[month]) grouped[month] = []
-      grouped[month].push(t)
-    })
-    return grouped
-  }
-
   const generateReport = (): string => {
     let doc = `CASH FLOW STATEMENT\n${'═'.repeat(50)}\n\n`
     doc += `Opening Balance: ${formatCurrency(openingBalance)}\n\n`

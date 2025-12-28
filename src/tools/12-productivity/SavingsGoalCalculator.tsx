@@ -21,7 +21,17 @@ export default function SavingsGoalCalculator() {
   const [showForm, setShowForm] = useState(false)
   const [editingId, setEditingId] = useState<string | null>(null)
   const [calculatorMode, setCalculatorMode] = useState<'howMuch' | 'howLong' | 'whatRate'>('howMuch')
-  const [form, setForm] = useState({
+  const [form, setForm] = useState<{
+    name: string
+    targetAmount: number
+    currentAmount: number
+    monthlyContribution: number
+    interestRate: number
+    deadline: string
+    category: string
+    priority: 'high' | 'medium' | 'low'
+    notes: string
+  }>({
     name: '',
     targetAmount: 10000,
     currentAmount: 0,
@@ -29,7 +39,7 @@ export default function SavingsGoalCalculator() {
     interestRate: 5,
     deadline: '',
     category: 'general',
-    priority: 'medium' as const,
+    priority: 'medium',
     notes: ''
   })
 

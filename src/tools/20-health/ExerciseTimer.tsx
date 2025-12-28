@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
 interface Exercise {
@@ -24,7 +24,6 @@ export default function ExerciseTimer() {
     duration: 30,
     rest: 10,
   })
-  const audioRef = useRef<HTMLAudioElement | null>(null)
 
   const presetWorkouts = [
     {
@@ -54,7 +53,7 @@ export default function ExerciseTimer() {
   ]
 
   useEffect(() => {
-    let interval: NodeJS.Timeout
+    let interval: ReturnType<typeof setTimeout>
 
     if (isRunning && timeRemaining > 0) {
       interval = setInterval(() => {

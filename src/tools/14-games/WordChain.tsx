@@ -11,14 +11,6 @@ export default function WordChain() {
   const [gameMode, setGameMode] = useState<'solo' | 'versus'>('solo')
   const [currentPlayer, setCurrentPlayer] = useState(1)
 
-  const validWords = new Set([
-    'apple', 'elephant', 'tiger', 'rainbow', 'water', 'rain', 'nature', 'earth',
-    'happy', 'yellow', 'wonder', 'river', 'rose', 'energy', 'yes', 'sun', 'north',
-    'house', 'eat', 'tree', 'eye', 'end', 'dance', 'enter', 'run', 'nice', 'each',
-    'help', 'play', 'young', 'green', 'night', 'time', 'eat', 'table', 'every',
-    'year', 'road', 'dream', 'music', 'candle', 'eagle', 'echo', 'orange', 'english'
-  ])
-
   const startGame = () => {
     const startWords = ['apple', 'house', 'water', 'happy', 'music']
     const word = startWords[Math.floor(Math.random() * startWords.length)]

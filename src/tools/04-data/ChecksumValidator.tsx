@@ -28,7 +28,6 @@ export default function ChecksumValidator() {
 
     try {
       const chunkSize = 1024 * 1024 // 1MB chunks
-      const totalChunks = Math.ceil(file.size / chunkSize)
 
       // For small files, process directly
       if (file.size < chunkSize * 10) {

@@ -50,7 +50,8 @@ export default function DebtSnowballCalculator() {
       : [...parsedDebts].sort((a, b) => b.rate - a.rate)
 
     const totalBalance = parsedDebts.reduce((sum, d) => sum + d.balance, 0)
-    const _totalMinPayment = parsedDebts.reduce((sum, d) => sum + d.minPayment, 0)
+    // Minimum payment calculated for informational purposes
+    parsedDebts.reduce((sum, d) => sum + d.minPayment, 0)
 
     // Simulate payoff
     let currentDebts = sortedDebts.map(d => ({ ...d, remaining: d.balance }))

@@ -170,7 +170,6 @@ export default function WaterfallChartGenerator() {
 
             {/* Connectors */}
             {showConnectors && positions.slice(0, -1).map((pos, i) => {
-              const nextPos = positions[i + 1]
               const x1 = chartPadding.left + gap + i * (barWidth + gap) + barWidth
               const x2 = chartPadding.left + gap + (i + 1) * (barWidth + gap)
               const y = scaleY(pos.end)

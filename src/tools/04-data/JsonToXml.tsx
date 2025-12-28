@@ -41,7 +41,7 @@ export default function JsonToXml() {
 
       if (Array.isArray(obj)) {
         return obj
-          .map((item, index) => {
+          .map((item) => {
             const itemTag = tagName.endsWith('s')
               ? tagName.slice(0, -1)
               : `${tagName}_item`

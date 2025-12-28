@@ -1,6 +1,5 @@
 import { useState, useCallback } from 'react'
 import { useTranslation } from 'react-i18next'
-import TextArea from '../../components/ui/TextArea'
 import Button from '../../components/ui/Button'
 import { useClipboard } from '../../hooks/useClipboard'
 

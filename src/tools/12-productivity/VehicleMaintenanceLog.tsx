@@ -115,14 +115,6 @@ export default function VehicleMaintenanceLog() {
     if (!selectedVehicle) setSelectedVehicle(vehicle.id)
   }
 
-  const deleteVehicle = (id: string) => {
-    saveVehicles(vehicles.filter(v => v.id !== id))
-    saveRecords(records.filter(r => r.vehicleId !== id))
-    if (selectedVehicle === id) {
-      setSelectedVehicle(vehicles.find(v => v.id !== id)?.id || null)
-    }
-  }
-
   const addRecord = () => {
     if (!selectedVehicle || !recordForm.type) return
     const record: MaintenanceRecord = {

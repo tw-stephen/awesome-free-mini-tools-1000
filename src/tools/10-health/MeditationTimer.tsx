@@ -16,7 +16,6 @@ export default function MeditationTimer() {
   const [isPaused, setIsPaused] = useState(false)
   const [ambientSound, setAmbientSound] = useState('none')
   const intervalRef = useRef<number | null>(null)
-  const audioRef = useRef<AudioContext | null>(null)
 
   const durations = [5, 10, 15, 20, 30, 45, 60]
   const sounds = ['none', 'rain', 'ocean', 'forest', 'silence']

@@ -12,7 +12,7 @@ export default function FlashcardMaker() {
   const { t } = useTranslation()
   const [cards, setCards] = useState<Flashcard[]>([])
   const [newCard, setNewCard] = useState({ front: '', back: '', category: 'General' })
-  const [categories, setCategories] = useState<string[]>(['General', 'Science', 'Math', 'History', 'Language'])
+  const [categories, _setCategories] = useState<string[]>(['General', 'Science', 'Math', 'History', 'Language'])
   const [studyMode, setStudyMode] = useState(false)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [showAnswer, setShowAnswer] = useState(false)
@@ -162,7 +162,7 @@ export default function FlashcardMaker() {
       </div>
 
       <div className="space-y-2 max-h-[300px] overflow-y-auto">
-        {filteredCards.map((card, index) => (
+        {filteredCards.map((card) => (
           <div key={card.id} className="card p-3 flex items-start justify-between">
             <div className="flex-1">
               <div className="font-medium">{card.front}</div>

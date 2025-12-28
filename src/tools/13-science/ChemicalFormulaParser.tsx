@@ -56,7 +56,6 @@ export default function ChemicalFormulaParser() {
   const [error, setError] = useState('')
 
   const parseFormula = (formula: string): Record<string, number> => {
-    const elements: Record<string, number> = {}
     const stack: Record<string, number>[] = [{}]
 
     let i = 0

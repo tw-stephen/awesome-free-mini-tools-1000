@@ -22,7 +22,7 @@ export default function StudyTimer() {
   const [currentMode, setCurrentMode] = useState<'focus' | 'short' | 'long'>('focus')
   const [completedPomodoros, setCompletedPomodoros] = useState(0)
   const [sessions, setSessions] = useState<Session[]>([])
-  const intervalRef = useRef<NodeJS.Timeout | null>(null)
+  const intervalRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
     if (isRunning && timeLeft > 0) {

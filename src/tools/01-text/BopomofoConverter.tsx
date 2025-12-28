@@ -4,35 +4,6 @@ import { useClipboard } from '../../hooks/useClipboard'
 import Button from '../../components/ui/Button'
 import TextArea from '../../components/ui/TextArea'
 
-// Pinyin to Bopomofo (Zhuyin) mapping
-const pinyinToBopomofo: Record<string, string> = {
-  // Initials
-  'b': 'ㄅ', 'p': 'ㄆ', 'm': 'ㄇ', 'f': 'ㄈ',
-  'd': 'ㄉ', 't': 'ㄊ', 'n': 'ㄋ', 'l': 'ㄌ',
-  'g': 'ㄍ', 'k': 'ㄎ', 'h': 'ㄏ',
-  'j': 'ㄐ', 'q': 'ㄑ', 'x': 'ㄒ',
-  'zh': 'ㄓ', 'ch': 'ㄔ', 'sh': 'ㄕ', 'r': 'ㄖ',
-  'z': 'ㄗ', 'c': 'ㄘ', 's': 'ㄙ',
-  // Finals
-  'a': 'ㄚ', 'o': 'ㄛ', 'e': 'ㄜ', 'ê': 'ㄝ',
-  'ai': 'ㄞ', 'ei': 'ㄟ', 'ao': 'ㄠ', 'ou': 'ㄡ',
-  'an': 'ㄢ', 'en': 'ㄣ', 'ang': 'ㄤ', 'eng': 'ㄥ', 'er': 'ㄦ',
-  'i': 'ㄧ', 'u': 'ㄨ', 'ü': 'ㄩ', 'v': 'ㄩ',
-  'ia': 'ㄧㄚ', 'ie': 'ㄧㄝ', 'iao': 'ㄧㄠ', 'iu': 'ㄧㄡ', 'iou': 'ㄧㄡ',
-  'ian': 'ㄧㄢ', 'in': 'ㄧㄣ', 'iang': 'ㄧㄤ', 'ing': 'ㄧㄥ',
-  'ua': 'ㄨㄚ', 'uo': 'ㄨㄛ', 'uai': 'ㄨㄞ', 'ui': 'ㄨㄟ', 'uei': 'ㄨㄟ',
-  'uan': 'ㄨㄢ', 'un': 'ㄨㄣ', 'uen': 'ㄨㄣ', 'uang': 'ㄨㄤ', 'ong': 'ㄨㄥ',
-  'üe': 'ㄩㄝ', 've': 'ㄩㄝ', 'üan': 'ㄩㄢ', 'van': 'ㄩㄢ',
-  'ün': 'ㄩㄣ', 'vn': 'ㄩㄣ', 'iong': 'ㄩㄥ',
-  // Tone marks
-  'ā': 'ㄚ', 'á': 'ㄚˊ', 'ǎ': 'ㄚˇ', 'à': 'ㄚˋ',
-  'ē': 'ㄜ', 'é': 'ㄜˊ', 'ě': 'ㄜˇ', 'è': 'ㄜˋ',
-  'ī': 'ㄧ', 'í': 'ㄧˊ', 'ǐ': 'ㄧˇ', 'ì': 'ㄧˋ',
-  'ō': 'ㄛ', 'ó': 'ㄛˊ', 'ǒ': 'ㄛˇ', 'ò': 'ㄛˋ',
-  'ū': 'ㄨ', 'ú': 'ㄨˊ', 'ǔ': 'ㄨˇ', 'ù': 'ㄨˋ',
-  'ǖ': 'ㄩ', 'ǘ': 'ㄩˊ', 'ǚ': 'ㄩˇ', 'ǜ': 'ㄩˋ',
-}
-
 // Bopomofo to Pinyin mapping
 const bopomofoToPinyin: Record<string, string> = {
   // Initials
@@ -82,10 +53,10 @@ const syllables: Record<string, string> = {
   'yu': 'ㄩ', 'yue': 'ㄩㄝ', 'yuan': 'ㄩㄢ', 'yun': 'ㄩㄣ', 'yong': 'ㄩㄥ',
   'ai': 'ㄞ', 'ei': 'ㄟ', 'ao': 'ㄠ', 'ou': 'ㄡ',
   'an': 'ㄢ', 'en': 'ㄣ', 'ang': 'ㄤ', 'eng': 'ㄥ', 'er': 'ㄦ',
-  'ni': 'ㄋㄧ', 'wo': 'ㄨㄛ', 'men': 'ㄇㄣ', 'hao': 'ㄏㄠ',
+  'men': 'ㄇㄣ', 'hao': 'ㄏㄠ',
   'zhong': 'ㄓㄨㄥ', 'guo': 'ㄍㄨㄛ', 'ren': 'ㄖㄣ',
   'xue': 'ㄒㄩㄝ', 'sheng': 'ㄕㄥ',
-  'nin': 'ㄋㄧㄣ', 'nin': 'ㄋㄧㄣ',
+  'nin': 'ㄋㄧㄣ',
   'xie': 'ㄒㄧㄝ', 'xian': 'ㄒㄧㄢ',
   'jia': 'ㄐㄧㄚ', 'qian': 'ㄑㄧㄢ',
   'bie': 'ㄅㄧㄝ', 'pie': 'ㄆㄧㄝ', 'mie': 'ㄇㄧㄝ',
@@ -98,7 +69,7 @@ const syllables: Record<string, string> = {
   'niu': 'ㄋㄧㄡ', 'diu': 'ㄉㄧㄡ', 'miu': 'ㄇㄧㄡ',
   'bian': 'ㄅㄧㄢ', 'pian': 'ㄆㄧㄢ', 'mian': 'ㄇㄧㄢ',
   'dian': 'ㄉㄧㄢ', 'tian': 'ㄊㄧㄢ', 'nian': 'ㄋㄧㄢ', 'lian': 'ㄌㄧㄢ',
-  'jian': 'ㄐㄧㄢ', 'qian': 'ㄑㄧㄢ',
+  'jian': 'ㄐㄧㄢ',
   'bin': 'ㄅㄧㄣ', 'pin': 'ㄆㄧㄣ', 'min': 'ㄇㄧㄣ',
   'lin': 'ㄌㄧㄣ', 'jin': 'ㄐㄧㄣ', 'qin': 'ㄑㄧㄣ', 'xin': 'ㄒㄧㄣ',
   'bing': 'ㄅㄧㄥ', 'ping': 'ㄆㄧㄥ', 'ming': 'ㄇㄧㄥ',
@@ -108,7 +79,7 @@ const syllables: Record<string, string> = {
   'jiang': 'ㄐㄧㄤ', 'qiang': 'ㄑㄧㄤ', 'xiang': 'ㄒㄧㄤ',
   'gua': 'ㄍㄨㄚ', 'kua': 'ㄎㄨㄚ', 'hua': 'ㄏㄨㄚ',
   'zhua': 'ㄓㄨㄚ', 'shua': 'ㄕㄨㄚ',
-  'guo': 'ㄍㄨㄛ', 'kuo': 'ㄎㄨㄛ', 'huo': 'ㄏㄨㄛ',
+  'kuo': 'ㄎㄨㄛ', 'huo': 'ㄏㄨㄛ',
   'zhuo': 'ㄓㄨㄛ', 'chuo': 'ㄔㄨㄛ', 'shuo': 'ㄕㄨㄛ', 'ruo': 'ㄖㄨㄛ',
   'zuo': 'ㄗㄨㄛ', 'cuo': 'ㄘㄨㄛ', 'suo': 'ㄙㄨㄛ',
   'guai': 'ㄍㄨㄞ', 'kuai': 'ㄎㄨㄞ', 'huai': 'ㄏㄨㄞ',

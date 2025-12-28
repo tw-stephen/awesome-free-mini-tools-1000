@@ -64,7 +64,6 @@ export default function AudioWaveformViewer() {
 
     // Calculate samples per pixel
     const samplesPerPixel = Math.floor(audioData.length / (width * zoom))
-    const totalSamples = Math.floor(width * samplesPerPixel)
 
     ctx.strokeStyle = waveformColor
     ctx.lineWidth = 1

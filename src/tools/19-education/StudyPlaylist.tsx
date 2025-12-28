@@ -34,7 +34,6 @@ export default function StudyPlaylist() {
 
   const genres = ['Lo-fi', 'Classical', 'Jazz', 'Ambient', 'Electronic', 'Nature Sounds', 'White Noise', 'Instrumental']
   const moods = ['Focused', 'Relaxed', 'Energized', 'Calm', 'Motivated', 'Creative']
-  const bpmOptions = ['Slow (60-80)', 'Medium (80-120)', 'Fast (120+)']
 
   const suggestedTracks: { [key: string]: Track[] } = {
     'Focus & Concentration': [

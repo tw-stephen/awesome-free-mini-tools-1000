@@ -53,7 +53,6 @@ Another line here`)
 
     const getDiff = (a: string[], b: string[]): DiffLine[] => {
       const dp = lcs(a, b)
-      const result: DiffLine[] = []
       let i = a.length
       let j = b.length
       let oldLine = a.length

@@ -209,7 +209,7 @@ export default function VoiceRecorder() {
                 <Button variant="secondary" onClick={pauseRecording}>
                   {isPaused ? t('tools.voiceRecorder.resume') : t('tools.voiceRecorder.pause')}
                 </Button>
-                <Button variant="danger" onClick={stopRecording}>
+                <Button variant="secondary" className="bg-red-500 hover:bg-red-600 text-white" onClick={stopRecording}>
                   {t('tools.voiceRecorder.stop')}
                 </Button>
               </>

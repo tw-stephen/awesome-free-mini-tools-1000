@@ -112,8 +112,6 @@ export default function FlagQuiz() {
     startGame()
   }, [])
 
-  const accuracy = questionsAsked > 0 ? Math.round((score / (questionsAsked * 10 + questionsAsked * streak)) * 100) : 0
-
   return (
     <div className="space-y-4">
       <div className="card p-4">

@@ -220,7 +220,7 @@ export default function ScreenRecorder() {
                 <Button variant="secondary" onClick={pauseRecording}>
                   {isPaused ? t('tools.screenRecorder.resume') : t('tools.screenRecorder.pause')}
                 </Button>
-                <Button variant="danger" onClick={stopRecording}>
+                <Button variant="secondary" className="bg-red-500 hover:bg-red-600 text-white" onClick={stopRecording}>
                   {t('tools.screenRecorder.stop')}
                 </Button>
               </>

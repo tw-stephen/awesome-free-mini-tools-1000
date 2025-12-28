@@ -30,14 +30,14 @@ export default function TeamNameGenerator() {
   }
 
   const patterns = [
-    (pre: string, suf: string, key: string) => `${pre} ${suf}`,
-    (pre: string, suf: string, key: string) => `The ${pre} ${suf}`,
-    (pre: string, suf: string, key: string) => `Team ${pre}`,
-    (pre: string, suf: string, key: string) => `${pre}${suf}`,
+    (pre: string, suf: string, _key: string) => `${pre} ${suf}`,
+    (pre: string, suf: string, _key: string) => `The ${pre} ${suf}`,
+    (pre: string, _suf: string, _key: string) => `Team ${pre}`,
+    (pre: string, suf: string, _key: string) => `${pre}${suf}`,
     (pre: string, suf: string, key: string) => key ? `${key} ${suf}` : `${pre} ${suf}`,
     (pre: string, suf: string, key: string) => key ? `${pre} ${key}` : `${pre} ${suf}`,
-    (pre: string, suf: string, key: string) => `${pre.toLowerCase()}${suf.toLowerCase()}`,
-    (pre: string, suf: string, key: string) => `${suf} of ${pre}`,
+    (pre: string, suf: string, _key: string) => `${pre.toLowerCase()}${suf.toLowerCase()}`,
+    (pre: string, suf: string, _key: string) => `${suf} of ${pre}`,
   ]
 
   const generate = () => {

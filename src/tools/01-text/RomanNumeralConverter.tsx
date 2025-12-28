@@ -75,26 +75,6 @@ const fromRoman = (roman: string): number => {
   return result
 }
 
-// Validate Roman numeral
-const isValidRoman = (roman: string): boolean => {
-  if (!roman) return false
-
-  const input = roman.toUpperCase().trim()
-
-  // Check for valid characters only
-  if (!/^[MDCLXVI]+$/i.test(input)) {
-    return false
-  }
-
-  // Convert and convert back to verify
-  const num = fromRoman(input)
-  if (isNaN(num) || num <= 0 || num > 3999) {
-    return false
-  }
-
-  return toRoman(num) === input
-}
-
 export default function RomanNumeralConverter() {
   const { t } = useTranslation()
   const [arabicInput, setArabicInput] = useState('')

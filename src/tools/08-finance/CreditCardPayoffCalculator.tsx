@@ -101,7 +101,7 @@ export default function CreditCardPayoffCalculator() {
             {t('tools.creditCardPayoffCalculator.paymentTooLow')}
           </p>
           <p className="text-sm text-slate-600 mt-1">
-            {t('tools.creditCardPayoffCalculator.minimumRequired')}: ${result.minPayment.toFixed(2)}
+            {t('tools.creditCardPayoffCalculator.minimumRequired')}: ${result.minPayment?.toFixed(2) ?? '0.00'}
           </p>
         </div>
       )}

@@ -11,7 +11,6 @@ interface CropArea {
 
 export default function ImageCropper() {
   const { t } = useTranslation()
-  const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
 

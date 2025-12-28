@@ -40,7 +40,7 @@ export default function LeadScoring() {
     ]},
   ]
 
-  const [criteria, setCriteria] = useState<Criterion[]>(defaultCriteria)
+  const [criteria, _setCriteria] = useState<Criterion[]>(defaultCriteria)
 
   const calculateScore = (scores: Record<string, number>): number => {
     let totalScore = 0

@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
 interface Section {
@@ -17,10 +17,9 @@ export default function PresentationTimer() {
   const [sectionTimeLeft, setSectionTimeLeft] = useState(0)
   const [newSection, setNewSection] = useState({ name: '', duration: 2 })
   const [warningAt, setWarningAt] = useState(60) // seconds
-  const audioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
-    let timer: NodeJS.Timeout
+    let timer: ReturnType<typeof setTimeout>
     if (running && timeLeft > 0) {
       timer = setInterval(() => {
         setTimeLeft(prev => {

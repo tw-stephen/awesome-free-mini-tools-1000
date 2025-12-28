@@ -12,8 +12,8 @@ export default function DockerfileGenerator() {
   const [expose, setExpose] = useState('3000')
   const [entrypoint, setEntrypoint] = useState('')
   const [cmd, setCmd] = useState('npm start')
-  const [env, setEnv] = useState([{ key: 'NODE_ENV', value: 'production' }])
-  const [labels, setLabels] = useState([{ key: 'maintainer', value: '' }])
+  const [env, _setEnv] = useState([{ key: 'NODE_ENV', value: 'production' }])
+  const [labels, _setLabels] = useState([{ key: 'maintainer', value: '' }])
   const [multiStage, setMultiStage] = useState(false)
   const { copy, copied } = useClipboard()
 

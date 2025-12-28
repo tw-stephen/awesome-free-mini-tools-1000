@@ -14,7 +14,7 @@ interface StyleResult {
 }
 
 export default function LearningStyleQuiz() {
-  const { t } = useTranslation()
+  useTranslation()
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState<string[]>([])
   const [completed, setCompleted] = useState(false)

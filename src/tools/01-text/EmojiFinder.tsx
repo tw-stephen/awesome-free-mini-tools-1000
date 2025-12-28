@@ -362,7 +362,7 @@ export default function EmojiFinder() {
   const { t } = useTranslation()
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState('all')
-  const { copied, copy } = useClipboard()
+  const { copy } = useClipboard()
   const [copiedEmoji, setCopiedEmoji] = useState('')
 
   const filteredEmojis = useMemo(() => {

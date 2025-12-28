@@ -123,7 +123,7 @@ export default function JwtDecoder() {
                     : t('tools.jwtDecoder.valid')}
                 </span>
               </div>
-              {decoded.payload.exp && (
+              {decoded.payload.exp !== undefined && (
                 <p className={`mt-1 text-sm ${isExpired ? 'text-red-600' : 'text-green-600'}`}>
                   {t('tools.jwtDecoder.expiresAt')}: {formatDate(decoded.payload.exp as number)}
                 </p>

@@ -59,7 +59,7 @@ export default function HtmlEntitiesConverter() {
       let result = input
       // Replace named entities
       for (const [entity, char] of Object.entries(reverseEntities)) {
-        result = result.replaceAll(entity, char)
+        result = result.split(entity).join(char)
       }
       // Replace numeric entities
       result = result.replace(/&#(\d+);/g, (_, num) => String.fromCharCode(parseInt(num, 10)))

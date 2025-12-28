@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next'
 export default function BodyFatCalculator() {
   const { t } = useTranslation()
   const [gender, setGender] = useState<'male' | 'female'>('male')
-  const [age, setAge] = useState('')
-  const [weight, setWeight] = useState('')
+  const [_age, _setAge] = useState('')
+  const [_weight, _setWeight] = useState('')
   const [height, setHeight] = useState('')
   const [waist, setWaist] = useState('')
   const [neck, setNeck] = useState('')

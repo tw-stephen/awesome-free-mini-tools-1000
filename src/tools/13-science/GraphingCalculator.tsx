@@ -117,7 +117,6 @@ export default function GraphingCalculator() {
       ctx.beginPath()
 
       let started = false
-      const step = xRange / width
 
       for (let i = 0; i <= width; i++) {
         const x = xMin + (i / width) * xRange

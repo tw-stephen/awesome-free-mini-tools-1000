@@ -80,7 +80,6 @@ export default function SqlFormatter() {
 
       // Check if line starts with a major keyword
       const startsWithMajorKeyword = newLineKeywords.some((kw) => {
-        const kwCase = uppercase ? kw.toUpperCase() : kw.toLowerCase()
         return line.toUpperCase().startsWith(kw.toUpperCase())
       })
 

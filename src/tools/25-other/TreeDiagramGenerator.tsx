@@ -1,4 +1,4 @@
-import { useState, useRef, useMemo, useEffect } from 'react'
+import { useState, useRef, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import Button from '../../components/ui/Button'
 import TextArea from '../../components/ui/TextArea'
@@ -24,7 +24,6 @@ export default function TreeDiagramGenerator() {
     const lines = inputText.split('\n').filter(line => line.trim())
     if (lines.length === 0) return null
 
-    const root: TreeNode = { name: 'Root', children: [] }
     const stack: { node: TreeNode; level: number }[] = []
 
     // Heuristic to find root or create a dummy one if multiple roots
@@ -97,7 +96,6 @@ export default function TreeDiagramGenerator() {
     if (!root) return { nodes: [], links: [], width: 0, height: 0 }
 
     const nodeWidth = 120
-    const nodeHeight = 40
     const gapX = 50
     const gapY = 60
     const nodes: any[] = []

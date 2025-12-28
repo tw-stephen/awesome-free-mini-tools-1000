@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
 interface Session {
@@ -23,7 +23,7 @@ export default function StudyBreakReminder() {
   const [currentSessionStart, setCurrentSessionStart] = useState<Date | null>(null)
 
   useEffect(() => {
-    let timer: NodeJS.Timeout
+    let timer: ReturnType<typeof setTimeout>
     if (running && timeLeft > 0) {
       timer = setInterval(() => {
         setTimeLeft(prev => prev - 1)

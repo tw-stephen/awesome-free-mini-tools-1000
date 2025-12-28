@@ -65,7 +65,7 @@ export default function BoxShadowGenerator() {
     const newShadows = shadows.filter(s => s.id !== id)
     setShadows(newShadows)
     if (selectedId === id) {
-      setSelectedId(newShadows[0]?.id || null)
+      setSelectedId(newShadows[0]?.id ?? '')
     }
   }
 

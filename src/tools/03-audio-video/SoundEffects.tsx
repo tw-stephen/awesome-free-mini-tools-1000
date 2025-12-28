@@ -86,8 +86,6 @@ export default function SoundEffects() {
       const source = offlineContext.createBufferSource()
       source.buffer = audioBuffer
 
-      let lastNode: AudioNode = source
-
       switch (selectedEffect) {
         case 'reverb': {
           const convolver = offlineContext.createConvolver()

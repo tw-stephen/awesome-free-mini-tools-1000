@@ -85,7 +85,7 @@ export default function ABTestPlanner() {
   const calculateSampleSize = (): number => {
     const baselineRate = 5 // 5% baseline conversion
     const minimumEffect = 20 // 20% minimum detectable effect
-    const alpha = (100 - test.confidence) / 100
+    // Alpha value for reference: (100 - test.confidence) / 100
 
     // Simplified sample size calculation
     const z = test.confidence === 99 ? 2.576 : test.confidence === 95 ? 1.96 : 1.645

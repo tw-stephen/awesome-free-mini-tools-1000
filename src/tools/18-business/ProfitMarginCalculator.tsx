@@ -31,7 +31,6 @@ export default function ProfitMarginCalculator() {
   const unitProfit = single.sellingPrice - single.unitCost
   const unitMargin = single.sellingPrice > 0 ? (unitProfit / single.sellingPrice) * 100 : 0
   const totalRevenue = single.sellingPrice * single.units
-  const totalCost = single.unitCost * single.units
   const totalProfit = unitProfit * single.units
 
   const addProduct = () => {

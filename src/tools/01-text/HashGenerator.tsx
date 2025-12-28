@@ -166,7 +166,7 @@ export default function HashGenerator() {
   const { t } = useTranslation()
   const [input, setInput] = useState('')
   const [hashes, setHashes] = useState<Record<string, string>>({})
-  const { copied, copy } = useClipboard()
+  const { copy } = useClipboard()
   const [copiedAlgo, setCopiedAlgo] = useState('')
 
   useEffect(() => {

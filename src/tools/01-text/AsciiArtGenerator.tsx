@@ -2,7 +2,6 @@ import { useState, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useClipboard } from '../../hooks/useClipboard'
 import Button from '../../components/ui/Button'
-import TextArea from '../../components/ui/TextArea'
 
 // Simple block font - each character is 5 lines tall
 const blockFont: Record<string, string[]> = {
@@ -87,18 +86,9 @@ const generateAsciiArt = (text: string): string => {
   return lines.join('\n')
 }
 
-type FontStyle = 'block' | 'banner' | 'small'
-
-const fontStyles: Record<FontStyle, string> = {
-  block: 'block',
-  banner: 'banner',
-  small: 'small',
-}
-
 export default function AsciiArtGenerator() {
   const { t } = useTranslation()
   const [input, setInput] = useState('')
-  const [fontStyle, setFontStyle] = useState<FontStyle>('block')
   const { copied, copy } = useClipboard()
 
   const output = useMemo(() => generateAsciiArt(input), [input])

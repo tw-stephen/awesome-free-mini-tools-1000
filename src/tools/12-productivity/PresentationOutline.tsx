@@ -21,7 +21,7 @@ export default function PresentationOutline() {
   const { t } = useTranslation()
   const [presentations, setPresentations] = useState<Presentation[]>([])
   const [current, setCurrent] = useState<Presentation | null>(null)
-  const [editingSlide, setEditingSlide] = useState<string | null>(null)
+  const [_editingSlide, _setEditingSlide] = useState<string | null>(null)
   const [copied, setCopied] = useState(false)
 
   useEffect(() => {

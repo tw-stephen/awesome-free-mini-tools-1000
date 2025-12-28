@@ -25,7 +25,7 @@ export default function ImageAnnotator() {
   const [image, setImage] = useState<HTMLImageElement | null>(null)
   const [annotations, setAnnotations] = useState<Annotation[]>([])
   const [selectedTool, setSelectedTool] = useState<Annotation['type']>('arrow')
-  const [selectedAnnotation, setSelectedAnnotation] = useState<string | null>(null)
+  const [_selectedAnnotation, setSelectedAnnotation] = useState<string | null>(null)
   const [isDrawing, setIsDrawing] = useState(false)
   const [startPos, setStartPos] = useState({ x: 0, y: 0 })
   const [scale, setScale] = useState(1)

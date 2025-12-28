@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useClipboard } from '../../hooks/useClipboard'
 import Button from '../../components/ui/Button'

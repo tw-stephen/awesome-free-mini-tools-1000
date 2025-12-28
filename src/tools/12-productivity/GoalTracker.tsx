@@ -35,7 +35,7 @@ export default function GoalTracker() {
     targetDate: '',
     milestones: ''
   })
-  const [editingId, setEditingId] = useState<string | null>(null)
+  const [_editingId, setEditingId] = useState<string | null>(null)
 
   const categories: GoalCategory[] = ['personal', 'career', 'health', 'finance', 'learning', 'other']
 

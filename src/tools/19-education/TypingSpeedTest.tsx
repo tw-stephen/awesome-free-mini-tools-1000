@@ -25,7 +25,7 @@ export default function TypingSpeedTest() {
   }, [])
 
   useEffect(() => {
-    let timer: NodeJS.Timeout
+    let timer: ReturnType<typeof setTimeout>
     if (testState === 'typing' && timeLeft > 0) {
       timer = setInterval(() => {
         setTimeLeft(prev => {

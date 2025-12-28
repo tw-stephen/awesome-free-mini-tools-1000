@@ -222,7 +222,7 @@ export default function FunnelChartGenerator() {
           <div className="mt-auto pt-4 border-t border-slate-200">
             <h4 className="text-xs font-medium text-slate-500 mb-2">{t('tools.funnelChart.summary')}</h4>
             <div className="space-y-1 text-xs">
-              {stages.map((stage, i) => (
+              {stages.map((stage) => (
                 <div key={stage.id} className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-sm flex-shrink-0" style={{ backgroundColor: stage.color }} />
                   <span className="flex-1 truncate">{stage.label}</span>

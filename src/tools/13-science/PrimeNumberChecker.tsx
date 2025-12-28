@@ -101,17 +101,6 @@ export default function PrimeNumberChecker() {
     setPrimesInRange(primes)
   }
 
-  const nthPrime = (n: number): number => {
-    if (n < 1) return 2
-    let count = 0
-    let num = 1
-    while (count < n) {
-      num++
-      if (isPrime(num)) count++
-    }
-    return num
-  }
-
   const quickPrimes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
 
   return (

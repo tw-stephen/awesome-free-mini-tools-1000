@@ -41,6 +41,7 @@
     "17-security": "Security & Privacy",
     "18-business": "Business & Marketing",
     "19-education": "Education & Learning",
+    "20-health": "Health & Wellness",
     "25-other": "Other Tools"
   },
   "tools": {
@@ -4094,6 +4095,19 @@
       "tip1": "Aim for 8 glasses daily",
       "tip2": "Drink more when active",
       "tip3": "Track consistently"
+    },
+    "sleepLogger": {
+      "name": "Sleep Logger",
+      "description": "Track your sleep patterns and quality",
+      "logSleep": "Log Sleep",
+      "avgDuration": "Avg Duration",
+      "avgQuality": "Avg Quality",
+      "quality": "Sleep Quality",
+      "history": "Sleep History",
+      "tips": "Sleep Tips",
+      "tip1": "Maintain a consistent sleep schedule",
+      "tip2": "Aim for 7-9 hours of sleep",
+      "tip3": "Create a relaxing bedtime routine"
     },
     "habitTracker": {
       "name": "Habit Tracker",

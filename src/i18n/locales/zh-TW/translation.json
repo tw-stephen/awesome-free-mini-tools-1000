@@ -41,6 +41,7 @@
     "17-security": "安全與隱私",
     "18-business": "商業與行銷",
     "19-education": "教育與學習",
+    "20-health": "健康與保健",
     "25-other": "其他實用工具"
   },
   "tools": {
@@ -4094,6 +4095,19 @@
       "tip1": "每天目標 8 杯水",
       "tip2": "運動時多喝水",
       "tip3": "持續追蹤"
+    },
+    "sleepLogger": {
+      "name": "睡眠記錄器",
+      "description": "追蹤您的睡眠模式和品質",
+      "logSleep": "記錄睡眠",
+      "avgDuration": "平均時長",
+      "avgQuality": "平均品質",
+      "quality": "睡眠品質",
+      "history": "睡眠記錄",
+      "tips": "睡眠小提示",
+      "tip1": "維持固定的作息時間",
+      "tip2": "目標睡眠 7-9 小時",
+      "tip3": "建立放鬆的睡前習慣"
     },
     "habitTracker": {
       "name": "習慣追蹤器",

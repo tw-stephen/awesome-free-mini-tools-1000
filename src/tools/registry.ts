@@ -225,6 +225,11 @@ import ScientificCalculator from './06-utility/ScientificCalculator'
 import AgeCalculator from './06-utility/AgeCalculator'
 import DateCalculator from './06-utility/DateCalculator'
 import BmiCalculator from './20-health/BMICalculator'
+import CalorieCounter20 from './20-health/CalorieCounter'
+import WaterIntakeTracker from './20-health/WaterIntakeTracker'
+import SleepLogger from './20-health/SleepLogger'
+import ExerciseTimer from './20-health/ExerciseTimer'
+import StepCounter from './20-health/StepCounter'
 import TipCalculator from './06-utility/TipCalculator'
 import PercentageCalculator from './06-utility/PercentageCalculator'
 import LoanCalculator from './06-utility/LoanCalculator'
@@ -7371,6 +7376,47 @@ export const tools: ToolInfo[] = [
     category: '19-education',
     component: StudyPlaylist,
   },
+  // Health Tools (20-health) - 763+
+  {
+    id: '763',
+    path: 'calorie-counter',
+    nameKey: 'tools.calorieCounter.name',
+    descriptionKey: 'tools.calorieCounter.description',
+    category: '20-health',
+    component: CalorieCounter20,
+  },
+  {
+    id: '764',
+    path: 'water-intake-tracker',
+    nameKey: 'tools.waterIntakeTracker.name',
+    descriptionKey: 'tools.waterIntakeTracker.description',
+    category: '20-health',
+    component: WaterIntakeTracker,
+  },
+  {
+    id: '765',
+    path: 'sleep-logger',
+    nameKey: 'tools.sleepLogger.name',
+    descriptionKey: 'tools.sleepLogger.description',
+    category: '20-health',
+    component: SleepLogger,
+  },
+  {
+    id: '766',
+    path: 'exercise-timer',
+    nameKey: 'tools.exerciseTimer.name',
+    descriptionKey: 'tools.exerciseTimer.description',
+    category: '20-health',
+    component: ExerciseTimer,
+  },
+  {
+    id: '767',
+    path: 'step-counter',
+    nameKey: 'tools.stepCounter.name',
+    descriptionKey: 'tools.stepCounter.description',
+    category: '20-health',
+    component: StepCounter,
+  },
 ]
 
 export const categories = [
@@ -7393,6 +7439,7 @@ export const categories = [
   { id: '17-security', nameKey: 'categories.17-security' },
   { id: '18-business', nameKey: 'categories.18-business' },
   { id: '19-education', nameKey: 'categories.19-education' },
+  { id: '20-health', nameKey: 'categories.20-health' },
   { id: '25-other', nameKey: 'categories.25-other' },
 ]
 

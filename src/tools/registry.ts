@@ -224,7 +224,7 @@ import BasicCalculator from './06-utility/BasicCalculator'
 import ScientificCalculator from './06-utility/ScientificCalculator'
 import AgeCalculator from './06-utility/AgeCalculator'
 import DateCalculator from './06-utility/DateCalculator'
-import BmiCalculator from './06-utility/BmiCalculator'
+import BmiCalculator from './20-health/BMICalculator'
 import TipCalculator from './06-utility/TipCalculator'
 import PercentageCalculator from './06-utility/PercentageCalculator'
 import LoanCalculator from './06-utility/LoanCalculator'
@@ -386,7 +386,6 @@ import MathFactsPractice from './09-education/MathFactsPractice'
 import ReadingLog from './09-education/ReadingLog'
 import ScienceGlossary from './09-education/ScienceGlossary'
 // Health Tools (363-402)
-import HealthBmiCalculator from './10-health/BmiCalculator'
 import BodyFatCalculator from './10-health/BodyFatCalculator'
 import HealthCalorieCounter from './10-health/CalorieCounter'
 import WaterIntakeCalculator from './10-health/WaterIntakeCalculator'
@@ -2912,7 +2911,7 @@ export const tools: ToolInfo[] = [
     path: 'bmi-calculator',
     nameKey: 'tools.bmiCalculator.name',
     descriptionKey: 'tools.bmiCalculator.description',
-    category: '06-utility',
+    category: '20-health',
     component: BmiCalculator,
   },
   {
@@ -4175,14 +4174,6 @@ export const tools: ToolInfo[] = [
     component: ScienceGlossary,
   },
   // Health Tools (363-402)
-  {
-    id: '363',
-    path: 'health-bmi-calculator',
-    nameKey: 'tools.healthBmiCalculator.name',
-    descriptionKey: 'tools.healthBmiCalculator.description',
-    category: '10-health',
-    component: HealthBmiCalculator,
-  },
   {
     id: '364',
     path: 'body-fat-calculator',

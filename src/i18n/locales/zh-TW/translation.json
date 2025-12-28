@@ -36,6 +36,11 @@
     "12-productivity": "生產力與商務",
     "13-science": "科學與數學",
     "14-games": "遊戲與娛樂",
+    "15-art": "藝術與設計",
+    "16-communication": "溝通與協作",
+    "17-security": "安全與隱私",
+    "18-business": "商業與行銷",
+    "19-education": "教育與學習",
     "25-other": "其他實用工具"
   },
   "tools": {
@@ -9941,6 +9946,1724 @@
       "instruction1": "在轉盤上新增你自己的項目",
       "instruction2": "點擊旋轉隨機選擇一個項目",
       "instruction3": "非常適合做決定或玩遊戲！"
+    },
+    "colorPaletteGenerator": {
+      "name": "調色盤產生器",
+      "description": "為您的設計生成美麗的配色方案",
+      "colors": "顏色",
+      "mode": "模式",
+      "generate": "生成",
+      "copy": "複製"
+    },
+    "gradientGenerator": {
+      "name": "漸層產生器",
+      "description": "建立自訂顏色和方向的 CSS 漸層",
+      "direction": "方向",
+      "colorStops": "顏色節點",
+      "addStop": "新增節點",
+      "css": "CSS 程式碼",
+      "copy": "複製 CSS"
+    },
+    "patternMaker": {
+      "name": "圖案製作器",
+      "description": "建立無縫背景圖案",
+      "pattern": "圖案類型",
+      "colors": "顏色",
+      "size": "大小",
+      "download": "下載"
+    },
+    "pixelArtMaker": {
+      "name": "像素畫製作器",
+      "description": "用簡單的網格編輯器建立像素畫",
+      "gridSize": "網格大小",
+      "color": "顏色",
+      "tool": "工具",
+      "clear": "清除",
+      "download": "下載"
+    },
+    "iconGenerator": {
+      "name": "圖示產生器",
+      "description": "生成簡單的圖示和頭像",
+      "shape": "形狀",
+      "color": "顏色",
+      "bgColor": "背景顏色",
+      "letter": "字母",
+      "download": "下載"
+    },
+    "logoMaker": {
+      "name": "標誌製作器",
+      "description": "建立簡單的標誌設計",
+      "text": "文字",
+      "icon": "圖示",
+      "style": "風格",
+      "colors": "顏色",
+      "download": "下載"
+    },
+    "bannerCreator": {
+      "name": "橫幅建立器",
+      "description": "建立網頁橫幅和廣告",
+      "size": "尺寸",
+      "text": "文字",
+      "style": "風格",
+      "download": "下載"
+    },
+    "faviconGenerator": {
+      "name": "網站圖示產生器",
+      "description": "為網站生成 favicon",
+      "letter": "字母",
+      "bgColor": "背景",
+      "textColor": "文字顏色",
+      "shape": "形狀",
+      "download": "下載"
+    },
+    "mockupGenerator": {
+      "name": "裝置模型產生器",
+      "description": "建立簡報用裝置模型",
+      "device": "裝置",
+      "color": "顏色",
+      "download": "下載"
+    },
+    "colorBlindSimulator": {
+      "name": "色盲模擬器",
+      "description": "查看您的設計在色盲使用者眼中的樣子",
+      "uploadImage": "上傳圖片",
+      "selectType": "色盲類型"
+    },
+    "imageFilters": {
+      "name": "圖片濾鏡",
+      "description": "對圖片套用濾鏡和調整",
+      "upload": "上傳圖片",
+      "brightness": "亮度",
+      "contrast": "對比度",
+      "saturation": "飽和度",
+      "blur": "模糊",
+      "reset": "重置",
+      "download": "下載"
+    },
+    "textureMaker": {
+      "name": "紋理製作器",
+      "description": "生成程序化紋理",
+      "type": "紋理類型",
+      "colors": "顏色",
+      "scale": "比例",
+      "download": "下載"
+    },
+    "shapeGenerator": {
+      "name": "形狀產生器",
+      "description": "生成各種幾何形狀",
+      "shape": "形狀",
+      "color": "顏色",
+      "size": "大小",
+      "rotation": "旋轉",
+      "download": "下載"
+    },
+    "watermarkMaker": {
+      "name": "浮水印製作器",
+      "description": "在圖片上添加浮水印",
+      "upload": "上傳圖片",
+      "text": "浮水印文字",
+      "position": "位置",
+      "opacity": "透明度",
+      "download": "下載"
+    },
+    "collageCreator": {
+      "name": "拼貼畫建立器",
+      "description": "建立照片拼貼",
+      "layout": "版面配置",
+      "uploadImages": "上傳圖片",
+      "download": "下載"
+    },
+    "memeGenerator": {
+      "name": "迷因產生器",
+      "description": "建立自訂文字的迷因",
+      "upload": "上傳圖片",
+      "topText": "上方文字",
+      "bottomText": "下方文字",
+      "download": "下載"
+    },
+    "avatarCreator": {
+      "name": "頭像建立器",
+      "description": "建立卡通頭像",
+      "face": "臉型",
+      "eyes": "眼睛",
+      "mouth": "嘴巴",
+      "hair": "髮型",
+      "color": "顏色",
+      "download": "下載"
+    },
+    "badgeMaker": {
+      "name": "徽章製作器",
+      "description": "建立獎章和緞帶",
+      "style": "風格",
+      "text": "文字",
+      "color": "顏色",
+      "download": "下載"
+    },
+    "certificateMaker": {
+      "name": "證書製作器",
+      "description": "建立證書和獎狀",
+      "title": "標題",
+      "recipientName": "獲獎者姓名",
+      "description": "描述",
+      "date": "日期",
+      "template": "範本",
+      "download": "下載"
+    },
+    "businessCardDesigner": {
+      "name": "名片設計器",
+      "description": "設計專業名片",
+      "name": "姓名",
+      "title": "職稱",
+      "email": "電子郵件",
+      "phone": "電話",
+      "layout": "版面配置",
+      "download": "下載"
+    },
+    "posterMaker": {
+      "name": "海報製作器",
+      "description": "建立活動海報",
+      "title": "標題",
+      "subtitle": "副標題",
+      "template": "範本",
+      "colors": "顏色",
+      "download": "下載"
+    },
+    "chartMaker": {
+      "name": "圖表製作器",
+      "description": "建立長條圖、折線圖和圓餅圖",
+      "chartType": "圖表類型",
+      "data": "資料",
+      "addData": "新增資料",
+      "download": "下載"
+    },
+    "flowchartMaker": {
+      "name": "流程圖製作器",
+      "description": "建立簡單的流程圖",
+      "addNode": "新增節點",
+      "nodeText": "節點文字",
+      "nodeType": "節點類型",
+      "download": "下載"
+    },
+    "mindmapBuilder": {
+      "name": "心智圖建構器",
+      "description": "建立腦力激盪用的心智圖",
+      "centralTopic": "中心主題",
+      "addBranch": "新增分支",
+      "download": "下載"
+    },
+    "colorMixer": {
+      "name": "調色器",
+      "description": "混合兩種顏色",
+      "color1": "顏色 1",
+      "color2": "顏色 2",
+      "ratio": "混合比例",
+      "result": "結果",
+      "copy": "複製"
+    },
+    "paletteExtractor": {
+      "name": "配色提取器",
+      "description": "從圖片提取配色",
+      "upload": "上傳圖片",
+      "colors": "提取的顏色",
+      "copy": "複製顏色"
+    },
+    "colorHarmony": {
+      "name": "配色協調",
+      "description": "生成協調的顏色組合",
+      "baseColor": "基礎顏色",
+      "harmonyType": "協調類型",
+      "colors": "顏色"
+    },
+    "contrastChecker": {
+      "name": "對比度檢查器",
+      "description": "檢查 WCAG 顏色對比度",
+      "foreground": "前景色",
+      "background": "背景色",
+      "ratio": "對比度",
+      "level": "WCAG 等級"
+    },
+    "shadowGenerator": {
+      "name": "陰影產生器",
+      "description": "生成 CSS 盒陰影",
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "blur": "模糊",
+      "spread": "擴散",
+      "color": "顏色",
+      "inset": "內陰影",
+      "copy": "複製 CSS"
+    },
+    "borderGenerator": {
+      "name": "邊框產生器",
+      "description": "生成 CSS 邊框樣式",
+      "width": "寬度",
+      "style": "樣式",
+      "color": "顏色",
+      "radius": "圓角",
+      "copy": "複製 CSS"
+    },
+    "dividerMaker": {
+      "name": "分隔線製作器",
+      "description": "建立區塊分隔線",
+      "style": "樣式",
+      "color": "顏色",
+      "height": "高度",
+      "copy": "複製 SVG"
+    },
+    "emojiArt": {
+      "name": "表情符號藝術",
+      "description": "用表情符號建立像素畫",
+      "gridSize": "網格大小",
+      "selectedEmoji": "選擇的表情符號",
+      "clear": "清除",
+      "copy": "複製"
+    },
+    "asciiArtGenerator": {
+      "name": "ASCII 藝術產生器",
+      "description": "將圖片轉換為 ASCII 藝術",
+      "upload": "上傳圖片",
+      "width": "寬度",
+      "characters": "字元",
+      "invert": "反轉",
+      "copy": "複製"
+    },
+    "typographyTool": {
+      "name": "字型工具",
+      "description": "預覽和調整字型設定",
+      "font": "字型",
+      "size": "字型大小",
+      "weight": "字重",
+      "lineHeight": "行高",
+      "letterSpacing": "字元間距",
+      "preview": "預覽文字"
+    },
+    "fontPairer": {
+      "name": "字型配對器",
+      "description": "尋找搭配良好的字型",
+      "headingFont": "標題字型",
+      "bodyFont": "內文字型",
+      "suggestions": "建議"
+    },
+    "designInspiration": {
+      "name": "設計靈感",
+      "description": "獲取設計靈感和配色方案",
+      "category": "類別",
+      "randomPalette": "隨機配色",
+      "copyColors": "複製顏色",
+      "tips": "設計技巧",
+      "tip1": "使用 60-30-10 規則分配顏色",
+      "tip2": "將配色限制在 3-5 種顏色",
+      "tip3": "使用對比建立視覺層次"
+    },
+    "colorConverter": {
+      "name": "顏色轉換器",
+      "description": "在 HEX、RGB 和 HSL 之間轉換顏色",
+      "hex": "HEX",
+      "rgb": "RGB",
+      "hsl": "HSL"
+    },
+    "imageCropper": {
+      "name": "圖片裁剪器",
+      "description": "裁剪和調整圖片大小",
+      "upload": "上傳圖片",
+      "aspectRatio": "長寬比",
+      "cropArea": "裁剪區域",
+      "changeImage": "更換圖片",
+      "download": "下載"
+    },
+    "thumbnailMaker": {
+      "name": "縮圖製作器",
+      "description": "建立影片縮圖",
+      "text": "文字",
+      "style": "風格",
+      "colors": "顏色",
+      "download": "下載"
+    },
+    "socialMediaImageCreator": {
+      "name": "社群媒體圖片建立器",
+      "description": "建立社群媒體平台用的圖片",
+      "platform": "平台",
+      "template": "範本",
+      "text": "文字",
+      "colors": "顏色",
+      "download": "下載"
+    },
+    "teamMessageFormatter": {
+      "name": "團隊訊息格式器",
+      "description": "格式化專業團隊訊息",
+      "type": "訊息類型",
+      "urgency": "緊急程度",
+      "recipient": "收件人",
+      "subject": "主旨",
+      "message": "訊息",
+      "preview": "預覽",
+      "copy": "複製訊息"
+    },
+    "meetingScheduler": {
+      "name": "會議排程器",
+      "description": "安排會議時段",
+      "title": "會議標題",
+      "date": "日期",
+      "duration": "時長",
+      "participants": "參與者",
+      "slots": "時段",
+      "addSlot": "新增時段",
+      "preview": "預覽",
+      "copy": "複製行程"
+    },
+    "emailTemplateBuilder": {
+      "name": "電子郵件範本建立器",
+      "description": "建立專業電子郵件範本",
+      "template": "範本",
+      "subject": "主旨",
+      "recipient": "收件人",
+      "body": "內容",
+      "style": "樣式",
+      "preview": "預覽",
+      "copy": "複製郵件"
+    },
+    "groupNameGenerator": {
+      "name": "群組名稱產生器",
+      "description": "產生創意群組名稱",
+      "category": "類別",
+      "style": "風格",
+      "generate": "產生名稱",
+      "suggestions": "建議",
+      "copy": "複製"
+    },
+    "announcementMaker": {
+      "name": "公告製作器",
+      "description": "建立專業公告",
+      "type": "類型",
+      "title": "標題",
+      "content": "內容",
+      "audience": "對象",
+      "preview": "預覽",
+      "copy": "複製公告"
+    },
+    "slackMessageFormatter": {
+      "name": "Slack 訊息格式器",
+      "description": "格式化 Slack 訊息",
+      "text": "訊息文字",
+      "formatting": "格式化",
+      "preview": "預覽",
+      "copy": "複製"
+    },
+    "discordEmbedGenerator": {
+      "name": "Discord 嵌入產生器",
+      "description": "產生 Discord 嵌入 JSON",
+      "title": "標題",
+      "description": "說明",
+      "color": "顏色",
+      "fields": "欄位",
+      "addField": "新增欄位",
+      "preview": "預覽",
+      "json": "JSON 輸出",
+      "copy": "複製 JSON"
+    },
+    "agendaCreator": {
+      "name": "議程建立器",
+      "description": "建立會議議程",
+      "meeting": "會議標題",
+      "date": "日期",
+      "items": "議程項目",
+      "addItem": "新增項目",
+      "preview": "預覽",
+      "copy": "複製議程"
+    },
+    "meetingMinutes": {
+      "name": "會議記錄",
+      "description": "記錄會議紀要",
+      "meeting": "會議標題",
+      "date": "日期",
+      "attendees": "出席者",
+      "notes": "記錄",
+      "actions": "行動項目",
+      "addAction": "新增行動",
+      "preview": "預覽",
+      "copy": "複製紀要"
+    },
+    "pollMaker": {
+      "name": "投票製作器",
+      "description": "建立投票與調查",
+      "question": "問題",
+      "options": "選項",
+      "addOption": "新增選項",
+      "vote": "投票",
+      "results": "結果",
+      "reset": "重置",
+      "copy": "複製結果"
+    },
+    "icebreakerGenerator": {
+      "name": "破冰問題產生器",
+      "description": "產生破冰問題",
+      "category": "類別",
+      "generate": "產生問題",
+      "question": "問題",
+      "copy": "複製"
+    },
+    "standupFormatter": {
+      "name": "每日站會格式器",
+      "description": "格式化每日站會更新",
+      "name": "姓名",
+      "yesterday": "昨天",
+      "today": "今天",
+      "blockers": "障礙",
+      "preview": "預覽",
+      "copy": "複製更新"
+    },
+    "retrospectiveTemplate": {
+      "name": "回顧範本",
+      "description": "建立回顧範本",
+      "sprint": "衝刺",
+      "wentWell": "做得好的",
+      "improve": "需改進的",
+      "actions": "行動項目",
+      "addItem": "新增項目",
+      "preview": "預覽",
+      "copy": "複製回顧"
+    },
+    "feedbackFormBuilder": {
+      "name": "回饋表單建立器",
+      "description": "建立回饋表單",
+      "title": "表單標題",
+      "questions": "問題",
+      "addQuestion": "新增問題",
+      "preview": "預覽",
+      "copy": "複製表單"
+    },
+    "teamDirectory": {
+      "name": "團隊通訊錄",
+      "description": "管理團隊通訊錄",
+      "team": "團隊名稱",
+      "members": "成員",
+      "addMember": "新增成員",
+      "export": "匯出",
+      "copy": "複製通訊錄"
+    },
+    "onboardingChecklist": {
+      "name": "入職檢查清單",
+      "description": "建立入職檢查清單",
+      "role": "角色",
+      "items": "清單項目",
+      "addItem": "新增項目",
+      "progress": "進度",
+      "preview": "預覽",
+      "copy": "複製清單"
+    },
+    "oneOnOneAgenda": {
+      "name": "一對一議程",
+      "description": "建立一對一會議議程",
+      "manager": "主管",
+      "employee": "員工",
+      "date": "日期",
+      "managerTopics": "主管議題",
+      "employeeTopics": "員工議題",
+      "actionItems": "行動項目",
+      "notes": "備註",
+      "preview": "預覽",
+      "copy": "複製議程"
+    },
+    "statusUpdateFormatter": {
+      "name": "狀態更新格式器",
+      "description": "格式化專案狀態更新",
+      "project": "專案",
+      "status": "狀態",
+      "progress": "進度",
+      "format": "格式",
+      "highlights": "重點",
+      "nextSteps": "下一步",
+      "risks": "風險",
+      "preview": "預覽",
+      "copy": "複製更新"
+    },
+    "taskDelegator": {
+      "name": "任務委派器",
+      "description": "委派任務給團隊成員",
+      "tasks": "任務",
+      "addTask": "新增任務",
+      "preview": "預覽",
+      "copy": "複製委派"
+    },
+    "teamRoleAssigner": {
+      "name": "團隊角色分配器",
+      "description": "分配團隊成員角色",
+      "project": "專案",
+      "roles": "角色",
+      "addRole": "新增角色",
+      "preview": "預覽",
+      "copy": "複製分配"
+    },
+    "decisionMatrix": {
+      "name": "決策矩陣",
+      "description": "使用加權標準做決策",
+      "decision": "決策",
+      "option": "選項",
+      "total": "總分",
+      "recommendation": "建議"
+    },
+    "brainstormBoard": {
+      "name": "腦力激盪板",
+      "description": "協作腦力激盪工具",
+      "topic": "主題",
+      "addIdea": "新增想法",
+      "ideas": "想法",
+      "export": "匯出",
+      "copy": "複製想法"
+    },
+    "projectTimeline": {
+      "name": "專案時間軸",
+      "description": "建立專案時間軸",
+      "project": "專案",
+      "milestones": "里程碑",
+      "addMilestone": "新增里程碑",
+      "preview": "預覽",
+      "copy": "複製時間軸"
+    },
+    "milestoneTracker": {
+      "name": "里程碑追蹤器",
+      "description": "追蹤專案里程碑",
+      "project": "專案",
+      "progress": "進度",
+      "addMilestone": "新增里程碑",
+      "milestones": "里程碑",
+      "report": "報告",
+      "copy": "複製報告"
+    },
+    "resourcePlanner": {
+      "name": "資源規劃器",
+      "description": "規劃與分配資源",
+      "project": "專案",
+      "resources": "資源",
+      "addResource": "新增資源",
+      "summary": "摘要",
+      "export": "匯出",
+      "copy": "複製計畫"
+    },
+    "workloadBalancer": {
+      "name": "工作量平衡器",
+      "description": "平衡團隊工作量",
+      "overview": "總覽",
+      "addTask": "新增任務",
+      "team": "團隊成員",
+      "report": "報告",
+      "copy": "複製報告"
+    },
+    "communicationLog": {
+      "name": "溝通日誌",
+      "description": "記錄團隊溝通",
+      "newEntry": "新增記錄",
+      "add": "新增",
+      "entries": "記錄",
+      "export": "匯出",
+      "copy": "複製日誌"
+    },
+    "escalationPath": {
+      "name": "升級路徑",
+      "description": "定義升級路徑",
+      "process": "流程名稱",
+      "levels": "升級層級",
+      "addLevel": "新增層級",
+      "preview": "預覽",
+      "copy": "複製路徑"
+    },
+    "orgChartMaker": {
+      "name": "組織圖製作器",
+      "description": "建立組織架構圖",
+      "organization": "組織",
+      "chart": "圖表",
+      "summary": "摘要",
+      "textView": "文字檢視",
+      "copy": "複製圖表"
+    },
+    "exitInterviewTemplate": {
+      "name": "離職面談範本",
+      "description": "建立離職面談範本",
+      "details": "員工資料",
+      "questions": "問題",
+      "comments": "其他意見",
+      "preview": "預覽",
+      "copy": "複製面談"
+    },
+    "performanceReviewTemplate": {
+      "name": "績效評估範本",
+      "description": "建立績效評估範本",
+      "details": "評估資料",
+      "overall": "整體評分",
+      "goals": "目標達成",
+      "competencies": "能力評估",
+      "strengths": "優點",
+      "improvements": "待改進",
+      "nextGoals": "下期目標",
+      "preview": "預覽",
+      "copy": "複製評估"
+    },
+    "meetingCostCalculator": {
+      "name": "會議成本計算器",
+      "description": "計算會議成本",
+      "meeting": "會議",
+      "frequency": "頻率",
+      "duration": "時長",
+      "attendees": "出席者",
+      "insights": "成本分析",
+      "report": "報告",
+      "copy": "複製報告"
+    },
+    "teamHealthCheck": {
+      "name": "團隊健康檢查",
+      "description": "評估團隊健康",
+      "team": "團隊",
+      "date": "日期",
+      "overall": "整體分數",
+      "assessment": "評估",
+      "attention": "需要注意",
+      "report": "報告",
+      "copy": "複製報告"
+    },
+    "raciMatrix": {
+      "name": "RACI 矩陣",
+      "description": "建立 RACI 責任矩陣",
+      "project": "專案",
+      "tasks": "任務",
+      "addTask": "新增任務",
+      "validation": "驗證",
+      "export": "匯出",
+      "copy": "複製矩陣"
+    },
+    "knowledgeBaseBuilder": {
+      "name": "知識庫建立器",
+      "description": "建立知識庫文章",
+      "name": "知識庫名稱",
+      "categories": "類別",
+      "articles": "文章",
+      "export": "匯出",
+      "copy": "複製知識庫"
+    },
+    "changelogGenerator": {
+      "name": "更新日誌產生器",
+      "description": "產生更新日誌",
+      "project": "專案",
+      "releases": "版本",
+      "summary": "摘要",
+      "preview": "預覽",
+      "copy": "複製日誌"
+    },
+    "releaseNotesBuilder": {
+      "name": "版本說明建立器",
+      "description": "建立版本說明",
+      "product": "產品",
+      "version": "版本",
+      "date": "日期",
+      "headline": "標題",
+      "format": "格式",
+      "features": "功能與變更",
+      "knownIssues": "已知問題",
+      "upgradeNotes": "升級說明",
+      "preview": "預覽",
+      "copy": "複製說明"
+    },
+    "sopBuilder": {
+      "name": "SOP 建立器",
+      "description": "建立標準作業程序",
+      "header": "SOP 標頭",
+      "purpose": "目的",
+      "scope": "範圍",
+      "steps": "程序步驟",
+      "flowchart": "流程圖",
+      "preview": "預覽",
+      "copy": "複製 SOP"
+    },
+    "processFlowMaker": {
+      "name": "流程圖製作器",
+      "description": "建立流程圖",
+      "name": "流程名稱",
+      "addNode": "新增節點",
+      "nodes": "節點",
+      "legend": "圖例",
+      "export": "匯出",
+      "copy": "複製流程"
+    },
+    "teamCapacityPlanner": {
+      "name": "團隊容量規劃器",
+      "description": "規劃團隊容量",
+      "sprint": "衝刺",
+      "settings": "設定",
+      "team": "團隊成員",
+      "byRole": "依角色容量",
+      "report": "報告",
+      "copy": "複製報告"
+    },
+    "passwordGeneratorSecurity": {
+      "name": "密碼產生器",
+      "description": "產生安全的隨機密碼，可自訂選項",
+      "length": "密碼長度",
+      "options": "選項",
+      "generate": "產生密碼",
+      "copy": "複製密碼",
+      "strength": "強度"
+    },
+    "passwordStrengthChecker": {
+      "name": "密碼強度檢查器",
+      "description": "檢查密碼強度並獲得改善建議",
+      "enter": "輸入密碼",
+      "strength": "強度",
+      "criteria": "標準",
+      "suggestions": "建議",
+      "crackTime": "預估破解時間"
+    },
+    "hashGeneratorSecurity": {
+      "name": "雜湊產生器",
+      "description": "產生 SHA-1、SHA-256、SHA-384、SHA-512 雜湊",
+      "input": "輸入文字",
+      "algorithm": "演算法",
+      "hash": "雜湊結果",
+      "copy": "複製雜湊"
+    },
+    "textEncryptor": {
+      "name": "文字加密器",
+      "description": "使用 AES-256-GCM 加密和解密文字",
+      "text": "文字",
+      "password": "密碼",
+      "encrypt": "加密",
+      "decrypt": "解密",
+      "result": "結果"
+    },
+    "twoFactorSetup": {
+      "name": "雙重驗證設定助手",
+      "description": "產生 TOTP 密鑰和 QR 碼以設定雙重驗證",
+      "account": "帳號資訊",
+      "secret": "密鑰",
+      "qrCode": "QR 碼",
+      "verify": "驗證代碼",
+      "copy": "複製密鑰"
+    },
+    "secureNotepad": {
+      "name": "安全記事本",
+      "description": "具有自動鎖定功能的加密記事本",
+      "password": "密碼",
+      "notes": "筆記",
+      "unlock": "解鎖",
+      "lock": "鎖定",
+      "autoLock": "自動鎖定"
+    },
+    "privacyPolicyGenerator": {
+      "name": "隱私政策產生器",
+      "description": "為網站產生隱私政策範本",
+      "info": "網站資訊",
+      "sections": "政策章節",
+      "preview": "預覽",
+      "copy": "複製政策"
+    },
+    "cookieConsentBuilder": {
+      "name": "Cookie 同意建置器",
+      "description": "為您的網站建立 Cookie 同意橫幅",
+      "settings": "設定",
+      "preview": "預覽",
+      "code": "HTML 程式碼",
+      "copy": "複製程式碼"
+    },
+    "dataBreachChecker": {
+      "name": "資料外洩檢查器",
+      "description": "檢查電子郵件是否曾在已知的資料外洩事件中",
+      "email": "電子郵件地址",
+      "check": "檢查外洩",
+      "results": "結果",
+      "info": "外洩資訊"
+    },
+    "permissionAnalyzer": {
+      "name": "權限分析器",
+      "description": "分析應用程式權限及其風險",
+      "select": "選擇權限",
+      "risk": "風險評估",
+      "summary": "摘要",
+      "recommendations": "建議"
+    },
+    "securityHeadersChecker": {
+      "name": "安全標頭檢查器",
+      "description": "檢查網站的 HTTP 安全標頭",
+      "url": "輸入網址",
+      "check": "檢查標頭",
+      "results": "結果",
+      "recommendations": "建議"
+    },
+    "sslCertificateInfo": {
+      "name": "SSL 憑證資訊",
+      "description": "查看網域的 SSL 憑證詳細資訊",
+      "domain": "網域",
+      "check": "檢查憑證",
+      "info": "憑證資訊",
+      "chain": "憑證鏈"
+    },
+    "keyPairGenerator": {
+      "name": "金鑰對產生器",
+      "description": "產生 RSA、ECDSA 和 ECDH 金鑰對",
+      "algorithm": "演算法",
+      "generate": "產生金鑰",
+      "publicKey": "公鑰",
+      "privateKey": "私鑰"
+    },
+    "secretSharing": {
+      "name": "秘密分享",
+      "description": "使用 XOR 將秘密分割成多個份額",
+      "secret": "秘密",
+      "shares": "份額數量",
+      "split": "分割秘密",
+      "combine": "合併份額"
+    },
+    "fileHashChecker": {
+      "name": "檔案雜湊檢查器",
+      "description": "計算和驗證檔案雜湊",
+      "select": "選擇檔案",
+      "algorithm": "演算法",
+      "hash": "雜湊",
+      "verify": "驗證雜湊"
+    },
+    "metadataStripper": {
+      "name": "中繼資料移除器",
+      "description": "從圖片中移除中繼資料",
+      "select": "選擇圖片",
+      "preview": "預覽",
+      "strip": "移除中繼資料",
+      "download": "下載乾淨圖片"
+    },
+    "anonymousIdGenerator": {
+      "name": "匿名 ID 產生器",
+      "description": "產生匿名識別碼（UUID、NanoID）",
+      "type": "ID 類型",
+      "generate": "產生",
+      "copy": "複製 ID",
+      "batch": "批次產生"
+    },
+    "privacySettingsAudit": {
+      "name": "隱私設定稽核",
+      "description": "稽核各平台的隱私設定",
+      "platform": "平台",
+      "checklist": "隱私檢查清單",
+      "score": "隱私分數",
+      "recommendations": "建議"
+    },
+    "securePasswordShare": {
+      "name": "安全密碼分享",
+      "description": "使用加密安全地分享密碼",
+      "password": "要分享的密碼",
+      "expiry": "連結有效期限",
+      "generate": "產生分享連結",
+      "link": "分享連結"
+    },
+    "accessControlMatrix": {
+      "name": "存取控制矩陣",
+      "description": "定義基於角色的存取控制矩陣",
+      "roles": "角色",
+      "resources": "資源",
+      "permissions": "權限",
+      "export": "匯出矩陣"
+    },
+    "riskAssessmentTool": {
+      "name": "風險評估工具",
+      "description": "評估和評分安全風險",
+      "risks": "已識別風險",
+      "addRisk": "新增風險",
+      "matrix": "風險矩陣",
+      "report": "產生報告"
+    },
+    "incidentResponsePlan": {
+      "name": "事件回應計畫",
+      "description": "建立事件回應計畫",
+      "phases": "回應階段",
+      "contacts": "緊急聯絡人",
+      "playbook": "操作手冊",
+      "export": "匯出計畫"
+    },
+    "securityChecklist": {
+      "name": "安全檢查清單",
+      "description": "適用於不同環境的安全檢查清單",
+      "category": "類別",
+      "items": "檢查項目",
+      "progress": "進度",
+      "export": "匯出檢查清單"
+    },
+    "phishingDetector": {
+      "name": "釣魚偵測器",
+      "description": "分析網址和電子郵件中的釣魚指標",
+      "input": "網址或電子郵件內容",
+      "analyze": "分析",
+      "result": "分析結果",
+      "indicators": "釣魚指標"
+    },
+    "dataClassifier": {
+      "name": "資料分類器",
+      "description": "分類資料敏感度等級",
+      "input": "要分類的資料",
+      "classify": "分類",
+      "result": "分類結果",
+      "handling": "處理要求"
+    },
+    "encryptionKeyManager": {
+      "name": "加密金鑰管理器",
+      "description": "追蹤和管理加密金鑰",
+      "keys": "金鑰",
+      "addKey": "新增金鑰",
+      "rotation": "輪換排程",
+      "export": "匯出金鑰清單"
+    },
+    "secureFileNamer": {
+      "name": "安全檔案命名器",
+      "description": "產生具有分類的安全檔案名稱",
+      "original": "原始名稱",
+      "classification": "分類",
+      "generate": "產生名稱",
+      "preview": "預覽"
+    },
+    "privacyImpactAssessment": {
+      "name": "隱私影響評估",
+      "description": "進行隱私影響評估",
+      "project": "專案資訊",
+      "questions": "評估問題",
+      "risks": "已識別風險",
+      "report": "產生報告"
+    },
+    "consentManager": {
+      "name": "同意管理器",
+      "description": "管理使用者同意記錄",
+      "records": "同意記錄",
+      "add": "新增記錄",
+      "history": "歷史",
+      "export": "匯出記錄"
+    },
+    "dataRetentionPolicy": {
+      "name": "資料保留政策",
+      "description": "定義資料保留政策",
+      "categories": "資料類別",
+      "periods": "保留期限",
+      "policy": "政策文件",
+      "export": "匯出政策"
+    },
+    "securityAwarenessQuiz": {
+      "name": "資安意識測驗",
+      "description": "透過測驗測試資安知識",
+      "start": "開始測驗",
+      "question": "問題",
+      "score": "您的分數",
+      "review": "檢視答案"
+    },
+    "threatModelBuilder": {
+      "name": "威脅模型建置器",
+      "description": "使用 STRIDE 方法論建立威脅模型",
+      "system": "系統描述",
+      "addThreat": "新增威脅",
+      "threats": "已識別威脅",
+      "export": "匯出模型"
+    },
+    "securityPolicyGenerator": {
+      "name": "安全政策產生器",
+      "description": "產生安全政策文件",
+      "info": "組織資訊",
+      "sections": "政策章節",
+      "preview": "預覽",
+      "copy": "複製政策",
+      "disclaimer": "免責聲明"
+    },
+    "complianceChecker": {
+      "name": "合規檢查器",
+      "description": "檢查是否符合安全框架",
+      "framework": "選擇框架",
+      "score": "合規分數",
+      "requirements": "要求",
+      "export": "匯出報告"
+    },
+    "auditLogViewer": {
+      "name": "稽核日誌檢視器",
+      "description": "檢視和分析稽核日誌",
+      "filters": "篩選器",
+      "logs": "日誌項目",
+      "details": "日誌詳細資訊",
+      "info": "資訊"
+    },
+    "accessReviewTool": {
+      "name": "存取審查工具",
+      "description": "進行定期存取審查",
+      "reviewer": "審查者",
+      "progress": "審查進度",
+      "records": "存取記錄",
+      "complete": "完成審查",
+      "tips": "審查提示"
+    },
+    "securityScorecard": {
+      "name": "安全計分卡",
+      "description": "評估整體安全狀態",
+      "overall": "總分",
+      "categories": "類別",
+      "export": "匯出報告",
+      "info": "資訊"
+    },
+    "vulnerabilityTracker": {
+      "name": "漏洞追蹤器",
+      "description": "追蹤和管理安全漏洞",
+      "filters": "篩選器",
+      "addVuln": "新增漏洞",
+      "list": "漏洞清單",
+      "info": "資訊"
+    },
+    "secureCodeReview": {
+      "name": "安全程式碼審查",
+      "description": "以安全為重點的程式碼審查檢查清單",
+      "info": "審查資訊",
+      "progress": "審查進度",
+      "categories": "審查類別",
+      "export": "匯出報告"
+    },
+    "biometricAuthGuide": {
+      "name": "生物辨識驗證指南",
+      "description": "生物辨識驗證方法指南",
+      "title": "生物辨識方法",
+      "comparison": "比較",
+      "bestPractices": "最佳實踐",
+      "export": "匯出指南"
+    },
+    "businessNameGenerator": {
+      "name": "公司名稱產生器",
+      "description": "產生創意商業名稱點子",
+      "industry": "產業",
+      "keywords": "關鍵字",
+      "style": "名稱風格",
+      "generate": "產生名稱",
+      "results": "產生的名稱",
+      "copy": "複製"
+    },
+    "sloganGenerator": {
+      "name": "標語產生器",
+      "description": "為您的品牌創造朗朗上口的標語",
+      "business": "公司名稱",
+      "keywords": "關鍵字",
+      "tone": "語調",
+      "generate": "產生標語",
+      "results": "產生的標語"
+    },
+    "brandColorPicker": {
+      "name": "品牌色彩選擇器",
+      "description": "產生品牌調色盤",
+      "baseColor": "基礎色",
+      "palette": "調色盤",
+      "variations": "變化",
+      "export": "匯出調色盤"
+    },
+    "logoConceptGenerator": {
+      "name": "Logo 概念產生器",
+      "description": "產生 Logo 概念構想與描述",
+      "business": "公司資訊",
+      "style": "Logo 風格",
+      "concepts": "Logo 概念",
+      "export": "匯出概念"
+    },
+    "missionStatementBuilder": {
+      "name": "使命宣言建構器",
+      "description": "創建具有說服力的使命宣言",
+      "purpose": "目的",
+      "values": "核心價值",
+      "audience": "目標受眾",
+      "preview": "預覽",
+      "copy": "複製宣言"
+    },
+    "elevatorPitchCreator": {
+      "name": "電梯簡報產生器",
+      "description": "創造完美的 30 秒推銷詞",
+      "components": "簡報元素",
+      "timer": "計時器",
+      "preview": "預覽",
+      "copy": "複製簡報"
+    },
+    "swotAnalysis": {
+      "name": "SWOT 分析工具",
+      "description": "為您的企業進行 SWOT 分析",
+      "strengths": "優勢",
+      "weaknesses": "劣勢",
+      "opportunities": "機會",
+      "threats": "威脅",
+      "export": "匯出分析"
+    },
+    "competitorAnalysis": {
+      "name": "競爭對手分析",
+      "description": "分析並比較競爭對手",
+      "addCompetitor": "新增競爭對手",
+      "factors": "分析因素",
+      "comparison": "比較圖表",
+      "export": "匯出分析"
+    },
+    "marketResearchTemplate": {
+      "name": "市場研究範本",
+      "description": "結構化市場研究框架",
+      "sections": "研究區段",
+      "findings": "關鍵發現",
+      "recommendations": "建議",
+      "export": "匯出報告"
+    },
+    "customerPersonaBuilder": {
+      "name": "客戶人物誌建構器",
+      "description": "建立詳細的客戶人物誌",
+      "demographics": "人口統計",
+      "behaviors": "行為",
+      "goals": "目標與痛點",
+      "preview": "人物誌預覽",
+      "export": "匯出人物誌"
+    },
+    "valuePropositionCanvas": {
+      "name": "價值主張畫布",
+      "description": "設計您的價值主張",
+      "customerProfile": "客戶輪廓",
+      "valueMap": "價值地圖",
+      "fit": "契合度分析",
+      "export": "匯出畫布"
+    },
+    "businessModelCanvas": {
+      "name": "商業模式畫布",
+      "description": "設計您的商業模式",
+      "segments": "畫布區塊",
+      "preview": "預覽",
+      "export": "匯出畫布"
+    },
+    "pricingCalculator": {
+      "name": "定價計算器",
+      "description": "計算最佳定價策略",
+      "costs": "成本",
+      "margin": "目標毛利",
+      "competitors": "競爭對手價格",
+      "recommendation": "建議價格"
+    },
+    "roiCalculator": {
+      "name": "投資報酬率計算器",
+      "description": "計算投資報酬率",
+      "investment": "初始投資",
+      "returns": "預期報酬",
+      "period": "時間週期",
+      "result": "ROI 結果"
+    },
+    "invoiceGenerator": {
+      "name": "發票產生器",
+      "description": "建立專業發票",
+      "from": "發票開立方",
+      "to": "收款人",
+      "items": "項目明細",
+      "total": "總計",
+      "generate": "產生發票"
+    },
+    "proposalTemplate": {
+      "name": "提案範本",
+      "description": "建立商業提案",
+      "details": "提案細節",
+      "sections": "區段",
+      "preview": "預覽",
+      "copy": "複製提案"
+    },
+    "contractTemplate": {
+      "name": "合約範本",
+      "description": "產生合約文件",
+      "parties": "合約雙方",
+      "clauses": "條款",
+      "preview": "預覽",
+      "copy": "複製合約"
+    },
+    "brandingKit": {
+      "name": "品牌識別套件",
+      "description": "建立品牌規範指南",
+      "colors": "品牌色彩",
+      "typography": "字型排版",
+      "preview": "品牌預覽",
+      "export": "匯出規範"
+    },
+    "meetingAgenda": {
+      "name": "會議議程",
+      "description": "建立結構化會議議程",
+      "details": "會議詳情",
+      "items": "議程項目",
+      "preview": "預覽",
+      "copy": "複製議程"
+    },
+    "projectTimeline": {
+      "name": "專案時間軸",
+      "description": "建立專案時間軸和甘特圖",
+      "phases": "專案階段",
+      "timeline": "時間軸檢視",
+      "export": "匯出時間軸"
+    },
+    "okrTracker": {
+      "name": "OKR 追蹤器",
+      "description": "追蹤目標與關鍵成果",
+      "objectives": "目標",
+      "addObjective": "新增目標",
+      "progress": "整體進度",
+      "export": "匯出 OKR"
+    },
+    "kpiDashboard": {
+      "name": "KPI 儀表板",
+      "description": "追蹤關鍵績效指標",
+      "kpis": "KPI 指標",
+      "addKpi": "新增 KPI",
+      "overview": "概覽",
+      "export": "匯出儀表板"
+    },
+    "budgetPlanner": {
+      "name": "預算規劃器",
+      "description": "規劃與追蹤預算",
+      "income": "收入",
+      "expenses": "支出",
+      "summary": "摘要",
+      "export": "匯出預算"
+    },
+    "cashFlowTracker": {
+      "name": "現金流追蹤器",
+      "description": "追蹤現金流入與流出",
+      "inflows": "流入",
+      "outflows": "流出",
+      "balance": "餘額",
+      "export": "匯出報告"
+    },
+    "profitMarginCalculator": {
+      "name": "毛利率計算器",
+      "description": "計算毛利率",
+      "revenue": "營收",
+      "costs": "成本",
+      "margins": "毛利率",
+      "analysis": "分析"
+    },
+    "salesForecaster": {
+      "name": "銷售預測器",
+      "description": "預測未來銷售",
+      "historical": "歷史資料",
+      "method": "預測方法",
+      "forecast": "預測",
+      "export": "匯出預測"
+    },
+    "leadScoring": {
+      "name": "潛在客戶評分",
+      "description": "評分並排序潛在客戶",
+      "criteria": "評分標準",
+      "leads": "潛在客戶",
+      "addLead": "新增客戶",
+      "export": "匯出客戶"
+    },
+    "emailCampaign": {
+      "name": "電子郵件行銷規劃器",
+      "description": "規劃電子郵件行銷活動",
+      "campaign": "活動詳情",
+      "emails": "郵件序列",
+      "addEmail": "新增郵件",
+      "preview": "預覽"
+    },
+    "abTestPlanner": {
+      "name": "A/B 測試規劃器",
+      "description": "規劃與分析 A/B 測試",
+      "hypothesis": "假設",
+      "variants": "變體",
+      "metrics": "成功指標",
+      "results": "結果"
+    },
+    "contentCalendar": {
+      "name": "內容行事曆",
+      "description": "規劃內容發布時程",
+      "view": "檢視",
+      "addContent": "新增內容",
+      "calendar": "行事曆",
+      "export": "匯出行事曆"
+    },
+    "seoChecker": {
+      "name": "SEO 檢查器",
+      "description": "檢查 SEO 最佳實踐",
+      "url": "頁面網址",
+      "title": "頁面標題",
+      "analysis": "分析",
+      "score": "SEO 分數"
+    },
+    "keywordPlanner": {
+      "name": "關鍵字規劃器",
+      "description": "研究與整理關鍵字",
+      "keywords": "關鍵字",
+      "addKeyword": "新增關鍵字",
+      "groups": "關鍵字群組",
+      "export": "匯出關鍵字"
+    },
+    "hashtagGenerator": {
+      "name": "標籤產生器",
+      "description": "產生社群媒體標籤",
+      "topic": "主題",
+      "platform": "平台",
+      "hashtags": "產生的標籤",
+      "copy": "複製標籤"
+    },
+    "pressRelease": {
+      "name": "新聞稿範本",
+      "description": "建立新聞稿",
+      "details": "發布詳情",
+      "body": "內容",
+      "preview": "預覽",
+      "copy": "複製新聞稿"
+    },
+    "mediaKit": {
+      "name": "媒體資料包建構器",
+      "description": "建立網紅媒體資料包",
+      "profile": "個人資料",
+      "stats": "統計數據",
+      "rates": "報價",
+      "preview": "預覽",
+      "copy": "複製媒體資料包"
+    },
+    "testimonialCollector": {
+      "name": "推薦評語收集器",
+      "description": "收集與管理推薦評語",
+      "testimonials": "推薦評語",
+      "addTestimonial": "新增評語",
+      "approved": "已核准",
+      "export": "匯出評語"
+    },
+    "caseStudyTemplate": {
+      "name": "案例研究範本",
+      "description": "建立案例研究文件",
+      "overview": "概述",
+      "challenge": "挑戰",
+      "solution": "解決方案",
+      "metrics": "關鍵指標",
+      "testimonial": "推薦評語",
+      "cta": "行動呼籲",
+      "export": "匯出案例研究"
+    },
+    "newsletterBuilder": {
+      "name": "電子報建構器",
+      "description": "建立電子報",
+      "details": "電子報詳情",
+      "addSection": "新增區段",
+      "preview": "預覽",
+      "copyText": "複製文字",
+      "copyHtml": "複製 HTML"
+    },
+    "surveyCreator": {
+      "name": "問卷產生器",
+      "description": "建立問卷調查",
+      "details": "問卷詳情",
+      "addQuestion": "新增問題",
+      "questions": "問題",
+      "export": "匯出問卷"
+    },
+    "feedbackForm": {
+      "name": "回饋表單建構器",
+      "description": "建立回饋收集表單",
+      "settings": "表單設定",
+      "addField": "新增欄位",
+      "fields": "表單欄位",
+      "copyHtml": "複製 HTML",
+      "copyText": "複製文字"
+    },
+    "flashcardMaker": {
+      "name": "單字卡製作器",
+      "description": "建立與學習單字卡",
+      "addCard": "新增卡片",
+      "cards": "卡片",
+      "study": "學習模式",
+      "categories": "分類"
+    },
+    "quizGenerator": {
+      "name": "測驗產生器",
+      "description": "建立選擇題測驗",
+      "addQuestion": "新增問題",
+      "questions": "問題",
+      "start": "開始測驗",
+      "results": "結果"
+    },
+    "studyTimer": {
+      "name": "學習計時器",
+      "description": "番茄鐘式學習計時器",
+      "focus": "專注時間",
+      "break": "休息時間",
+      "start": "開始學習",
+      "sessions": "學習次數"
+    },
+    "noteSummarizer": {
+      "name": "筆記摘要器",
+      "description": "摘要並提取筆記重點",
+      "input": "您的筆記",
+      "summarize": "產生摘要",
+      "keyPoints": "重點"
+    },
+    "vocabularyBuilder": {
+      "name": "詞彙建構器",
+      "description": "建構與練習詞彙",
+      "addWord": "新增單字",
+      "words": "單字",
+      "practice": "練習",
+      "mastered": "已精通"
+    },
+    "grammarChecker": {
+      "name": "文法檢查器",
+      "description": "檢查文法與拼寫",
+      "input": "您的文字",
+      "check": "檢查文法",
+      "issues": "發現的問題"
+    },
+    "citationGenerator": {
+      "name": "引用產生器",
+      "description": "產生各種格式的引用",
+      "type": "來源類型",
+      "format": "引用格式",
+      "generate": "產生引用",
+      "copy": "複製引用"
+    },
+    "bibliographyMaker": {
+      "name": "參考書目製作器",
+      "description": "建立參考書目列表",
+      "addSource": "新增來源",
+      "sources": "來源",
+      "format": "格式",
+      "export": "匯出參考書目"
+    },
+    "essayOutliner": {
+      "name": "論文大綱產生器",
+      "description": "建立結構化論文大綱",
+      "thesis": "論點陳述",
+      "addSection": "新增段落",
+      "sections": "段落",
+      "export": "匯出大綱"
+    },
+    "mindMapper": {
+      "name": "心智圖製作器",
+      "description": "建立視覺化心智圖",
+      "centralTopic": "中心主題",
+      "addNode": "新增節點",
+      "nodes": "節點",
+      "export": "匯出心智圖"
+    },
+    "mathProblemSolver": {
+      "name": "數學題解答器",
+      "description": "逐步解答數學題",
+      "expression": "數學式",
+      "solve": "解答",
+      "steps": "解答步驟"
+    },
+    "periodicTable": {
+      "name": "元素週期表",
+      "description": "互動式元素週期表",
+      "search": "搜尋元素",
+      "categories": "類別",
+      "details": "元素詳情"
+    },
+    "multiplicationTable": {
+      "name": "乘法表",
+      "description": "互動式乘法表與練習",
+      "table": "乘法表",
+      "practice": "練習模式",
+      "range": "數字範圍"
+    },
+    "fractionCalculator": {
+      "name": "分數計算機",
+      "description": "分數運算",
+      "operation": "運算",
+      "calculate": "計算",
+      "result": "結果"
+    },
+    "gradeCalculator": {
+      "name": "成績計算機",
+      "description": "計算加權成績",
+      "addCategory": "新增類別",
+      "categories": "類別",
+      "calculate": "計算成績"
+    },
+    "gpaCalculator": {
+      "name": "GPA 計算機",
+      "description": "計算課程 GPA",
+      "addCourse": "新增課程",
+      "courses": "課程",
+      "scale": "評分標準"
+    },
+    "readingSpeedTest": {
+      "name": "閱讀速度測試",
+      "description": "測試您的閱讀速度",
+      "start": "開始測試",
+      "passage": "閱讀文章",
+      "results": "您的結果"
+    },
+    "typingSpeedTest": {
+      "name": "打字速度測試",
+      "description": "測試打字速度與準確度",
+      "start": "開始測試",
+      "text": "請輸入此文字",
+      "results": "您的結果"
+    },
+    "learningGoalTracker": {
+      "name": "學習目標追蹤器",
+      "description": "追蹤學習目標與進度",
+      "addGoal": "新增目標",
+      "goals": "目標",
+      "progress": "進度",
+      "milestones": "里程碑"
+    },
+    "homeworkPlanner": {
+      "name": "作業規劃器",
+      "description": "規劃與追蹤作業",
+      "addAssignment": "新增作業",
+      "assignments": "作業",
+      "due": "截止日期",
+      "completed": "已完成"
+    },
+    "examCountdown": {
+      "name": "考試倒數計時",
+      "description": "重要考試倒數計時",
+      "add": "新增考試",
+      "upcoming": "即將到來的考試",
+      "past": "過去的考試"
+    },
+    "studyGroupOrganizer": {
+      "name": "讀書會組織器",
+      "description": "組織讀書會與會議",
+      "createGroup": "建立群組",
+      "members": "成員",
+      "meetings": "會議",
+      "export": "匯出詳情"
+    },
+    "languageLearningTracker": {
+      "name": "語言學習追蹤器",
+      "description": "追蹤語言學習進度",
+      "addLanguage": "新增語言",
+      "logSession": "記錄學習",
+      "history": "歷史記錄",
+      "streak": "連續學習"
+    },
+    "spellingPractice": {
+      "name": "拼字練習",
+      "description": "使用單字列表練習拼字",
+      "mode": "練習模式",
+      "difficulty": "難度",
+      "start": "開始練習"
+    },
+    "mathFactsFluency": {
+      "name": "數學運算練習",
+      "description": "練習數學運算速度",
+      "operation": "運算類型",
+      "start": "開始練習",
+      "tips": "練習技巧"
+    },
+    "courseScheduler": {
+      "name": "課程表製作器",
+      "description": "建立每週課程表",
+      "addCourse": "新增課程",
+      "courses": "課程",
+      "schedule": "課程表",
+      "export": "匯出課程表"
+    },
+    "researchPaperOutliner": {
+      "name": "研究論文大綱器",
+      "description": "建立研究論文大綱",
+      "thesis": "論點",
+      "sections": "章節",
+      "export": "匯出大綱",
+      "tips": "寫作技巧"
+    },
+    "thesisStatementBuilder": {
+      "name": "論點陳述建構器",
+      "description": "建立有力的論點陳述",
+      "type": "論點類型",
+      "build": "建構論點",
+      "generate": "產生",
+      "tips": "技巧"
+    },
+    "bookReportHelper": {
+      "name": "讀書報告助手",
+      "description": "建立讀書報告",
+      "bookInfo": "書籍資訊",
+      "setting": "背景設定",
+      "characters": "人物",
+      "plot": "劇情摘要",
+      "themes": "主題",
+      "reflection": "個人心得",
+      "generate": "產生報告"
+    },
+    "scienceExperimentLog": {
+      "name": "科學實驗日誌",
+      "description": "記錄科學實驗",
+      "newExperiment": "新實驗",
+      "hypothesis": "假設",
+      "materials": "材料",
+      "procedure": "步驟",
+      "observations": "觀察",
+      "conclusion": "結論",
+      "export": "匯出日誌"
+    },
+    "historyTimelineMaker": {
+      "name": "歷史時間軸製作器",
+      "description": "建立歷史時間軸",
+      "addEvent": "新增事件",
+      "events": "事件",
+      "export": "匯出時間軸"
+    },
+    "geographyQuiz": {
+      "name": "地理問答",
+      "description": "測試地理知識",
+      "category": "類別",
+      "difficulty": "難度",
+      "start": "開始問答"
+    },
+    "musicTheoryHelper": {
+      "name": "音樂理論助手",
+      "description": "學習音樂理論概念",
+      "rootNote": "根音",
+      "scale": "音階",
+      "chord": "和弦",
+      "intervals": "音程",
+      "circleOfFifths": "五度圈"
+    },
+    "debatePrep": {
+      "name": "辯論準備",
+      "description": "準備辯論",
+      "opening": "開場陳述",
+      "arguments": "論點",
+      "counterArguments": "反駁論點",
+      "closing": "結論陳述",
+      "export": "匯出準備內容",
+      "tips": "辯論技巧"
+    },
+    "presentationTimer": {
+      "name": "簡報計時器",
+      "description": "分段計時簡報",
+      "duration": "總時長",
+      "sections": "段落",
+      "warning": "警告時間",
+      "start": "開始計時",
+      "tips": "簡報技巧"
+    },
+    "classParticipationTracker": {
+      "name": "課堂參與追蹤器",
+      "description": "追蹤課堂參與",
+      "addCourse": "新增課程",
+      "logParticipation": "記錄參與",
+      "history": "歷史記錄",
+      "stats": "統計"
+    },
+    "studyBreakReminder": {
+      "name": "學習休息提醒",
+      "description": "提醒學習休息",
+      "studyDuration": "學習時長",
+      "breakDuration": "休息時長",
+      "sessions": "長休息前的學習次數",
+      "start": "開始學習",
+      "tips": "學習技巧"
+    },
+    "learningStyleQuiz": {
+      "name": "學習風格測驗",
+      "description": "發現您的學習風格",
+      "start": "開始測驗",
+      "results": "您的學習風格"
+    },
+    "academicCalendar": {
+      "name": "學術行事曆",
+      "description": "追蹤學術活動與截止日期",
+      "addEvent": "新增活動",
+      "upcoming": "即將到來的活動",
+      "types": "活動類型"
+    },
+    "studyPlaylist": {
+      "name": "學習播放清單建構器",
+      "description": "建立學習音樂播放清單",
+      "createPlaylist": "建立播放清單",
+      "addTrack": "新增曲目",
+      "tracks": "曲目",
+      "suggestions": "建議曲目",
+      "tips": "音樂技巧"
     }
   }
 }

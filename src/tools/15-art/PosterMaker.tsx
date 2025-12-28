@@ -60,7 +60,7 @@ export default function PosterMaker() {
     return `#${(1 << 24 | r << 16 | g << 8 | b).toString(16).slice(1)}`
   }
 
-  const drawEventPoster = (ctx: CanvasRenderingContext2D, width: number, height: number) => {
+  const drawEventPoster = (ctx: CanvasRenderingContext2D, width: number, _height: number) => {
     // Accent bar
     ctx.fillStyle = accentColor
     ctx.fillRect(0, 80, width, 8)

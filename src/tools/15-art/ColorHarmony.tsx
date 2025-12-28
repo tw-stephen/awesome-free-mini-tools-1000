@@ -129,7 +129,6 @@ export default function ColorHarmony() {
     }
 
     // Add markers for harmony colors
-    const baseHsl = hexToHsl(baseColor)
     harmonies.forEach((color, i) => {
       const colorHsl = hexToHsl(color)
       const angle = colorHsl.h * Math.PI / 180 - Math.PI / 2

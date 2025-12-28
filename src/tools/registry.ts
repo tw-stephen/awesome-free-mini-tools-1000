@@ -589,6 +589,214 @@ import NameGenerator from './14-games/NameGenerator'
 import MadLibs from './14-games/MadLibs'
 import FortuneWheel from './14-games/FortuneWheel'
 
+// Category 15: Art & Design (#563-#602)
+import ColorPaletteGenerator from './15-art/ColorPaletteGenerator'
+import GradientGenerator from './15-art/GradientGenerator'
+import PatternMaker from './15-art/PatternMaker'
+import PixelArtMaker from './15-art/PixelArtMaker'
+import IconGenerator from './15-art/IconGenerator'
+import LogoMaker from './15-art/LogoMaker'
+import BannerCreator from './15-art/BannerCreator'
+import FaviconGenerator from './15-art/FaviconGenerator'
+import MockupGenerator from './15-art/MockupGenerator'
+import ColorBlindSimulator from './15-art/ColorBlindSimulator'
+import ImageFilters from './15-art/ImageFilters'
+import TextureMaker from './15-art/TextureMaker'
+import ShapeGenerator from './15-art/ShapeGenerator'
+import WatermarkMaker from './15-art/WatermarkMaker'
+import CollageCreator from './15-art/CollageCreator'
+import MemeGenerator from './15-art/MemeGenerator'
+import AvatarCreator from './15-art/AvatarCreator'
+import BadgeMaker from './15-art/BadgeMaker'
+import CertificateMaker from './15-art/CertificateMaker'
+import BusinessCardDesigner from './15-art/BusinessCardDesigner'
+import PosterMaker from './15-art/PosterMaker'
+import ChartMaker from './15-art/ChartMaker'
+import FlowchartMaker from './15-art/FlowchartMaker'
+import MindmapBuilder from './15-art/MindmapBuilder'
+import ColorMixer from './15-art/ColorMixer'
+import PaletteExtractor from './15-art/PaletteExtractor'
+import ColorHarmony from './15-art/ColorHarmony'
+import ContrastChecker from './15-art/ContrastChecker'
+import ShadowGenerator from './15-art/ShadowGenerator'
+import BorderGenerator from './15-art/BorderGenerator'
+import DividerMaker from './15-art/DividerMaker'
+import EmojiArt from './15-art/EmojiArt'
+import ASCIIArtGenerator from './15-art/ASCIIArtGenerator'
+import TypographyTool from './15-art/TypographyTool'
+import FontPairer from './15-art/FontPairer'
+import DesignInspiration from './15-art/DesignInspiration'
+import ColorConverter from './15-art/ColorConverter'
+import ImageCropper from './15-art/ImageCropper'
+import ThumbnailMaker from './15-art/ThumbnailMaker'
+import SocialMediaImageCreator from './15-art/SocialMediaImageCreator'
+
+// Category 16: Communication & Collaboration (#603-#642)
+import TeamMessageFormatter from './16-communication/TeamMessageFormatter'
+import MeetingScheduler from './16-communication/MeetingScheduler'
+import EmailTemplateBuilder from './16-communication/EmailTemplateBuilder'
+import GroupNameGenerator from './16-communication/GroupNameGenerator'
+import AnnouncementMaker from './16-communication/AnnouncementMaker'
+import SlackMessageFormatter from './16-communication/SlackMessageFormatter'
+import DiscordEmbedGenerator from './16-communication/DiscordEmbedGenerator'
+import AgendaCreator from './16-communication/AgendaCreator'
+import MeetingMinutes from './16-communication/MeetingMinutes'
+import PollMaker from './16-communication/PollMaker'
+import IcebreakerGenerator from './16-communication/IcebreakerGenerator'
+import StandupFormatter from './16-communication/StandupFormatter'
+import RetrospectiveTemplate from './16-communication/RetrospectiveTemplate'
+import FeedbackFormBuilder from './16-communication/FeedbackFormBuilder'
+import TeamDirectory from './16-communication/TeamDirectory'
+import OnboardingChecklist from './16-communication/OnboardingChecklist'
+import OneOnOneAgenda from './16-communication/OneOnOneAgenda'
+import StatusUpdateFormatter from './16-communication/StatusUpdateFormatter'
+import TaskDelegator from './16-communication/TaskDelegator'
+import TeamRoleAssigner from './16-communication/TeamRoleAssigner'
+import DecisionMatrix from './16-communication/DecisionMatrix'
+import BrainstormBoard from './16-communication/BrainstormBoard'
+import ProjectTimeline from './16-communication/ProjectTimeline'
+import MilestoneTracker from './16-communication/MilestoneTracker'
+import ResourcePlanner from './16-communication/ResourcePlanner'
+import WorkloadBalancer from './16-communication/WorkloadBalancer'
+import CommunicationLog from './16-communication/CommunicationLog'
+import EscalationPath from './16-communication/EscalationPath'
+import OrgChartMaker from './16-communication/OrgChartMaker'
+import ExitInterviewTemplate from './16-communication/ExitInterviewTemplate'
+import PerformanceReviewTemplate from './16-communication/PerformanceReviewTemplate'
+import MeetingCostCalculator from './16-communication/MeetingCostCalculator'
+import TeamHealthCheck from './16-communication/TeamHealthCheck'
+import RACIMatrix from './16-communication/RACIMatrix'
+import KnowledgeBaseBuilder from './16-communication/KnowledgeBaseBuilder'
+import ChangelogGenerator from './16-communication/ChangelogGenerator'
+import ReleaseNotesBuilder from './16-communication/ReleaseNotesBuilder'
+import SOPBuilder from './16-communication/SOPBuilder'
+import ProcessFlowMaker from './16-communication/ProcessFlowMaker'
+import TeamCapacityPlanner from './16-communication/TeamCapacityPlanner'
+
+// Category 17: Security & Privacy
+import PasswordGeneratorSecurity from './17-security/PasswordGenerator'
+import PasswordStrengthChecker from './17-security/PasswordStrengthChecker'
+import HashGeneratorSecurity from './17-security/HashGenerator'
+import TextEncryptor from './17-security/TextEncryptor'
+import TwoFactorSetup from './17-security/TwoFactorSetup'
+import SecureNotepad from './17-security/SecureNotepad'
+import PrivacyPolicyGenerator from './17-security/PrivacyPolicyGenerator'
+import CookieConsentBuilder from './17-security/CookieConsentBuilder'
+import DataBreachChecker from './17-security/DataBreachChecker'
+import PermissionAnalyzer from './17-security/PermissionAnalyzer'
+import SecurityHeadersChecker from './17-security/SecurityHeadersChecker'
+import SSLCertificateInfo from './17-security/SSLCertificateInfo'
+import KeyPairGenerator from './17-security/KeyPairGenerator'
+import SecretSharing from './17-security/SecretSharing'
+import FileHashChecker from './17-security/FileHashChecker'
+import MetadataStripper from './17-security/MetadataStripper'
+import AnonymousIdGenerator from './17-security/AnonymousIdGenerator'
+import PrivacySettingsAudit from './17-security/PrivacySettingsAudit'
+import SecurePasswordShare from './17-security/SecurePasswordShare'
+import AccessControlMatrix from './17-security/AccessControlMatrix'
+import RiskAssessmentTool from './17-security/RiskAssessmentTool'
+import IncidentResponsePlan from './17-security/IncidentResponsePlan'
+import SecurityChecklist from './17-security/SecurityChecklist'
+import PhishingDetector from './17-security/PhishingDetector'
+import DataClassifier from './17-security/DataClassifier'
+import EncryptionKeyManager from './17-security/EncryptionKeyManager'
+import SecureFileNamer from './17-security/SecureFileNamer'
+import PrivacyImpactAssessment from './17-security/PrivacyImpactAssessment'
+import ConsentManager from './17-security/ConsentManager'
+import DataRetentionPolicy from './17-security/DataRetentionPolicy'
+import SecurityAwarenessQuiz from './17-security/SecurityAwarenessQuiz'
+import ThreatModelBuilder from './17-security/ThreatModelBuilder'
+import SecurityPolicyGenerator from './17-security/SecurityPolicyGenerator'
+import ComplianceChecker from './17-security/ComplianceChecker'
+import AuditLogViewer from './17-security/AuditLogViewer'
+import AccessReviewTool from './17-security/AccessReviewTool'
+import SecurityScorecard from './17-security/SecurityScorecard'
+import VulnerabilityTracker from './17-security/VulnerabilityTracker'
+import SecureCodeReview from './17-security/SecureCodeReview'
+import BiometricAuthGuide from './17-security/BiometricAuthGuide'
+
+// Category 18: Business & Marketing
+import BusinessNameGenerator from './18-business/BusinessNameGenerator'
+import SloganGenerator from './18-business/SloganGenerator'
+import PitchDeckOutline from './18-business/PitchDeckOutline'
+import SWOTAnalysis from './18-business/SWOTAnalysis'
+import CompetitorAnalysis from './18-business/CompetitorAnalysis'
+import ValueProposition from './18-business/ValueProposition'
+import ElevatorPitch from './18-business/ElevatorPitch'
+import CustomerPersona from './18-business/CustomerPersona'
+import PricingCalculator from './18-business/PricingCalculator'
+import MarketSizeCalculator from './18-business/MarketSizeCalculator'
+import BreakEvenCalculator from './18-business/BreakEvenCalculator'
+import ROICalculator from './18-business/ROICalculator'
+import SocialMediaPlanner from './18-business/SocialMediaPlanner'
+import EmailSignatureGenerator from './18-business/EmailSignatureGenerator'
+import InvoiceGenerator from './18-business/InvoiceGenerator'
+import ProposalTemplate from './18-business/ProposalTemplate'
+import ContractTemplate from './18-business/ContractTemplate'
+import BrandingKit from './18-business/BrandingKit'
+import MeetingAgenda from './18-business/MeetingAgenda'
+import ProjectTimeline from './18-business/ProjectTimeline'
+import OKRTracker from './18-business/OKRTracker'
+import KPIDashboard from './18-business/KPIDashboard'
+import BudgetPlanner from './18-business/BudgetPlanner'
+import CashFlowTracker from './18-business/CashFlowTracker'
+import ProfitMarginCalculator from './18-business/ProfitMarginCalculator'
+import SalesForecaster from './18-business/SalesForecaster'
+import LeadScoring from './18-business/LeadScoring'
+import EmailCampaign from './18-business/EmailCampaign'
+import ABTestPlanner from './18-business/ABTestPlanner'
+import ContentCalendar from './18-business/ContentCalendar'
+import SEOChecker from './18-business/SEOChecker'
+import KeywordPlanner from './18-business/KeywordPlanner'
+import HashtagGenerator from './18-business/HashtagGenerator'
+import PressRelease from './18-business/PressRelease'
+import MediaKit from './18-business/MediaKit'
+import TestimonialCollector from './18-business/TestimonialCollector'
+import CaseStudyTemplate from './18-business/CaseStudyTemplate'
+import NewsletterBuilder from './18-business/NewsletterBuilder'
+import SurveyCreator from './18-business/SurveyCreator'
+import FeedbackForm from './18-business/FeedbackForm'
+import FlashcardMaker from './19-education/FlashcardMaker'
+import QuizGenerator from './19-education/QuizGenerator'
+import StudyTimer from './19-education/StudyTimer'
+import NoteSummarizer from './19-education/NoteSummarizer'
+import VocabularyBuilder from './19-education/VocabularyBuilder'
+import GrammarChecker from './19-education/GrammarChecker'
+import CitationGenerator from './19-education/CitationGenerator'
+import BibliographyMaker from './19-education/BibliographyMaker'
+import EssayOutliner from './19-education/EssayOutliner'
+import MindMapper from './19-education/MindMapper'
+import MathProblemSolver from './19-education/MathProblemSolver'
+import PeriodicTable from './19-education/PeriodicTable'
+import MultiplicationTable from './19-education/MultiplicationTable'
+import FractionCalculator from './19-education/FractionCalculator'
+import GradeCalculator from './19-education/GradeCalculator'
+import GPACalculator from './19-education/GPACalculator'
+import ReadingSpeedTest from './19-education/ReadingSpeedTest'
+import TypingSpeedTest from './19-education/TypingSpeedTest'
+import LearningGoalTracker from './19-education/LearningGoalTracker'
+import HomeworkPlanner from './19-education/HomeworkPlanner'
+import ExamCountdown from './19-education/ExamCountdown'
+import StudyGroupOrganizer from './19-education/StudyGroupOrganizer'
+import LanguageLearningTracker from './19-education/LanguageLearningTracker'
+import SpellingPractice from './19-education/SpellingPractice'
+import MathFactsFluency from './19-education/MathFactsFluency'
+import CourseScheduler from './19-education/CourseScheduler'
+import ResearchPaperOutliner from './19-education/ResearchPaperOutliner'
+import ThesisStatementBuilder from './19-education/ThesisStatementBuilder'
+import BookReportHelper from './19-education/BookReportHelper'
+import ScienceExperimentLog from './19-education/ScienceExperimentLog'
+import HistoryTimelineMaker from './19-education/HistoryTimelineMaker'
+import GeographyQuiz from './19-education/GeographyQuiz'
+import MusicTheoryHelper from './19-education/MusicTheoryHelper'
+import DebatePrep from './19-education/DebatePrep'
+import PresentationTimer from './19-education/PresentationTimer'
+import ClassParticipationTracker from './19-education/ClassParticipationTracker'
+import StudyBreakReminder from './19-education/StudyBreakReminder'
+import LearningStyleQuiz from './19-education/LearningStyleQuiz'
+import AcademicCalendar from './19-education/AcademicCalendar'
+import StudyPlaylist from './19-education/StudyPlaylist'
+
 export interface ToolInfo {
   id: string
   path: string
@@ -5568,6 +5776,1610 @@ export const tools: ToolInfo[] = [
     category: '14-games',
     component: FortuneWheel,
   },
+  // Category 15: Art & Design (#563-#602)
+  {
+    id: '563',
+    path: 'color-palette-generator',
+    nameKey: 'tools.colorPaletteGenerator.name',
+    descriptionKey: 'tools.colorPaletteGenerator.description',
+    category: '15-art',
+    component: ColorPaletteGenerator,
+  },
+  {
+    id: '564',
+    path: 'gradient-generator',
+    nameKey: 'tools.gradientGenerator.name',
+    descriptionKey: 'tools.gradientGenerator.description',
+    category: '15-art',
+    component: GradientGenerator,
+  },
+  {
+    id: '565',
+    path: 'pattern-maker',
+    nameKey: 'tools.patternMaker.name',
+    descriptionKey: 'tools.patternMaker.description',
+    category: '15-art',
+    component: PatternMaker,
+  },
+  {
+    id: '566',
+    path: 'pixel-art-maker',
+    nameKey: 'tools.pixelArtMaker.name',
+    descriptionKey: 'tools.pixelArtMaker.description',
+    category: '15-art',
+    component: PixelArtMaker,
+  },
+  {
+    id: '567',
+    path: 'icon-generator',
+    nameKey: 'tools.iconGenerator.name',
+    descriptionKey: 'tools.iconGenerator.description',
+    category: '15-art',
+    component: IconGenerator,
+  },
+  {
+    id: '568',
+    path: 'logo-maker',
+    nameKey: 'tools.logoMaker.name',
+    descriptionKey: 'tools.logoMaker.description',
+    category: '15-art',
+    component: LogoMaker,
+  },
+  {
+    id: '569',
+    path: 'banner-creator',
+    nameKey: 'tools.bannerCreator.name',
+    descriptionKey: 'tools.bannerCreator.description',
+    category: '15-art',
+    component: BannerCreator,
+  },
+  {
+    id: '570',
+    path: 'favicon-generator',
+    nameKey: 'tools.faviconGenerator.name',
+    descriptionKey: 'tools.faviconGenerator.description',
+    category: '15-art',
+    component: FaviconGenerator,
+  },
+  {
+    id: '571',
+    path: 'mockup-generator',
+    nameKey: 'tools.mockupGenerator.name',
+    descriptionKey: 'tools.mockupGenerator.description',
+    category: '15-art',
+    component: MockupGenerator,
+  },
+  {
+    id: '572',
+    path: 'color-blind-simulator',
+    nameKey: 'tools.colorBlindSimulator.name',
+    descriptionKey: 'tools.colorBlindSimulator.description',
+    category: '15-art',
+    component: ColorBlindSimulator,
+  },
+  {
+    id: '573',
+    path: 'image-filters',
+    nameKey: 'tools.imageFilters.name',
+    descriptionKey: 'tools.imageFilters.description',
+    category: '15-art',
+    component: ImageFilters,
+  },
+  {
+    id: '574',
+    path: 'texture-maker',
+    nameKey: 'tools.textureMaker.name',
+    descriptionKey: 'tools.textureMaker.description',
+    category: '15-art',
+    component: TextureMaker,
+  },
+  {
+    id: '575',
+    path: 'shape-generator',
+    nameKey: 'tools.shapeGenerator.name',
+    descriptionKey: 'tools.shapeGenerator.description',
+    category: '15-art',
+    component: ShapeGenerator,
+  },
+  {
+    id: '576',
+    path: 'watermark-maker',
+    nameKey: 'tools.watermarkMaker.name',
+    descriptionKey: 'tools.watermarkMaker.description',
+    category: '15-art',
+    component: WatermarkMaker,
+  },
+  {
+    id: '577',
+    path: 'collage-creator',
+    nameKey: 'tools.collageCreator.name',
+    descriptionKey: 'tools.collageCreator.description',
+    category: '15-art',
+    component: CollageCreator,
+  },
+  {
+    id: '578',
+    path: 'meme-generator',
+    nameKey: 'tools.memeGenerator.name',
+    descriptionKey: 'tools.memeGenerator.description',
+    category: '15-art',
+    component: MemeGenerator,
+  },
+  {
+    id: '579',
+    path: 'avatar-creator',
+    nameKey: 'tools.avatarCreator.name',
+    descriptionKey: 'tools.avatarCreator.description',
+    category: '15-art',
+    component: AvatarCreator,
+  },
+  {
+    id: '580',
+    path: 'badge-maker',
+    nameKey: 'tools.badgeMaker.name',
+    descriptionKey: 'tools.badgeMaker.description',
+    category: '15-art',
+    component: BadgeMaker,
+  },
+  {
+    id: '581',
+    path: 'certificate-maker',
+    nameKey: 'tools.certificateMaker.name',
+    descriptionKey: 'tools.certificateMaker.description',
+    category: '15-art',
+    component: CertificateMaker,
+  },
+  {
+    id: '582',
+    path: 'business-card-designer',
+    nameKey: 'tools.businessCardDesigner.name',
+    descriptionKey: 'tools.businessCardDesigner.description',
+    category: '15-art',
+    component: BusinessCardDesigner,
+  },
+  {
+    id: '583',
+    path: 'poster-maker',
+    nameKey: 'tools.posterMaker.name',
+    descriptionKey: 'tools.posterMaker.description',
+    category: '15-art',
+    component: PosterMaker,
+  },
+  {
+    id: '584',
+    path: 'chart-maker',
+    nameKey: 'tools.chartMaker.name',
+    descriptionKey: 'tools.chartMaker.description',
+    category: '15-art',
+    component: ChartMaker,
+  },
+  {
+    id: '585',
+    path: 'flowchart-maker',
+    nameKey: 'tools.flowchartMaker.name',
+    descriptionKey: 'tools.flowchartMaker.description',
+    category: '15-art',
+    component: FlowchartMaker,
+  },
+  {
+    id: '586',
+    path: 'mindmap-builder',
+    nameKey: 'tools.mindmapBuilder.name',
+    descriptionKey: 'tools.mindmapBuilder.description',
+    category: '15-art',
+    component: MindmapBuilder,
+  },
+  {
+    id: '587',
+    path: 'color-mixer',
+    nameKey: 'tools.colorMixer.name',
+    descriptionKey: 'tools.colorMixer.description',
+    category: '15-art',
+    component: ColorMixer,
+  },
+  {
+    id: '588',
+    path: 'palette-extractor',
+    nameKey: 'tools.paletteExtractor.name',
+    descriptionKey: 'tools.paletteExtractor.description',
+    category: '15-art',
+    component: PaletteExtractor,
+  },
+  {
+    id: '589',
+    path: 'color-harmony',
+    nameKey: 'tools.colorHarmony.name',
+    descriptionKey: 'tools.colorHarmony.description',
+    category: '15-art',
+    component: ColorHarmony,
+  },
+  {
+    id: '590',
+    path: 'contrast-checker',
+    nameKey: 'tools.contrastChecker.name',
+    descriptionKey: 'tools.contrastChecker.description',
+    category: '15-art',
+    component: ContrastChecker,
+  },
+  {
+    id: '591',
+    path: 'shadow-generator',
+    nameKey: 'tools.shadowGenerator.name',
+    descriptionKey: 'tools.shadowGenerator.description',
+    category: '15-art',
+    component: ShadowGenerator,
+  },
+  {
+    id: '592',
+    path: 'border-generator',
+    nameKey: 'tools.borderGenerator.name',
+    descriptionKey: 'tools.borderGenerator.description',
+    category: '15-art',
+    component: BorderGenerator,
+  },
+  {
+    id: '593',
+    path: 'divider-maker',
+    nameKey: 'tools.dividerMaker.name',
+    descriptionKey: 'tools.dividerMaker.description',
+    category: '15-art',
+    component: DividerMaker,
+  },
+  {
+    id: '594',
+    path: 'emoji-art',
+    nameKey: 'tools.emojiArt.name',
+    descriptionKey: 'tools.emojiArt.description',
+    category: '15-art',
+    component: EmojiArt,
+  },
+  {
+    id: '595',
+    path: 'ascii-art-generator',
+    nameKey: 'tools.asciiArtGenerator.name',
+    descriptionKey: 'tools.asciiArtGenerator.description',
+    category: '15-art',
+    component: ASCIIArtGenerator,
+  },
+  {
+    id: '596',
+    path: 'typography-tool',
+    nameKey: 'tools.typographyTool.name',
+    descriptionKey: 'tools.typographyTool.description',
+    category: '15-art',
+    component: TypographyTool,
+  },
+  {
+    id: '597',
+    path: 'font-pairer',
+    nameKey: 'tools.fontPairer.name',
+    descriptionKey: 'tools.fontPairer.description',
+    category: '15-art',
+    component: FontPairer,
+  },
+  {
+    id: '598',
+    path: 'design-inspiration',
+    nameKey: 'tools.designInspiration.name',
+    descriptionKey: 'tools.designInspiration.description',
+    category: '15-art',
+    component: DesignInspiration,
+  },
+  {
+    id: '599',
+    path: 'color-converter',
+    nameKey: 'tools.colorConverter.name',
+    descriptionKey: 'tools.colorConverter.description',
+    category: '15-art',
+    component: ColorConverter,
+  },
+  {
+    id: '600',
+    path: 'image-cropper',
+    nameKey: 'tools.imageCropper.name',
+    descriptionKey: 'tools.imageCropper.description',
+    category: '15-art',
+    component: ImageCropper,
+  },
+  {
+    id: '601',
+    path: 'thumbnail-maker',
+    nameKey: 'tools.thumbnailMaker.name',
+    descriptionKey: 'tools.thumbnailMaker.description',
+    category: '15-art',
+    component: ThumbnailMaker,
+  },
+  {
+    id: '602',
+    path: 'social-media-image-creator',
+    nameKey: 'tools.socialMediaImageCreator.name',
+    descriptionKey: 'tools.socialMediaImageCreator.description',
+    category: '15-art',
+    component: SocialMediaImageCreator,
+  },
+  // Category 16: Communication & Collaboration (#603-#642)
+  {
+    id: '603',
+    path: 'team-message-formatter',
+    nameKey: 'tools.teamMessageFormatter.name',
+    descriptionKey: 'tools.teamMessageFormatter.description',
+    category: '16-communication',
+    component: TeamMessageFormatter,
+  },
+  {
+    id: '604',
+    path: 'meeting-scheduler',
+    nameKey: 'tools.meetingScheduler.name',
+    descriptionKey: 'tools.meetingScheduler.description',
+    category: '16-communication',
+    component: MeetingScheduler,
+  },
+  {
+    id: '605',
+    path: 'email-template-builder',
+    nameKey: 'tools.emailTemplateBuilder.name',
+    descriptionKey: 'tools.emailTemplateBuilder.description',
+    category: '16-communication',
+    component: EmailTemplateBuilder,
+  },
+  {
+    id: '606',
+    path: 'group-name-generator',
+    nameKey: 'tools.groupNameGenerator.name',
+    descriptionKey: 'tools.groupNameGenerator.description',
+    category: '16-communication',
+    component: GroupNameGenerator,
+  },
+  {
+    id: '607',
+    path: 'announcement-maker',
+    nameKey: 'tools.announcementMaker.name',
+    descriptionKey: 'tools.announcementMaker.description',
+    category: '16-communication',
+    component: AnnouncementMaker,
+  },
+  {
+    id: '608',
+    path: 'slack-message-formatter',
+    nameKey: 'tools.slackMessageFormatter.name',
+    descriptionKey: 'tools.slackMessageFormatter.description',
+    category: '16-communication',
+    component: SlackMessageFormatter,
+  },
+  {
+    id: '609',
+    path: 'discord-embed-generator',
+    nameKey: 'tools.discordEmbedGenerator.name',
+    descriptionKey: 'tools.discordEmbedGenerator.description',
+    category: '16-communication',
+    component: DiscordEmbedGenerator,
+  },
+  {
+    id: '610',
+    path: 'agenda-creator',
+    nameKey: 'tools.agendaCreator.name',
+    descriptionKey: 'tools.agendaCreator.description',
+    category: '16-communication',
+    component: AgendaCreator,
+  },
+  {
+    id: '611',
+    path: 'meeting-minutes',
+    nameKey: 'tools.meetingMinutes.name',
+    descriptionKey: 'tools.meetingMinutes.description',
+    category: '16-communication',
+    component: MeetingMinutes,
+  },
+  {
+    id: '612',
+    path: 'poll-maker',
+    nameKey: 'tools.pollMaker.name',
+    descriptionKey: 'tools.pollMaker.description',
+    category: '16-communication',
+    component: PollMaker,
+  },
+  {
+    id: '613',
+    path: 'icebreaker-generator',
+    nameKey: 'tools.icebreakerGenerator.name',
+    descriptionKey: 'tools.icebreakerGenerator.description',
+    category: '16-communication',
+    component: IcebreakerGenerator,
+  },
+  {
+    id: '614',
+    path: 'standup-formatter',
+    nameKey: 'tools.standupFormatter.name',
+    descriptionKey: 'tools.standupFormatter.description',
+    category: '16-communication',
+    component: StandupFormatter,
+  },
+  {
+    id: '615',
+    path: 'retrospective-template',
+    nameKey: 'tools.retrospectiveTemplate.name',
+    descriptionKey: 'tools.retrospectiveTemplate.description',
+    category: '16-communication',
+    component: RetrospectiveTemplate,
+  },
+  {
+    id: '616',
+    path: 'feedback-form-builder',
+    nameKey: 'tools.feedbackFormBuilder.name',
+    descriptionKey: 'tools.feedbackFormBuilder.description',
+    category: '16-communication',
+    component: FeedbackFormBuilder,
+  },
+  {
+    id: '617',
+    path: 'team-directory',
+    nameKey: 'tools.teamDirectory.name',
+    descriptionKey: 'tools.teamDirectory.description',
+    category: '16-communication',
+    component: TeamDirectory,
+  },
+  {
+    id: '618',
+    path: 'onboarding-checklist',
+    nameKey: 'tools.onboardingChecklist.name',
+    descriptionKey: 'tools.onboardingChecklist.description',
+    category: '16-communication',
+    component: OnboardingChecklist,
+  },
+  {
+    id: '619',
+    path: 'one-on-one-agenda',
+    nameKey: 'tools.oneOnOneAgenda.name',
+    descriptionKey: 'tools.oneOnOneAgenda.description',
+    category: '16-communication',
+    component: OneOnOneAgenda,
+  },
+  {
+    id: '620',
+    path: 'status-update-formatter',
+    nameKey: 'tools.statusUpdateFormatter.name',
+    descriptionKey: 'tools.statusUpdateFormatter.description',
+    category: '16-communication',
+    component: StatusUpdateFormatter,
+  },
+  {
+    id: '621',
+    path: 'task-delegator',
+    nameKey: 'tools.taskDelegator.name',
+    descriptionKey: 'tools.taskDelegator.description',
+    category: '16-communication',
+    component: TaskDelegator,
+  },
+  {
+    id: '622',
+    path: 'team-role-assigner',
+    nameKey: 'tools.teamRoleAssigner.name',
+    descriptionKey: 'tools.teamRoleAssigner.description',
+    category: '16-communication',
+    component: TeamRoleAssigner,
+  },
+  {
+    id: '623',
+    path: 'decision-matrix',
+    nameKey: 'tools.decisionMatrix.name',
+    descriptionKey: 'tools.decisionMatrix.description',
+    category: '16-communication',
+    component: DecisionMatrix,
+  },
+  {
+    id: '624',
+    path: 'brainstorm-board',
+    nameKey: 'tools.brainstormBoard.name',
+    descriptionKey: 'tools.brainstormBoard.description',
+    category: '16-communication',
+    component: BrainstormBoard,
+  },
+  {
+    id: '625',
+    path: 'project-timeline',
+    nameKey: 'tools.projectTimeline.name',
+    descriptionKey: 'tools.projectTimeline.description',
+    category: '16-communication',
+    component: ProjectTimeline,
+  },
+  {
+    id: '626',
+    path: 'milestone-tracker',
+    nameKey: 'tools.milestoneTracker.name',
+    descriptionKey: 'tools.milestoneTracker.description',
+    category: '16-communication',
+    component: MilestoneTracker,
+  },
+  {
+    id: '627',
+    path: 'resource-planner',
+    nameKey: 'tools.resourcePlanner.name',
+    descriptionKey: 'tools.resourcePlanner.description',
+    category: '16-communication',
+    component: ResourcePlanner,
+  },
+  {
+    id: '628',
+    path: 'workload-balancer',
+    nameKey: 'tools.workloadBalancer.name',
+    descriptionKey: 'tools.workloadBalancer.description',
+    category: '16-communication',
+    component: WorkloadBalancer,
+  },
+  {
+    id: '629',
+    path: 'communication-log',
+    nameKey: 'tools.communicationLog.name',
+    descriptionKey: 'tools.communicationLog.description',
+    category: '16-communication',
+    component: CommunicationLog,
+  },
+  {
+    id: '630',
+    path: 'escalation-path',
+    nameKey: 'tools.escalationPath.name',
+    descriptionKey: 'tools.escalationPath.description',
+    category: '16-communication',
+    component: EscalationPath,
+  },
+  {
+    id: '631',
+    path: 'org-chart-maker',
+    nameKey: 'tools.orgChartMaker.name',
+    descriptionKey: 'tools.orgChartMaker.description',
+    category: '16-communication',
+    component: OrgChartMaker,
+  },
+  {
+    id: '632',
+    path: 'exit-interview-template',
+    nameKey: 'tools.exitInterviewTemplate.name',
+    descriptionKey: 'tools.exitInterviewTemplate.description',
+    category: '16-communication',
+    component: ExitInterviewTemplate,
+  },
+  {
+    id: '633',
+    path: 'performance-review-template',
+    nameKey: 'tools.performanceReviewTemplate.name',
+    descriptionKey: 'tools.performanceReviewTemplate.description',
+    category: '16-communication',
+    component: PerformanceReviewTemplate,
+  },
+  {
+    id: '634',
+    path: 'meeting-cost-calculator',
+    nameKey: 'tools.meetingCostCalculator.name',
+    descriptionKey: 'tools.meetingCostCalculator.description',
+    category: '16-communication',
+    component: MeetingCostCalculator,
+  },
+  {
+    id: '635',
+    path: 'team-health-check',
+    nameKey: 'tools.teamHealthCheck.name',
+    descriptionKey: 'tools.teamHealthCheck.description',
+    category: '16-communication',
+    component: TeamHealthCheck,
+  },
+  {
+    id: '636',
+    path: 'raci-matrix',
+    nameKey: 'tools.raciMatrix.name',
+    descriptionKey: 'tools.raciMatrix.description',
+    category: '16-communication',
+    component: RACIMatrix,
+  },
+  {
+    id: '637',
+    path: 'knowledge-base-builder',
+    nameKey: 'tools.knowledgeBaseBuilder.name',
+    descriptionKey: 'tools.knowledgeBaseBuilder.description',
+    category: '16-communication',
+    component: KnowledgeBaseBuilder,
+  },
+  {
+    id: '638',
+    path: 'changelog-generator',
+    nameKey: 'tools.changelogGenerator.name',
+    descriptionKey: 'tools.changelogGenerator.description',
+    category: '16-communication',
+    component: ChangelogGenerator,
+  },
+  {
+    id: '639',
+    path: 'release-notes-builder',
+    nameKey: 'tools.releaseNotesBuilder.name',
+    descriptionKey: 'tools.releaseNotesBuilder.description',
+    category: '16-communication',
+    component: ReleaseNotesBuilder,
+  },
+  {
+    id: '640',
+    path: 'sop-builder',
+    nameKey: 'tools.sopBuilder.name',
+    descriptionKey: 'tools.sopBuilder.description',
+    category: '16-communication',
+    component: SOPBuilder,
+  },
+  {
+    id: '641',
+    path: 'process-flow-maker',
+    nameKey: 'tools.processFlowMaker.name',
+    descriptionKey: 'tools.processFlowMaker.description',
+    category: '16-communication',
+    component: ProcessFlowMaker,
+  },
+  {
+    id: '642',
+    path: 'team-capacity-planner',
+    nameKey: 'tools.teamCapacityPlanner.name',
+    descriptionKey: 'tools.teamCapacityPlanner.description',
+    category: '16-communication',
+    component: TeamCapacityPlanner,
+  },
+  // Category 17: Security & Privacy (#643-#682)
+  {
+    id: '643',
+    path: 'password-generator-security',
+    nameKey: 'tools.passwordGeneratorSecurity.name',
+    descriptionKey: 'tools.passwordGeneratorSecurity.description',
+    category: '17-security',
+    component: PasswordGeneratorSecurity,
+  },
+  {
+    id: '644',
+    path: 'password-strength-checker',
+    nameKey: 'tools.passwordStrengthChecker.name',
+    descriptionKey: 'tools.passwordStrengthChecker.description',
+    category: '17-security',
+    component: PasswordStrengthChecker,
+  },
+  {
+    id: '645',
+    path: 'hash-generator-security',
+    nameKey: 'tools.hashGeneratorSecurity.name',
+    descriptionKey: 'tools.hashGeneratorSecurity.description',
+    category: '17-security',
+    component: HashGeneratorSecurity,
+  },
+  {
+    id: '646',
+    path: 'text-encryptor',
+    nameKey: 'tools.textEncryptor.name',
+    descriptionKey: 'tools.textEncryptor.description',
+    category: '17-security',
+    component: TextEncryptor,
+  },
+  {
+    id: '647',
+    path: 'two-factor-setup',
+    nameKey: 'tools.twoFactorSetup.name',
+    descriptionKey: 'tools.twoFactorSetup.description',
+    category: '17-security',
+    component: TwoFactorSetup,
+  },
+  {
+    id: '648',
+    path: 'secure-notepad',
+    nameKey: 'tools.secureNotepad.name',
+    descriptionKey: 'tools.secureNotepad.description',
+    category: '17-security',
+    component: SecureNotepad,
+  },
+  {
+    id: '649',
+    path: 'privacy-policy-generator',
+    nameKey: 'tools.privacyPolicyGenerator.name',
+    descriptionKey: 'tools.privacyPolicyGenerator.description',
+    category: '17-security',
+    component: PrivacyPolicyGenerator,
+  },
+  {
+    id: '650',
+    path: 'cookie-consent-builder',
+    nameKey: 'tools.cookieConsentBuilder.name',
+    descriptionKey: 'tools.cookieConsentBuilder.description',
+    category: '17-security',
+    component: CookieConsentBuilder,
+  },
+  {
+    id: '651',
+    path: 'data-breach-checker',
+    nameKey: 'tools.dataBreachChecker.name',
+    descriptionKey: 'tools.dataBreachChecker.description',
+    category: '17-security',
+    component: DataBreachChecker,
+  },
+  {
+    id: '652',
+    path: 'permission-analyzer',
+    nameKey: 'tools.permissionAnalyzer.name',
+    descriptionKey: 'tools.permissionAnalyzer.description',
+    category: '17-security',
+    component: PermissionAnalyzer,
+  },
+  {
+    id: '653',
+    path: 'security-headers-checker',
+    nameKey: 'tools.securityHeadersChecker.name',
+    descriptionKey: 'tools.securityHeadersChecker.description',
+    category: '17-security',
+    component: SecurityHeadersChecker,
+  },
+  {
+    id: '654',
+    path: 'ssl-certificate-info',
+    nameKey: 'tools.sslCertificateInfo.name',
+    descriptionKey: 'tools.sslCertificateInfo.description',
+    category: '17-security',
+    component: SSLCertificateInfo,
+  },
+  {
+    id: '655',
+    path: 'key-pair-generator',
+    nameKey: 'tools.keyPairGenerator.name',
+    descriptionKey: 'tools.keyPairGenerator.description',
+    category: '17-security',
+    component: KeyPairGenerator,
+  },
+  {
+    id: '656',
+    path: 'secret-sharing',
+    nameKey: 'tools.secretSharing.name',
+    descriptionKey: 'tools.secretSharing.description',
+    category: '17-security',
+    component: SecretSharing,
+  },
+  {
+    id: '657',
+    path: 'file-hash-checker',
+    nameKey: 'tools.fileHashChecker.name',
+    descriptionKey: 'tools.fileHashChecker.description',
+    category: '17-security',
+    component: FileHashChecker,
+  },
+  {
+    id: '658',
+    path: 'metadata-stripper',
+    nameKey: 'tools.metadataStripper.name',
+    descriptionKey: 'tools.metadataStripper.description',
+    category: '17-security',
+    component: MetadataStripper,
+  },
+  {
+    id: '659',
+    path: 'anonymous-id-generator',
+    nameKey: 'tools.anonymousIdGenerator.name',
+    descriptionKey: 'tools.anonymousIdGenerator.description',
+    category: '17-security',
+    component: AnonymousIdGenerator,
+  },
+  {
+    id: '660',
+    path: 'privacy-settings-audit',
+    nameKey: 'tools.privacySettingsAudit.name',
+    descriptionKey: 'tools.privacySettingsAudit.description',
+    category: '17-security',
+    component: PrivacySettingsAudit,
+  },
+  {
+    id: '661',
+    path: 'secure-password-share',
+    nameKey: 'tools.securePasswordShare.name',
+    descriptionKey: 'tools.securePasswordShare.description',
+    category: '17-security',
+    component: SecurePasswordShare,
+  },
+  {
+    id: '662',
+    path: 'access-control-matrix',
+    nameKey: 'tools.accessControlMatrix.name',
+    descriptionKey: 'tools.accessControlMatrix.description',
+    category: '17-security',
+    component: AccessControlMatrix,
+  },
+  {
+    id: '663',
+    path: 'risk-assessment-tool',
+    nameKey: 'tools.riskAssessmentTool.name',
+    descriptionKey: 'tools.riskAssessmentTool.description',
+    category: '17-security',
+    component: RiskAssessmentTool,
+  },
+  {
+    id: '664',
+    path: 'incident-response-plan',
+    nameKey: 'tools.incidentResponsePlan.name',
+    descriptionKey: 'tools.incidentResponsePlan.description',
+    category: '17-security',
+    component: IncidentResponsePlan,
+  },
+  {
+    id: '665',
+    path: 'security-checklist',
+    nameKey: 'tools.securityChecklist.name',
+    descriptionKey: 'tools.securityChecklist.description',
+    category: '17-security',
+    component: SecurityChecklist,
+  },
+  {
+    id: '666',
+    path: 'phishing-detector',
+    nameKey: 'tools.phishingDetector.name',
+    descriptionKey: 'tools.phishingDetector.description',
+    category: '17-security',
+    component: PhishingDetector,
+  },
+  {
+    id: '667',
+    path: 'data-classifier',
+    nameKey: 'tools.dataClassifier.name',
+    descriptionKey: 'tools.dataClassifier.description',
+    category: '17-security',
+    component: DataClassifier,
+  },
+  {
+    id: '668',
+    path: 'encryption-key-manager',
+    nameKey: 'tools.encryptionKeyManager.name',
+    descriptionKey: 'tools.encryptionKeyManager.description',
+    category: '17-security',
+    component: EncryptionKeyManager,
+  },
+  {
+    id: '669',
+    path: 'secure-file-namer',
+    nameKey: 'tools.secureFileNamer.name',
+    descriptionKey: 'tools.secureFileNamer.description',
+    category: '17-security',
+    component: SecureFileNamer,
+  },
+  {
+    id: '670',
+    path: 'privacy-impact-assessment',
+    nameKey: 'tools.privacyImpactAssessment.name',
+    descriptionKey: 'tools.privacyImpactAssessment.description',
+    category: '17-security',
+    component: PrivacyImpactAssessment,
+  },
+  {
+    id: '671',
+    path: 'consent-manager',
+    nameKey: 'tools.consentManager.name',
+    descriptionKey: 'tools.consentManager.description',
+    category: '17-security',
+    component: ConsentManager,
+  },
+  {
+    id: '672',
+    path: 'data-retention-policy',
+    nameKey: 'tools.dataRetentionPolicy.name',
+    descriptionKey: 'tools.dataRetentionPolicy.description',
+    category: '17-security',
+    component: DataRetentionPolicy,
+  },
+  {
+    id: '673',
+    path: 'security-awareness-quiz',
+    nameKey: 'tools.securityAwarenessQuiz.name',
+    descriptionKey: 'tools.securityAwarenessQuiz.description',
+    category: '17-security',
+    component: SecurityAwarenessQuiz,
+  },
+  {
+    id: '674',
+    path: 'threat-model-builder',
+    nameKey: 'tools.threatModelBuilder.name',
+    descriptionKey: 'tools.threatModelBuilder.description',
+    category: '17-security',
+    component: ThreatModelBuilder,
+  },
+  {
+    id: '675',
+    path: 'security-policy-generator',
+    nameKey: 'tools.securityPolicyGenerator.name',
+    descriptionKey: 'tools.securityPolicyGenerator.description',
+    category: '17-security',
+    component: SecurityPolicyGenerator,
+  },
+  {
+    id: '676',
+    path: 'compliance-checker',
+    nameKey: 'tools.complianceChecker.name',
+    descriptionKey: 'tools.complianceChecker.description',
+    category: '17-security',
+    component: ComplianceChecker,
+  },
+  {
+    id: '677',
+    path: 'audit-log-viewer',
+    nameKey: 'tools.auditLogViewer.name',
+    descriptionKey: 'tools.auditLogViewer.description',
+    category: '17-security',
+    component: AuditLogViewer,
+  },
+  {
+    id: '678',
+    path: 'access-review-tool',
+    nameKey: 'tools.accessReviewTool.name',
+    descriptionKey: 'tools.accessReviewTool.description',
+    category: '17-security',
+    component: AccessReviewTool,
+  },
+  {
+    id: '679',
+    path: 'security-scorecard',
+    nameKey: 'tools.securityScorecard.name',
+    descriptionKey: 'tools.securityScorecard.description',
+    category: '17-security',
+    component: SecurityScorecard,
+  },
+  {
+    id: '680',
+    path: 'vulnerability-tracker',
+    nameKey: 'tools.vulnerabilityTracker.name',
+    descriptionKey: 'tools.vulnerabilityTracker.description',
+    category: '17-security',
+    component: VulnerabilityTracker,
+  },
+  {
+    id: '681',
+    path: 'secure-code-review',
+    nameKey: 'tools.secureCodeReview.name',
+    descriptionKey: 'tools.secureCodeReview.description',
+    category: '17-security',
+    component: SecureCodeReview,
+  },
+  {
+    id: '682',
+    path: 'biometric-auth-guide',
+    nameKey: 'tools.biometricAuthGuide.name',
+    descriptionKey: 'tools.biometricAuthGuide.description',
+    category: '17-security',
+    component: BiometricAuthGuide,
+  },
+  // Category 18: Business & Marketing (#683-#722)
+  {
+    id: '683',
+    path: 'business-name-generator',
+    nameKey: 'tools.businessNameGenerator.name',
+    descriptionKey: 'tools.businessNameGenerator.description',
+    category: '18-business',
+    component: BusinessNameGenerator,
+  },
+  {
+    id: '684',
+    path: 'slogan-generator',
+    nameKey: 'tools.sloganGenerator.name',
+    descriptionKey: 'tools.sloganGenerator.description',
+    category: '18-business',
+    component: SloganGenerator,
+  },
+  {
+    id: '685',
+    path: 'pitch-deck-outline',
+    nameKey: 'tools.pitchDeckOutline.name',
+    descriptionKey: 'tools.pitchDeckOutline.description',
+    category: '18-business',
+    component: PitchDeckOutline,
+  },
+  {
+    id: '686',
+    path: 'swot-analysis',
+    nameKey: 'tools.swotAnalysis.name',
+    descriptionKey: 'tools.swotAnalysis.description',
+    category: '18-business',
+    component: SWOTAnalysis,
+  },
+  {
+    id: '687',
+    path: 'competitor-analysis',
+    nameKey: 'tools.competitorAnalysis.name',
+    descriptionKey: 'tools.competitorAnalysis.description',
+    category: '18-business',
+    component: CompetitorAnalysis,
+  },
+  {
+    id: '688',
+    path: 'value-proposition',
+    nameKey: 'tools.valueProposition.name',
+    descriptionKey: 'tools.valueProposition.description',
+    category: '18-business',
+    component: ValueProposition,
+  },
+  {
+    id: '689',
+    path: 'elevator-pitch',
+    nameKey: 'tools.elevatorPitch.name',
+    descriptionKey: 'tools.elevatorPitch.description',
+    category: '18-business',
+    component: ElevatorPitch,
+  },
+  {
+    id: '690',
+    path: 'customer-persona',
+    nameKey: 'tools.customerPersona.name',
+    descriptionKey: 'tools.customerPersona.description',
+    category: '18-business',
+    component: CustomerPersona,
+  },
+  {
+    id: '691',
+    path: 'pricing-calculator',
+    nameKey: 'tools.pricingCalculator.name',
+    descriptionKey: 'tools.pricingCalculator.description',
+    category: '18-business',
+    component: PricingCalculator,
+  },
+  {
+    id: '692',
+    path: 'market-size-calculator',
+    nameKey: 'tools.marketSizeCalculator.name',
+    descriptionKey: 'tools.marketSizeCalculator.description',
+    category: '18-business',
+    component: MarketSizeCalculator,
+  },
+  {
+    id: '693',
+    path: 'break-even-calculator',
+    nameKey: 'tools.breakEvenCalculator.name',
+    descriptionKey: 'tools.breakEvenCalculator.description',
+    category: '18-business',
+    component: BreakEvenCalculator,
+  },
+  {
+    id: '694',
+    path: 'roi-calculator',
+    nameKey: 'tools.roiCalculator.name',
+    descriptionKey: 'tools.roiCalculator.description',
+    category: '18-business',
+    component: ROICalculator,
+  },
+  {
+    id: '695',
+    path: 'social-media-planner',
+    nameKey: 'tools.socialMediaPlanner.name',
+    descriptionKey: 'tools.socialMediaPlanner.description',
+    category: '18-business',
+    component: SocialMediaPlanner,
+  },
+  {
+    id: '696',
+    path: 'email-signature-generator',
+    nameKey: 'tools.emailSignatureGenerator.name',
+    descriptionKey: 'tools.emailSignatureGenerator.description',
+    category: '18-business',
+    component: EmailSignatureGenerator,
+  },
+  {
+    id: '697',
+    path: 'invoice-generator',
+    nameKey: 'tools.invoiceGenerator.name',
+    descriptionKey: 'tools.invoiceGenerator.description',
+    category: '18-business',
+    component: InvoiceGenerator,
+  },
+  {
+    id: '698',
+    path: 'proposal-template',
+    nameKey: 'tools.proposalTemplate.name',
+    descriptionKey: 'tools.proposalTemplate.description',
+    category: '18-business',
+    component: ProposalTemplate,
+  },
+  {
+    id: '699',
+    path: 'contract-template',
+    nameKey: 'tools.contractTemplate.name',
+    descriptionKey: 'tools.contractTemplate.description',
+    category: '18-business',
+    component: ContractTemplate,
+  },
+  {
+    id: '700',
+    path: 'branding-kit',
+    nameKey: 'tools.brandingKit.name',
+    descriptionKey: 'tools.brandingKit.description',
+    category: '18-business',
+    component: BrandingKit,
+  },
+  {
+    id: '701',
+    path: 'meeting-agenda',
+    nameKey: 'tools.meetingAgenda.name',
+    descriptionKey: 'tools.meetingAgenda.description',
+    category: '18-business',
+    component: MeetingAgenda,
+  },
+  {
+    id: '702',
+    path: 'project-timeline',
+    nameKey: 'tools.projectTimeline.name',
+    descriptionKey: 'tools.projectTimeline.description',
+    category: '18-business',
+    component: ProjectTimeline,
+  },
+  {
+    id: '703',
+    path: 'okr-tracker',
+    nameKey: 'tools.okrTracker.name',
+    descriptionKey: 'tools.okrTracker.description',
+    category: '18-business',
+    component: OKRTracker,
+  },
+  {
+    id: '704',
+    path: 'kpi-dashboard',
+    nameKey: 'tools.kpiDashboard.name',
+    descriptionKey: 'tools.kpiDashboard.description',
+    category: '18-business',
+    component: KPIDashboard,
+  },
+  {
+    id: '705',
+    path: 'budget-planner',
+    nameKey: 'tools.budgetPlanner.name',
+    descriptionKey: 'tools.budgetPlanner.description',
+    category: '18-business',
+    component: BudgetPlanner,
+  },
+  {
+    id: '706',
+    path: 'cash-flow-tracker',
+    nameKey: 'tools.cashFlowTracker.name',
+    descriptionKey: 'tools.cashFlowTracker.description',
+    category: '18-business',
+    component: CashFlowTracker,
+  },
+  {
+    id: '707',
+    path: 'profit-margin-calculator',
+    nameKey: 'tools.profitMarginCalculator.name',
+    descriptionKey: 'tools.profitMarginCalculator.description',
+    category: '18-business',
+    component: ProfitMarginCalculator,
+  },
+  {
+    id: '708',
+    path: 'sales-forecaster',
+    nameKey: 'tools.salesForecaster.name',
+    descriptionKey: 'tools.salesForecaster.description',
+    category: '18-business',
+    component: SalesForecaster,
+  },
+  {
+    id: '709',
+    path: 'lead-scoring',
+    nameKey: 'tools.leadScoring.name',
+    descriptionKey: 'tools.leadScoring.description',
+    category: '18-business',
+    component: LeadScoring,
+  },
+  {
+    id: '710',
+    path: 'email-campaign',
+    nameKey: 'tools.emailCampaign.name',
+    descriptionKey: 'tools.emailCampaign.description',
+    category: '18-business',
+    component: EmailCampaign,
+  },
+  {
+    id: '711',
+    path: 'ab-test-planner',
+    nameKey: 'tools.abTestPlanner.name',
+    descriptionKey: 'tools.abTestPlanner.description',
+    category: '18-business',
+    component: ABTestPlanner,
+  },
+  {
+    id: '712',
+    path: 'content-calendar',
+    nameKey: 'tools.contentCalendar.name',
+    descriptionKey: 'tools.contentCalendar.description',
+    category: '18-business',
+    component: ContentCalendar,
+  },
+  {
+    id: '713',
+    path: 'seo-checker',
+    nameKey: 'tools.seoChecker.name',
+    descriptionKey: 'tools.seoChecker.description',
+    category: '18-business',
+    component: SEOChecker,
+  },
+  {
+    id: '714',
+    path: 'keyword-planner',
+    nameKey: 'tools.keywordPlanner.name',
+    descriptionKey: 'tools.keywordPlanner.description',
+    category: '18-business',
+    component: KeywordPlanner,
+  },
+  {
+    id: '715',
+    path: 'hashtag-generator',
+    nameKey: 'tools.hashtagGenerator.name',
+    descriptionKey: 'tools.hashtagGenerator.description',
+    category: '18-business',
+    component: HashtagGenerator,
+  },
+  {
+    id: '716',
+    path: 'press-release',
+    nameKey: 'tools.pressRelease.name',
+    descriptionKey: 'tools.pressRelease.description',
+    category: '18-business',
+    component: PressRelease,
+  },
+  {
+    id: '717',
+    path: 'media-kit',
+    nameKey: 'tools.mediaKit.name',
+    descriptionKey: 'tools.mediaKit.description',
+    category: '18-business',
+    component: MediaKit,
+  },
+  {
+    id: '718',
+    path: 'testimonial-collector',
+    nameKey: 'tools.testimonialCollector.name',
+    descriptionKey: 'tools.testimonialCollector.description',
+    category: '18-business',
+    component: TestimonialCollector,
+  },
+  {
+    id: '719',
+    path: 'case-study-template',
+    nameKey: 'tools.caseStudyTemplate.name',
+    descriptionKey: 'tools.caseStudyTemplate.description',
+    category: '18-business',
+    component: CaseStudyTemplate,
+  },
+  {
+    id: '720',
+    path: 'newsletter-builder',
+    nameKey: 'tools.newsletterBuilder.name',
+    descriptionKey: 'tools.newsletterBuilder.description',
+    category: '18-business',
+    component: NewsletterBuilder,
+  },
+  {
+    id: '721',
+    path: 'survey-creator',
+    nameKey: 'tools.surveyCreator.name',
+    descriptionKey: 'tools.surveyCreator.description',
+    category: '18-business',
+    component: SurveyCreator,
+  },
+  {
+    id: '722',
+    path: 'feedback-form',
+    nameKey: 'tools.feedbackForm.name',
+    descriptionKey: 'tools.feedbackForm.description',
+    category: '18-business',
+    component: FeedbackForm,
+  },
+  {
+    id: '723',
+    path: 'flashcard-maker',
+    nameKey: 'tools.flashcardMaker.name',
+    descriptionKey: 'tools.flashcardMaker.description',
+    category: '19-education',
+    component: FlashcardMaker,
+  },
+  {
+    id: '724',
+    path: 'quiz-generator',
+    nameKey: 'tools.quizGenerator.name',
+    descriptionKey: 'tools.quizGenerator.description',
+    category: '19-education',
+    component: QuizGenerator,
+  },
+  {
+    id: '725',
+    path: 'study-timer',
+    nameKey: 'tools.studyTimer.name',
+    descriptionKey: 'tools.studyTimer.description',
+    category: '19-education',
+    component: StudyTimer,
+  },
+  {
+    id: '726',
+    path: 'note-summarizer',
+    nameKey: 'tools.noteSummarizer.name',
+    descriptionKey: 'tools.noteSummarizer.description',
+    category: '19-education',
+    component: NoteSummarizer,
+  },
+  {
+    id: '727',
+    path: 'vocabulary-builder',
+    nameKey: 'tools.vocabularyBuilder.name',
+    descriptionKey: 'tools.vocabularyBuilder.description',
+    category: '19-education',
+    component: VocabularyBuilder,
+  },
+  {
+    id: '728',
+    path: 'grammar-checker',
+    nameKey: 'tools.grammarChecker.name',
+    descriptionKey: 'tools.grammarChecker.description',
+    category: '19-education',
+    component: GrammarChecker,
+  },
+  {
+    id: '729',
+    path: 'citation-generator',
+    nameKey: 'tools.citationGenerator.name',
+    descriptionKey: 'tools.citationGenerator.description',
+    category: '19-education',
+    component: CitationGenerator,
+  },
+  {
+    id: '730',
+    path: 'bibliography-maker',
+    nameKey: 'tools.bibliographyMaker.name',
+    descriptionKey: 'tools.bibliographyMaker.description',
+    category: '19-education',
+    component: BibliographyMaker,
+  },
+  {
+    id: '731',
+    path: 'essay-outliner',
+    nameKey: 'tools.essayOutliner.name',
+    descriptionKey: 'tools.essayOutliner.description',
+    category: '19-education',
+    component: EssayOutliner,
+  },
+  {
+    id: '732',
+    path: 'mind-mapper',
+    nameKey: 'tools.mindMapper.name',
+    descriptionKey: 'tools.mindMapper.description',
+    category: '19-education',
+    component: MindMapper,
+  },
+  {
+    id: '733',
+    path: 'math-problem-solver',
+    nameKey: 'tools.mathProblemSolver.name',
+    descriptionKey: 'tools.mathProblemSolver.description',
+    category: '19-education',
+    component: MathProblemSolver,
+  },
+  {
+    id: '734',
+    path: 'periodic-table',
+    nameKey: 'tools.periodicTable.name',
+    descriptionKey: 'tools.periodicTable.description',
+    category: '19-education',
+    component: PeriodicTable,
+  },
+  {
+    id: '735',
+    path: 'multiplication-table',
+    nameKey: 'tools.multiplicationTable.name',
+    descriptionKey: 'tools.multiplicationTable.description',
+    category: '19-education',
+    component: MultiplicationTable,
+  },
+  {
+    id: '736',
+    path: 'fraction-calculator',
+    nameKey: 'tools.fractionCalculator.name',
+    descriptionKey: 'tools.fractionCalculator.description',
+    category: '19-education',
+    component: FractionCalculator,
+  },
+  {
+    id: '737',
+    path: 'grade-calculator',
+    nameKey: 'tools.gradeCalculator.name',
+    descriptionKey: 'tools.gradeCalculator.description',
+    category: '19-education',
+    component: GradeCalculator,
+  },
+  {
+    id: '738',
+    path: 'gpa-calculator',
+    nameKey: 'tools.gpaCalculator.name',
+    descriptionKey: 'tools.gpaCalculator.description',
+    category: '19-education',
+    component: GPACalculator,
+  },
+  {
+    id: '739',
+    path: 'reading-speed-test',
+    nameKey: 'tools.readingSpeedTest.name',
+    descriptionKey: 'tools.readingSpeedTest.description',
+    category: '19-education',
+    component: ReadingSpeedTest,
+  },
+  {
+    id: '740',
+    path: 'typing-speed-test',
+    nameKey: 'tools.typingSpeedTest.name',
+    descriptionKey: 'tools.typingSpeedTest.description',
+    category: '19-education',
+    component: TypingSpeedTest,
+  },
+  {
+    id: '741',
+    path: 'learning-goal-tracker',
+    nameKey: 'tools.learningGoalTracker.name',
+    descriptionKey: 'tools.learningGoalTracker.description',
+    category: '19-education',
+    component: LearningGoalTracker,
+  },
+  {
+    id: '742',
+    path: 'homework-planner',
+    nameKey: 'tools.homeworkPlanner.name',
+    descriptionKey: 'tools.homeworkPlanner.description',
+    category: '19-education',
+    component: HomeworkPlanner,
+  },
+  {
+    id: '743',
+    path: 'exam-countdown',
+    nameKey: 'tools.examCountdown.name',
+    descriptionKey: 'tools.examCountdown.description',
+    category: '19-education',
+    component: ExamCountdown,
+  },
+  {
+    id: '744',
+    path: 'study-group-organizer',
+    nameKey: 'tools.studyGroupOrganizer.name',
+    descriptionKey: 'tools.studyGroupOrganizer.description',
+    category: '19-education',
+    component: StudyGroupOrganizer,
+  },
+  {
+    id: '745',
+    path: 'language-learning-tracker',
+    nameKey: 'tools.languageLearningTracker.name',
+    descriptionKey: 'tools.languageLearningTracker.description',
+    category: '19-education',
+    component: LanguageLearningTracker,
+  },
+  {
+    id: '746',
+    path: 'spelling-practice',
+    nameKey: 'tools.spellingPractice.name',
+    descriptionKey: 'tools.spellingPractice.description',
+    category: '19-education',
+    component: SpellingPractice,
+  },
+  {
+    id: '747',
+    path: 'math-facts-fluency',
+    nameKey: 'tools.mathFactsFluency.name',
+    descriptionKey: 'tools.mathFactsFluency.description',
+    category: '19-education',
+    component: MathFactsFluency,
+  },
+  {
+    id: '748',
+    path: 'course-scheduler',
+    nameKey: 'tools.courseScheduler.name',
+    descriptionKey: 'tools.courseScheduler.description',
+    category: '19-education',
+    component: CourseScheduler,
+  },
+  {
+    id: '749',
+    path: 'research-paper-outliner',
+    nameKey: 'tools.researchPaperOutliner.name',
+    descriptionKey: 'tools.researchPaperOutliner.description',
+    category: '19-education',
+    component: ResearchPaperOutliner,
+  },
+  {
+    id: '750',
+    path: 'thesis-statement-builder',
+    nameKey: 'tools.thesisStatementBuilder.name',
+    descriptionKey: 'tools.thesisStatementBuilder.description',
+    category: '19-education',
+    component: ThesisStatementBuilder,
+  },
+  {
+    id: '751',
+    path: 'book-report-helper',
+    nameKey: 'tools.bookReportHelper.name',
+    descriptionKey: 'tools.bookReportHelper.description',
+    category: '19-education',
+    component: BookReportHelper,
+  },
+  {
+    id: '752',
+    path: 'science-experiment-log',
+    nameKey: 'tools.scienceExperimentLog.name',
+    descriptionKey: 'tools.scienceExperimentLog.description',
+    category: '19-education',
+    component: ScienceExperimentLog,
+  },
+  {
+    id: '753',
+    path: 'history-timeline-maker',
+    nameKey: 'tools.historyTimelineMaker.name',
+    descriptionKey: 'tools.historyTimelineMaker.description',
+    category: '19-education',
+    component: HistoryTimelineMaker,
+  },
+  {
+    id: '754',
+    path: 'geography-quiz',
+    nameKey: 'tools.geographyQuiz.name',
+    descriptionKey: 'tools.geographyQuiz.description',
+    category: '19-education',
+    component: GeographyQuiz,
+  },
+  {
+    id: '755',
+    path: 'music-theory-helper',
+    nameKey: 'tools.musicTheoryHelper.name',
+    descriptionKey: 'tools.musicTheoryHelper.description',
+    category: '19-education',
+    component: MusicTheoryHelper,
+  },
+  {
+    id: '756',
+    path: 'debate-prep',
+    nameKey: 'tools.debatePrep.name',
+    descriptionKey: 'tools.debatePrep.description',
+    category: '19-education',
+    component: DebatePrep,
+  },
+  {
+    id: '757',
+    path: 'presentation-timer',
+    nameKey: 'tools.presentationTimer.name',
+    descriptionKey: 'tools.presentationTimer.description',
+    category: '19-education',
+    component: PresentationTimer,
+  },
+  {
+    id: '758',
+    path: 'class-participation-tracker',
+    nameKey: 'tools.classParticipationTracker.name',
+    descriptionKey: 'tools.classParticipationTracker.description',
+    category: '19-education',
+    component: ClassParticipationTracker,
+  },
+  {
+    id: '759',
+    path: 'study-break-reminder',
+    nameKey: 'tools.studyBreakReminder.name',
+    descriptionKey: 'tools.studyBreakReminder.description',
+    category: '19-education',
+    component: StudyBreakReminder,
+  },
+  {
+    id: '760',
+    path: 'learning-style-quiz',
+    nameKey: 'tools.learningStyleQuiz.name',
+    descriptionKey: 'tools.learningStyleQuiz.description',
+    category: '19-education',
+    component: LearningStyleQuiz,
+  },
+  {
+    id: '761',
+    path: 'academic-calendar',
+    nameKey: 'tools.academicCalendar.name',
+    descriptionKey: 'tools.academicCalendar.description',
+    category: '19-education',
+    component: AcademicCalendar,
+  },
+  {
+    id: '762',
+    path: 'study-playlist',
+    nameKey: 'tools.studyPlaylist.name',
+    descriptionKey: 'tools.studyPlaylist.description',
+    category: '19-education',
+    component: StudyPlaylist,
+  },
 ]
 
 export const categories = [
@@ -5585,6 +7397,11 @@ export const categories = [
   { id: '12-productivity', nameKey: 'categories.12-productivity' },
   { id: '13-science', nameKey: 'categories.13-science' },
   { id: '14-games', nameKey: 'categories.14-games' },
+  { id: '15-art', nameKey: 'categories.15-art' },
+  { id: '16-communication', nameKey: 'categories.16-communication' },
+  { id: '17-security', nameKey: 'categories.17-security' },
+  { id: '18-business', nameKey: 'categories.18-business' },
+  { id: '19-education', nameKey: 'categories.19-education' },
   { id: '25-other', nameKey: 'categories.25-other' },
 ]
 

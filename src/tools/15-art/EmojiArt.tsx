@@ -93,7 +93,6 @@ export default function EmojiArt() {
   ]
 
   const loadTemplate = (template: { name: string; data: string[] }) => {
-    const newGrid = template.data.map(row => [...row].filter(c => c.length > 0))
     const normalizedGrid: string[][] = []
 
     template.data.forEach((row) => {

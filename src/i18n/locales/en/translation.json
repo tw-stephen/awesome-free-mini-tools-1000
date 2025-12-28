@@ -36,6 +36,11 @@
     "12-productivity": "Productivity & Business",
     "13-science": "Science & Math",
     "14-games": "Games & Entertainment",
+    "15-art": "Art & Design",
+    "16-communication": "Communication & Collaboration",
+    "17-security": "Security & Privacy",
+    "18-business": "Business & Marketing",
+    "19-education": "Education & Learning",
     "25-other": "Other Tools"
   },
   "tools": {
@@ -9769,6 +9774,1724 @@
       "instruction1": "Add your own items to the wheel",
       "instruction2": "Click Spin to randomly select an item",
       "instruction3": "Great for making decisions or playing games!"
+    },
+    "colorPaletteGenerator": {
+      "name": "Color Palette Generator",
+      "description": "Generate beautiful color palettes for your designs",
+      "colors": "Colors",
+      "mode": "Mode",
+      "generate": "Generate",
+      "copy": "Copy"
+    },
+    "gradientGenerator": {
+      "name": "Gradient Generator",
+      "description": "Create CSS gradients with custom colors and directions",
+      "direction": "Direction",
+      "colorStops": "Color Stops",
+      "addStop": "Add Stop",
+      "css": "CSS Code",
+      "copy": "Copy CSS"
+    },
+    "patternMaker": {
+      "name": "Pattern Maker",
+      "description": "Create seamless patterns for backgrounds",
+      "pattern": "Pattern Type",
+      "colors": "Colors",
+      "size": "Size",
+      "download": "Download"
+    },
+    "pixelArtMaker": {
+      "name": "Pixel Art Maker",
+      "description": "Create pixel art with a simple grid editor",
+      "gridSize": "Grid Size",
+      "color": "Color",
+      "tool": "Tool",
+      "clear": "Clear",
+      "download": "Download"
+    },
+    "iconGenerator": {
+      "name": "Icon Generator",
+      "description": "Generate simple icons and avatars",
+      "shape": "Shape",
+      "color": "Color",
+      "bgColor": "Background Color",
+      "letter": "Letter",
+      "download": "Download"
+    },
+    "logoMaker": {
+      "name": "Logo Maker",
+      "description": "Create simple logo designs",
+      "text": "Text",
+      "icon": "Icon",
+      "style": "Style",
+      "colors": "Colors",
+      "download": "Download"
+    },
+    "bannerCreator": {
+      "name": "Banner Creator",
+      "description": "Create web banners and ads",
+      "size": "Size",
+      "text": "Text",
+      "style": "Style",
+      "download": "Download"
+    },
+    "faviconGenerator": {
+      "name": "Favicon Generator",
+      "description": "Generate favicons for websites",
+      "letter": "Letter",
+      "bgColor": "Background",
+      "textColor": "Text Color",
+      "shape": "Shape",
+      "download": "Download"
+    },
+    "mockupGenerator": {
+      "name": "Mockup Generator",
+      "description": "Create device mockups for presentations",
+      "device": "Device",
+      "color": "Color",
+      "download": "Download"
+    },
+    "colorBlindSimulator": {
+      "name": "Color Blind Simulator",
+      "description": "See how your designs look to colorblind users",
+      "uploadImage": "Upload Image",
+      "selectType": "Color Blindness Type"
+    },
+    "imageFilters": {
+      "name": "Image Filters",
+      "description": "Apply filters and adjustments to images",
+      "upload": "Upload Image",
+      "brightness": "Brightness",
+      "contrast": "Contrast",
+      "saturation": "Saturation",
+      "blur": "Blur",
+      "reset": "Reset",
+      "download": "Download"
+    },
+    "textureMaker": {
+      "name": "Texture Maker",
+      "description": "Generate procedural textures",
+      "type": "Texture Type",
+      "colors": "Colors",
+      "scale": "Scale",
+      "download": "Download"
+    },
+    "shapeGenerator": {
+      "name": "Shape Generator",
+      "description": "Generate various geometric shapes",
+      "shape": "Shape",
+      "color": "Color",
+      "size": "Size",
+      "rotation": "Rotation",
+      "download": "Download"
+    },
+    "watermarkMaker": {
+      "name": "Watermark Maker",
+      "description": "Add watermarks to your images",
+      "upload": "Upload Image",
+      "text": "Watermark Text",
+      "position": "Position",
+      "opacity": "Opacity",
+      "download": "Download"
+    },
+    "collageCreator": {
+      "name": "Collage Creator",
+      "description": "Create photo collages",
+      "layout": "Layout",
+      "uploadImages": "Upload Images",
+      "download": "Download"
+    },
+    "memeGenerator": {
+      "name": "Meme Generator",
+      "description": "Create memes with custom text",
+      "upload": "Upload Image",
+      "topText": "Top Text",
+      "bottomText": "Bottom Text",
+      "download": "Download"
+    },
+    "avatarCreator": {
+      "name": "Avatar Creator",
+      "description": "Create cartoon avatars",
+      "face": "Face",
+      "eyes": "Eyes",
+      "mouth": "Mouth",
+      "hair": "Hair",
+      "color": "Color",
+      "download": "Download"
+    },
+    "badgeMaker": {
+      "name": "Badge Maker",
+      "description": "Create award badges and ribbons",
+      "style": "Style",
+      "text": "Text",
+      "color": "Color",
+      "download": "Download"
+    },
+    "certificateMaker": {
+      "name": "Certificate Maker",
+      "description": "Create certificates and awards",
+      "title": "Title",
+      "recipientName": "Recipient Name",
+      "description": "Description",
+      "date": "Date",
+      "template": "Template",
+      "download": "Download"
+    },
+    "businessCardDesigner": {
+      "name": "Business Card Designer",
+      "description": "Design professional business cards",
+      "name": "Name",
+      "title": "Title",
+      "email": "Email",
+      "phone": "Phone",
+      "layout": "Layout",
+      "download": "Download"
+    },
+    "posterMaker": {
+      "name": "Poster Maker",
+      "description": "Create event posters",
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "template": "Template",
+      "colors": "Colors",
+      "download": "Download"
+    },
+    "chartMaker": {
+      "name": "Chart Maker",
+      "description": "Create bar, line, and pie charts",
+      "chartType": "Chart Type",
+      "data": "Data",
+      "addData": "Add Data",
+      "download": "Download"
+    },
+    "flowchartMaker": {
+      "name": "Flowchart Maker",
+      "description": "Create simple flowcharts",
+      "addNode": "Add Node",
+      "nodeText": "Node Text",
+      "nodeType": "Node Type",
+      "download": "Download"
+    },
+    "mindmapBuilder": {
+      "name": "Mindmap Builder",
+      "description": "Create mind maps for brainstorming",
+      "centralTopic": "Central Topic",
+      "addBranch": "Add Branch",
+      "download": "Download"
+    },
+    "colorMixer": {
+      "name": "Color Mixer",
+      "description": "Mix two colors together",
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "ratio": "Mix Ratio",
+      "result": "Result",
+      "copy": "Copy"
+    },
+    "paletteExtractor": {
+      "name": "Palette Extractor",
+      "description": "Extract color palette from images",
+      "upload": "Upload Image",
+      "colors": "Extracted Colors",
+      "copy": "Copy Colors"
+    },
+    "colorHarmony": {
+      "name": "Color Harmony",
+      "description": "Generate harmonious color combinations",
+      "baseColor": "Base Color",
+      "harmonyType": "Harmony Type",
+      "colors": "Colors"
+    },
+    "contrastChecker": {
+      "name": "Contrast Checker",
+      "description": "Check WCAG color contrast ratios",
+      "foreground": "Foreground",
+      "background": "Background",
+      "ratio": "Contrast Ratio",
+      "level": "WCAG Level"
+    },
+    "shadowGenerator": {
+      "name": "Shadow Generator",
+      "description": "Generate CSS box-shadow",
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "blur": "Blur",
+      "spread": "Spread",
+      "color": "Color",
+      "inset": "Inset",
+      "copy": "Copy CSS"
+    },
+    "borderGenerator": {
+      "name": "Border Generator",
+      "description": "Generate CSS border styles",
+      "width": "Width",
+      "style": "Style",
+      "color": "Color",
+      "radius": "Radius",
+      "copy": "Copy CSS"
+    },
+    "dividerMaker": {
+      "name": "Divider Maker",
+      "description": "Create section dividers",
+      "style": "Style",
+      "color": "Color",
+      "height": "Height",
+      "copy": "Copy SVG"
+    },
+    "emojiArt": {
+      "name": "Emoji Art",
+      "description": "Create pixel art with emojis",
+      "gridSize": "Grid Size",
+      "selectedEmoji": "Selected Emoji",
+      "clear": "Clear",
+      "copy": "Copy"
+    },
+    "asciiArtGenerator": {
+      "name": "ASCII Art Generator",
+      "description": "Convert images to ASCII art",
+      "upload": "Upload Image",
+      "width": "Width",
+      "characters": "Characters",
+      "invert": "Invert",
+      "copy": "Copy"
+    },
+    "typographyTool": {
+      "name": "Typography Tool",
+      "description": "Preview and adjust typography settings",
+      "font": "Font Family",
+      "size": "Font Size",
+      "weight": "Weight",
+      "lineHeight": "Line Height",
+      "letterSpacing": "Letter Spacing",
+      "preview": "Preview Text"
+    },
+    "fontPairer": {
+      "name": "Font Pairer",
+      "description": "Find fonts that work well together",
+      "headingFont": "Heading Font",
+      "bodyFont": "Body Font",
+      "suggestions": "Suggestions"
+    },
+    "designInspiration": {
+      "name": "Design Inspiration",
+      "description": "Get design inspiration and color palettes",
+      "category": "Category",
+      "randomPalette": "Random Palette",
+      "copyColors": "Copy Colors",
+      "tips": "Design Tips",
+      "tip1": "Use 60-30-10 rule for color distribution",
+      "tip2": "Limit your color palette to 3-5 colors",
+      "tip3": "Use contrast for visual hierarchy"
+    },
+    "colorConverter": {
+      "name": "Color Converter",
+      "description": "Convert colors between HEX, RGB, and HSL",
+      "hex": "HEX",
+      "rgb": "RGB",
+      "hsl": "HSL"
+    },
+    "imageCropper": {
+      "name": "Image Cropper",
+      "description": "Crop and resize images",
+      "upload": "Upload Image",
+      "aspectRatio": "Aspect Ratio",
+      "cropArea": "Crop Area",
+      "changeImage": "Change Image",
+      "download": "Download"
+    },
+    "thumbnailMaker": {
+      "name": "Thumbnail Maker",
+      "description": "Create video thumbnails",
+      "text": "Text",
+      "style": "Style",
+      "colors": "Colors",
+      "download": "Download"
+    },
+    "socialMediaImageCreator": {
+      "name": "Social Media Image Creator",
+      "description": "Create images for social media platforms",
+      "platform": "Platform",
+      "template": "Template",
+      "text": "Text",
+      "colors": "Colors",
+      "download": "Download"
+    },
+    "teamMessageFormatter": {
+      "name": "Team Message Formatter",
+      "description": "Format professional team messages",
+      "type": "Message Type",
+      "urgency": "Urgency",
+      "recipient": "Recipient",
+      "subject": "Subject",
+      "message": "Message",
+      "preview": "Preview",
+      "copy": "Copy Message"
+    },
+    "meetingScheduler": {
+      "name": "Meeting Scheduler",
+      "description": "Schedule meetings with time slots",
+      "title": "Meeting Title",
+      "date": "Date",
+      "duration": "Duration",
+      "participants": "Participants",
+      "slots": "Time Slots",
+      "addSlot": "Add Slot",
+      "preview": "Preview",
+      "copy": "Copy Schedule"
+    },
+    "emailTemplateBuilder": {
+      "name": "Email Template Builder",
+      "description": "Build professional email templates",
+      "template": "Template",
+      "subject": "Subject",
+      "recipient": "Recipient",
+      "body": "Body",
+      "style": "Style",
+      "preview": "Preview",
+      "copy": "Copy Email"
+    },
+    "groupNameGenerator": {
+      "name": "Group Name Generator",
+      "description": "Generate creative group names",
+      "category": "Category",
+      "style": "Style",
+      "generate": "Generate Names",
+      "suggestions": "Suggestions",
+      "copy": "Copy"
+    },
+    "announcementMaker": {
+      "name": "Announcement Maker",
+      "description": "Create professional announcements",
+      "type": "Type",
+      "title": "Title",
+      "content": "Content",
+      "audience": "Audience",
+      "preview": "Preview",
+      "copy": "Copy Announcement"
+    },
+    "slackMessageFormatter": {
+      "name": "Slack Message Formatter",
+      "description": "Format messages for Slack",
+      "text": "Message Text",
+      "formatting": "Formatting",
+      "preview": "Preview",
+      "copy": "Copy"
+    },
+    "discordEmbedGenerator": {
+      "name": "Discord Embed Generator",
+      "description": "Generate Discord embed JSON",
+      "title": "Title",
+      "description": "Description",
+      "color": "Color",
+      "fields": "Fields",
+      "addField": "Add Field",
+      "preview": "Preview",
+      "json": "JSON Output",
+      "copy": "Copy JSON"
+    },
+    "agendaCreator": {
+      "name": "Agenda Creator",
+      "description": "Create meeting agendas",
+      "meeting": "Meeting Title",
+      "date": "Date",
+      "items": "Agenda Items",
+      "addItem": "Add Item",
+      "preview": "Preview",
+      "copy": "Copy Agenda"
+    },
+    "meetingMinutes": {
+      "name": "Meeting Minutes",
+      "description": "Record meeting minutes",
+      "meeting": "Meeting Title",
+      "date": "Date",
+      "attendees": "Attendees",
+      "notes": "Notes",
+      "actions": "Action Items",
+      "addAction": "Add Action",
+      "preview": "Preview",
+      "copy": "Copy Minutes"
+    },
+    "pollMaker": {
+      "name": "Poll Maker",
+      "description": "Create polls and surveys",
+      "question": "Question",
+      "options": "Options",
+      "addOption": "Add Option",
+      "vote": "Vote",
+      "results": "Results",
+      "reset": "Reset",
+      "copy": "Copy Results"
+    },
+    "icebreakerGenerator": {
+      "name": "Icebreaker Generator",
+      "description": "Generate icebreaker questions",
+      "category": "Category",
+      "generate": "Generate Question",
+      "question": "Question",
+      "copy": "Copy"
+    },
+    "standupFormatter": {
+      "name": "Standup Formatter",
+      "description": "Format daily standup updates",
+      "name": "Name",
+      "yesterday": "Yesterday",
+      "today": "Today",
+      "blockers": "Blockers",
+      "preview": "Preview",
+      "copy": "Copy Update"
+    },
+    "retrospectiveTemplate": {
+      "name": "Retrospective Template",
+      "description": "Create retrospective templates",
+      "sprint": "Sprint",
+      "wentWell": "What Went Well",
+      "improve": "What to Improve",
+      "actions": "Action Items",
+      "addItem": "Add Item",
+      "preview": "Preview",
+      "copy": "Copy Retro"
+    },
+    "feedbackFormBuilder": {
+      "name": "Feedback Form Builder",
+      "description": "Build feedback forms",
+      "title": "Form Title",
+      "questions": "Questions",
+      "addQuestion": "Add Question",
+      "preview": "Preview",
+      "copy": "Copy Form"
+    },
+    "teamDirectory": {
+      "name": "Team Directory",
+      "description": "Manage team directory",
+      "team": "Team Name",
+      "members": "Members",
+      "addMember": "Add Member",
+      "export": "Export",
+      "copy": "Copy Directory"
+    },
+    "onboardingChecklist": {
+      "name": "Onboarding Checklist",
+      "description": "Create onboarding checklists",
+      "role": "Role",
+      "items": "Checklist Items",
+      "addItem": "Add Item",
+      "progress": "Progress",
+      "preview": "Preview",
+      "copy": "Copy Checklist"
+    },
+    "oneOnOneAgenda": {
+      "name": "1:1 Agenda",
+      "description": "Create 1:1 meeting agendas",
+      "manager": "Manager",
+      "employee": "Employee",
+      "date": "Date",
+      "managerTopics": "Manager Topics",
+      "employeeTopics": "Employee Topics",
+      "actionItems": "Action Items",
+      "notes": "Notes",
+      "preview": "Preview",
+      "copy": "Copy Agenda"
+    },
+    "statusUpdateFormatter": {
+      "name": "Status Update Formatter",
+      "description": "Format project status updates",
+      "project": "Project",
+      "status": "Status",
+      "progress": "Progress",
+      "format": "Format",
+      "highlights": "Highlights",
+      "nextSteps": "Next Steps",
+      "risks": "Risks",
+      "preview": "Preview",
+      "copy": "Copy Update"
+    },
+    "taskDelegator": {
+      "name": "Task Delegator",
+      "description": "Delegate tasks to team members",
+      "tasks": "Tasks",
+      "addTask": "Add Task",
+      "preview": "Preview",
+      "copy": "Copy Delegation"
+    },
+    "teamRoleAssigner": {
+      "name": "Team Role Assigner",
+      "description": "Assign roles to team members",
+      "project": "Project",
+      "roles": "Roles",
+      "addRole": "Add Role",
+      "preview": "Preview",
+      "copy": "Copy Assignments"
+    },
+    "decisionMatrix": {
+      "name": "Decision Matrix",
+      "description": "Make decisions with weighted criteria",
+      "decision": "Decision",
+      "option": "Option",
+      "total": "Total",
+      "recommendation": "Recommendation"
+    },
+    "brainstormBoard": {
+      "name": "Brainstorm Board",
+      "description": "Collaborative brainstorming tool",
+      "topic": "Topic",
+      "addIdea": "Add Idea",
+      "ideas": "Ideas",
+      "export": "Export",
+      "copy": "Copy Ideas"
+    },
+    "projectTimeline": {
+      "name": "Project Timeline",
+      "description": "Create project timelines",
+      "project": "Project",
+      "milestones": "Milestones",
+      "addMilestone": "Add Milestone",
+      "preview": "Preview",
+      "copy": "Copy Timeline"
+    },
+    "milestoneTracker": {
+      "name": "Milestone Tracker",
+      "description": "Track project milestones",
+      "project": "Project",
+      "progress": "Progress",
+      "addMilestone": "Add Milestone",
+      "milestones": "Milestones",
+      "report": "Report",
+      "copy": "Copy Report"
+    },
+    "resourcePlanner": {
+      "name": "Resource Planner",
+      "description": "Plan and allocate resources",
+      "project": "Project",
+      "resources": "Resources",
+      "addResource": "Add Resource",
+      "summary": "Summary",
+      "export": "Export",
+      "copy": "Copy Plan"
+    },
+    "workloadBalancer": {
+      "name": "Workload Balancer",
+      "description": "Balance team workload",
+      "overview": "Overview",
+      "addTask": "Add Task",
+      "team": "Team Members",
+      "report": "Report",
+      "copy": "Copy Report"
+    },
+    "communicationLog": {
+      "name": "Communication Log",
+      "description": "Log team communications",
+      "newEntry": "New Entry",
+      "add": "Add Entry",
+      "entries": "Entries",
+      "export": "Export",
+      "copy": "Copy Log"
+    },
+    "escalationPath": {
+      "name": "Escalation Path",
+      "description": "Define escalation paths",
+      "process": "Process Name",
+      "levels": "Escalation Levels",
+      "addLevel": "Add Level",
+      "preview": "Preview",
+      "copy": "Copy Path"
+    },
+    "orgChartMaker": {
+      "name": "Org Chart Maker",
+      "description": "Create organization charts",
+      "organization": "Organization",
+      "chart": "Chart",
+      "summary": "Summary",
+      "textView": "Text View",
+      "copy": "Copy Chart"
+    },
+    "exitInterviewTemplate": {
+      "name": "Exit Interview Template",
+      "description": "Create exit interview templates",
+      "details": "Employee Details",
+      "questions": "Questions",
+      "comments": "Additional Comments",
+      "preview": "Preview",
+      "copy": "Copy Interview"
+    },
+    "performanceReviewTemplate": {
+      "name": "Performance Review Template",
+      "description": "Create performance review templates",
+      "details": "Review Details",
+      "overall": "Overall Rating",
+      "goals": "Goal Achievement",
+      "competencies": "Competencies",
+      "strengths": "Strengths",
+      "improvements": "Areas for Improvement",
+      "nextGoals": "Next Period Goals",
+      "preview": "Preview",
+      "copy": "Copy Review"
+    },
+    "meetingCostCalculator": {
+      "name": "Meeting Cost Calculator",
+      "description": "Calculate meeting costs",
+      "meeting": "Meeting",
+      "frequency": "Frequency",
+      "duration": "Duration",
+      "attendees": "Attendees",
+      "insights": "Cost Insights",
+      "report": "Report",
+      "copy": "Copy Report"
+    },
+    "teamHealthCheck": {
+      "name": "Team Health Check",
+      "description": "Assess team health",
+      "team": "Team",
+      "date": "Date",
+      "overall": "Overall Score",
+      "assessment": "Assessment",
+      "attention": "Needs Attention",
+      "report": "Report",
+      "copy": "Copy Report"
+    },
+    "raciMatrix": {
+      "name": "RACI Matrix",
+      "description": "Create RACI responsibility matrices",
+      "project": "Project",
+      "tasks": "Tasks",
+      "addTask": "Add Task",
+      "validation": "Validation",
+      "export": "Export",
+      "copy": "Copy Matrix"
+    },
+    "knowledgeBaseBuilder": {
+      "name": "Knowledge Base Builder",
+      "description": "Build knowledge base articles",
+      "name": "KB Name",
+      "categories": "Categories",
+      "articles": "Articles",
+      "export": "Export",
+      "copy": "Copy Knowledge Base"
+    },
+    "changelogGenerator": {
+      "name": "Changelog Generator",
+      "description": "Generate changelogs",
+      "project": "Project",
+      "releases": "Releases",
+      "summary": "Summary",
+      "preview": "Preview",
+      "copy": "Copy Changelog"
+    },
+    "releaseNotesBuilder": {
+      "name": "Release Notes Builder",
+      "description": "Build release notes",
+      "product": "Product",
+      "version": "Version",
+      "date": "Date",
+      "headline": "Headline",
+      "format": "Format",
+      "features": "Features & Changes",
+      "knownIssues": "Known Issues",
+      "upgradeNotes": "Upgrade Notes",
+      "preview": "Preview",
+      "copy": "Copy Notes"
+    },
+    "sopBuilder": {
+      "name": "SOP Builder",
+      "description": "Create Standard Operating Procedures",
+      "header": "SOP Header",
+      "purpose": "Purpose",
+      "scope": "Scope",
+      "steps": "Procedure Steps",
+      "flowchart": "Flow Chart",
+      "preview": "Preview",
+      "copy": "Copy SOP"
+    },
+    "processFlowMaker": {
+      "name": "Process Flow Maker",
+      "description": "Create process flow diagrams",
+      "name": "Flow Name",
+      "addNode": "Add Node",
+      "nodes": "Nodes",
+      "legend": "Legend",
+      "export": "Export",
+      "copy": "Copy Flow"
+    },
+    "teamCapacityPlanner": {
+      "name": "Team Capacity Planner",
+      "description": "Plan team capacity",
+      "sprint": "Sprint",
+      "settings": "Settings",
+      "team": "Team Members",
+      "byRole": "Capacity by Role",
+      "report": "Report",
+      "copy": "Copy Report"
+    },
+    "passwordGeneratorSecurity": {
+      "name": "Password Generator",
+      "description": "Generate secure random passwords with customizable options",
+      "length": "Password Length",
+      "options": "Options",
+      "generate": "Generate Password",
+      "copy": "Copy Password",
+      "strength": "Strength"
+    },
+    "passwordStrengthChecker": {
+      "name": "Password Strength Checker",
+      "description": "Check password strength and get improvement suggestions",
+      "enter": "Enter Password",
+      "strength": "Strength",
+      "criteria": "Criteria",
+      "suggestions": "Suggestions",
+      "crackTime": "Estimated Crack Time"
+    },
+    "hashGeneratorSecurity": {
+      "name": "Hash Generator",
+      "description": "Generate SHA-1, SHA-256, SHA-384, SHA-512 hashes",
+      "input": "Input Text",
+      "algorithm": "Algorithm",
+      "hash": "Hash Result",
+      "copy": "Copy Hash"
+    },
+    "textEncryptor": {
+      "name": "Text Encryptor",
+      "description": "Encrypt and decrypt text using AES-256-GCM",
+      "text": "Text",
+      "password": "Password",
+      "encrypt": "Encrypt",
+      "decrypt": "Decrypt",
+      "result": "Result"
+    },
+    "twoFactorSetup": {
+      "name": "2FA Setup Helper",
+      "description": "Generate TOTP secrets and QR codes for two-factor authentication",
+      "account": "Account Info",
+      "secret": "Secret Key",
+      "qrCode": "QR Code",
+      "verify": "Verify Code",
+      "copy": "Copy Secret"
+    },
+    "secureNotepad": {
+      "name": "Secure Notepad",
+      "description": "Encrypted notepad with auto-lock feature",
+      "password": "Password",
+      "notes": "Notes",
+      "unlock": "Unlock",
+      "lock": "Lock",
+      "autoLock": "Auto-lock"
+    },
+    "privacyPolicyGenerator": {
+      "name": "Privacy Policy Generator",
+      "description": "Generate privacy policy templates for websites",
+      "info": "Website Info",
+      "sections": "Policy Sections",
+      "preview": "Preview",
+      "copy": "Copy Policy"
+    },
+    "cookieConsentBuilder": {
+      "name": "Cookie Consent Builder",
+      "description": "Build cookie consent banners for your website",
+      "settings": "Settings",
+      "preview": "Preview",
+      "code": "HTML Code",
+      "copy": "Copy Code"
+    },
+    "dataBreachChecker": {
+      "name": "Data Breach Checker",
+      "description": "Check if email has been in known data breaches",
+      "email": "Email Address",
+      "check": "Check Breaches",
+      "results": "Results",
+      "info": "Breach Info"
+    },
+    "permissionAnalyzer": {
+      "name": "Permission Analyzer",
+      "description": "Analyze app permissions and their risks",
+      "select": "Select Permissions",
+      "risk": "Risk Assessment",
+      "summary": "Summary",
+      "recommendations": "Recommendations"
+    },
+    "securityHeadersChecker": {
+      "name": "Security Headers Checker",
+      "description": "Check HTTP security headers for websites",
+      "url": "Enter URL",
+      "check": "Check Headers",
+      "results": "Results",
+      "recommendations": "Recommendations"
+    },
+    "sslCertificateInfo": {
+      "name": "SSL Certificate Info",
+      "description": "View SSL certificate details for domains",
+      "domain": "Domain",
+      "check": "Check Certificate",
+      "info": "Certificate Info",
+      "chain": "Certificate Chain"
+    },
+    "keyPairGenerator": {
+      "name": "Key Pair Generator",
+      "description": "Generate RSA, ECDSA, and ECDH key pairs",
+      "algorithm": "Algorithm",
+      "generate": "Generate Keys",
+      "publicKey": "Public Key",
+      "privateKey": "Private Key"
+    },
+    "secretSharing": {
+      "name": "Secret Sharing",
+      "description": "Split secrets into multiple shares using XOR",
+      "secret": "Secret",
+      "shares": "Number of Shares",
+      "split": "Split Secret",
+      "combine": "Combine Shares"
+    },
+    "fileHashChecker": {
+      "name": "File Hash Checker",
+      "description": "Calculate and verify file hashes",
+      "select": "Select File",
+      "algorithm": "Algorithm",
+      "hash": "Hash",
+      "verify": "Verify Hash"
+    },
+    "metadataStripper": {
+      "name": "Metadata Stripper",
+      "description": "Remove metadata from images",
+      "select": "Select Image",
+      "preview": "Preview",
+      "strip": "Strip Metadata",
+      "download": "Download Clean Image"
+    },
+    "anonymousIdGenerator": {
+      "name": "Anonymous ID Generator",
+      "description": "Generate anonymous identifiers (UUID, NanoID)",
+      "type": "ID Type",
+      "generate": "Generate",
+      "copy": "Copy ID",
+      "batch": "Batch Generate"
+    },
+    "privacySettingsAudit": {
+      "name": "Privacy Settings Audit",
+      "description": "Audit privacy settings across platforms",
+      "platform": "Platform",
+      "checklist": "Privacy Checklist",
+      "score": "Privacy Score",
+      "recommendations": "Recommendations"
+    },
+    "securePasswordShare": {
+      "name": "Secure Password Share",
+      "description": "Share passwords securely with encryption",
+      "password": "Password to Share",
+      "expiry": "Link Expiry",
+      "generate": "Generate Share Link",
+      "link": "Share Link"
+    },
+    "accessControlMatrix": {
+      "name": "Access Control Matrix",
+      "description": "Define role-based access control matrix",
+      "roles": "Roles",
+      "resources": "Resources",
+      "permissions": "Permissions",
+      "export": "Export Matrix"
+    },
+    "riskAssessmentTool": {
+      "name": "Risk Assessment Tool",
+      "description": "Assess and score security risks",
+      "risks": "Identified Risks",
+      "addRisk": "Add Risk",
+      "matrix": "Risk Matrix",
+      "report": "Generate Report"
+    },
+    "incidentResponsePlan": {
+      "name": "Incident Response Plan",
+      "description": "Create incident response plans",
+      "phases": "Response Phases",
+      "contacts": "Emergency Contacts",
+      "playbook": "Playbook",
+      "export": "Export Plan"
+    },
+    "securityChecklist": {
+      "name": "Security Checklist",
+      "description": "Security checklist for different environments",
+      "category": "Category",
+      "items": "Checklist Items",
+      "progress": "Progress",
+      "export": "Export Checklist"
+    },
+    "phishingDetector": {
+      "name": "Phishing Detector",
+      "description": "Analyze URLs and emails for phishing indicators",
+      "input": "URL or Email Content",
+      "analyze": "Analyze",
+      "result": "Analysis Result",
+      "indicators": "Phishing Indicators"
+    },
+    "dataClassifier": {
+      "name": "Data Classifier",
+      "description": "Classify data sensitivity levels",
+      "input": "Data to Classify",
+      "classify": "Classify",
+      "result": "Classification",
+      "handling": "Handling Requirements"
+    },
+    "encryptionKeyManager": {
+      "name": "Encryption Key Manager",
+      "description": "Track and manage encryption keys",
+      "keys": "Keys",
+      "addKey": "Add Key",
+      "rotation": "Rotation Schedule",
+      "export": "Export Key List"
+    },
+    "secureFileNamer": {
+      "name": "Secure File Namer",
+      "description": "Generate secure file names with classification",
+      "original": "Original Name",
+      "classification": "Classification",
+      "generate": "Generate Name",
+      "preview": "Preview"
+    },
+    "privacyImpactAssessment": {
+      "name": "Privacy Impact Assessment",
+      "description": "Conduct privacy impact assessments",
+      "project": "Project Info",
+      "questions": "Assessment Questions",
+      "risks": "Identified Risks",
+      "report": "Generate Report"
+    },
+    "consentManager": {
+      "name": "Consent Manager",
+      "description": "Manage user consent records",
+      "records": "Consent Records",
+      "add": "Add Record",
+      "history": "History",
+      "export": "Export Records"
+    },
+    "dataRetentionPolicy": {
+      "name": "Data Retention Policy",
+      "description": "Define data retention policies",
+      "categories": "Data Categories",
+      "periods": "Retention Periods",
+      "policy": "Policy Document",
+      "export": "Export Policy"
+    },
+    "securityAwarenessQuiz": {
+      "name": "Security Awareness Quiz",
+      "description": "Test security knowledge with a quiz",
+      "start": "Start Quiz",
+      "question": "Question",
+      "score": "Your Score",
+      "review": "Review Answers"
+    },
+    "threatModelBuilder": {
+      "name": "Threat Model Builder",
+      "description": "Build threat models using STRIDE methodology",
+      "system": "System Description",
+      "addThreat": "Add Threat",
+      "threats": "Identified Threats",
+      "export": "Export Model"
+    },
+    "securityPolicyGenerator": {
+      "name": "Security Policy Generator",
+      "description": "Generate security policy documents",
+      "info": "Organization Info",
+      "sections": "Policy Sections",
+      "preview": "Preview",
+      "copy": "Copy Policy",
+      "disclaimer": "Disclaimer"
+    },
+    "complianceChecker": {
+      "name": "Compliance Checker",
+      "description": "Check compliance with security frameworks",
+      "framework": "Select Framework",
+      "score": "Compliance Score",
+      "requirements": "Requirements",
+      "export": "Export Report"
+    },
+    "auditLogViewer": {
+      "name": "Audit Log Viewer",
+      "description": "View and analyze audit logs",
+      "filters": "Filters",
+      "logs": "Log Entries",
+      "details": "Log Details",
+      "info": "Info"
+    },
+    "accessReviewTool": {
+      "name": "Access Review Tool",
+      "description": "Conduct periodic access reviews",
+      "reviewer": "Reviewer",
+      "progress": "Review Progress",
+      "records": "Access Records",
+      "complete": "Complete Review",
+      "tips": "Review Tips"
+    },
+    "securityScorecard": {
+      "name": "Security Scorecard",
+      "description": "Evaluate overall security posture",
+      "overall": "Overall Score",
+      "categories": "Categories",
+      "export": "Export Report",
+      "info": "Info"
+    },
+    "vulnerabilityTracker": {
+      "name": "Vulnerability Tracker",
+      "description": "Track and manage security vulnerabilities",
+      "filters": "Filters",
+      "addVuln": "Add Vulnerability",
+      "list": "Vulnerability List",
+      "info": "Info"
+    },
+    "secureCodeReview": {
+      "name": "Secure Code Review",
+      "description": "Security-focused code review checklist",
+      "info": "Review Info",
+      "progress": "Review Progress",
+      "categories": "Review Categories",
+      "export": "Export Report"
+    },
+    "biometricAuthGuide": {
+      "name": "Biometric Auth Guide",
+      "description": "Guide to biometric authentication methods",
+      "title": "Biometric Methods",
+      "comparison": "Comparison",
+      "bestPractices": "Best Practices",
+      "export": "Export Guide"
+    },
+    "businessNameGenerator": {
+      "name": "Business Name Generator",
+      "description": "Generate creative business name ideas",
+      "industry": "Industry",
+      "keywords": "Keywords",
+      "style": "Name Style",
+      "generate": "Generate Names",
+      "results": "Generated Names",
+      "copy": "Copy"
+    },
+    "sloganGenerator": {
+      "name": "Slogan Generator",
+      "description": "Create catchy slogans for your brand",
+      "business": "Business Name",
+      "keywords": "Keywords",
+      "tone": "Tone",
+      "generate": "Generate Slogans",
+      "results": "Generated Slogans"
+    },
+    "brandColorPicker": {
+      "name": "Brand Color Picker",
+      "description": "Generate brand color palettes",
+      "baseColor": "Base Color",
+      "palette": "Color Palette",
+      "variations": "Variations",
+      "export": "Export Palette"
+    },
+    "logoConceptGenerator": {
+      "name": "Logo Concept Generator",
+      "description": "Generate logo concept ideas and descriptions",
+      "business": "Business Info",
+      "style": "Logo Style",
+      "concepts": "Logo Concepts",
+      "export": "Export Concepts"
+    },
+    "missionStatementBuilder": {
+      "name": "Mission Statement Builder",
+      "description": "Create a compelling mission statement",
+      "purpose": "Purpose",
+      "values": "Core Values",
+      "audience": "Target Audience",
+      "preview": "Preview",
+      "copy": "Copy Statement"
+    },
+    "elevatorPitchCreator": {
+      "name": "Elevator Pitch Creator",
+      "description": "Craft a perfect 30-second pitch",
+      "components": "Pitch Components",
+      "timer": "Timer",
+      "preview": "Preview",
+      "copy": "Copy Pitch"
+    },
+    "swotAnalysis": {
+      "name": "SWOT Analysis Tool",
+      "description": "Conduct SWOT analysis for your business",
+      "strengths": "Strengths",
+      "weaknesses": "Weaknesses",
+      "opportunities": "Opportunities",
+      "threats": "Threats",
+      "export": "Export Analysis"
+    },
+    "competitorAnalysis": {
+      "name": "Competitor Analysis",
+      "description": "Analyze and compare competitors",
+      "addCompetitor": "Add Competitor",
+      "factors": "Analysis Factors",
+      "comparison": "Comparison Chart",
+      "export": "Export Analysis"
+    },
+    "marketResearchTemplate": {
+      "name": "Market Research Template",
+      "description": "Structured market research framework",
+      "sections": "Research Sections",
+      "findings": "Key Findings",
+      "recommendations": "Recommendations",
+      "export": "Export Report"
+    },
+    "customerPersonaBuilder": {
+      "name": "Customer Persona Builder",
+      "description": "Create detailed customer personas",
+      "demographics": "Demographics",
+      "behaviors": "Behaviors",
+      "goals": "Goals & Pain Points",
+      "preview": "Persona Preview",
+      "export": "Export Persona"
+    },
+    "valuePropositionCanvas": {
+      "name": "Value Proposition Canvas",
+      "description": "Design your value proposition",
+      "customerProfile": "Customer Profile",
+      "valueMap": "Value Map",
+      "fit": "Fit Analysis",
+      "export": "Export Canvas"
+    },
+    "businessModelCanvas": {
+      "name": "Business Model Canvas",
+      "description": "Design your business model",
+      "segments": "Canvas Segments",
+      "preview": "Preview",
+      "export": "Export Canvas"
+    },
+    "pricingCalculator": {
+      "name": "Pricing Calculator",
+      "description": "Calculate optimal pricing strategies",
+      "costs": "Costs",
+      "margin": "Target Margin",
+      "competitors": "Competitor Prices",
+      "recommendation": "Recommended Price"
+    },
+    "roiCalculator": {
+      "name": "ROI Calculator",
+      "description": "Calculate return on investment",
+      "investment": "Initial Investment",
+      "returns": "Expected Returns",
+      "period": "Time Period",
+      "result": "ROI Result"
+    },
+    "invoiceGenerator": {
+      "name": "Invoice Generator",
+      "description": "Create professional invoices",
+      "from": "From",
+      "to": "Bill To",
+      "items": "Line Items",
+      "total": "Total",
+      "generate": "Generate Invoice"
+    },
+    "proposalTemplate": {
+      "name": "Proposal Template",
+      "description": "Create business proposals",
+      "details": "Proposal Details",
+      "sections": "Sections",
+      "preview": "Preview",
+      "copy": "Copy Proposal"
+    },
+    "contractTemplate": {
+      "name": "Contract Template",
+      "description": "Generate contract documents",
+      "parties": "Parties",
+      "clauses": "Clauses",
+      "preview": "Preview",
+      "copy": "Copy Contract"
+    },
+    "brandingKit": {
+      "name": "Branding Kit",
+      "description": "Create brand guidelines",
+      "colors": "Brand Colors",
+      "typography": "Typography",
+      "preview": "Brand Preview",
+      "export": "Export Guidelines"
+    },
+    "meetingAgenda": {
+      "name": "Meeting Agenda",
+      "description": "Create structured meeting agendas",
+      "details": "Meeting Details",
+      "items": "Agenda Items",
+      "preview": "Preview",
+      "copy": "Copy Agenda"
+    },
+    "projectTimeline": {
+      "name": "Project Timeline",
+      "description": "Create project timelines and Gantt charts",
+      "phases": "Project Phases",
+      "timeline": "Timeline View",
+      "export": "Export Timeline"
+    },
+    "okrTracker": {
+      "name": "OKR Tracker",
+      "description": "Track Objectives and Key Results",
+      "objectives": "Objectives",
+      "addObjective": "Add Objective",
+      "progress": "Overall Progress",
+      "export": "Export OKRs"
+    },
+    "kpiDashboard": {
+      "name": "KPI Dashboard",
+      "description": "Track key performance indicators",
+      "kpis": "KPIs",
+      "addKpi": "Add KPI",
+      "overview": "Overview",
+      "export": "Export Dashboard"
+    },
+    "budgetPlanner": {
+      "name": "Budget Planner",
+      "description": "Plan and track budgets",
+      "income": "Income",
+      "expenses": "Expenses",
+      "summary": "Summary",
+      "export": "Export Budget"
+    },
+    "cashFlowTracker": {
+      "name": "Cash Flow Tracker",
+      "description": "Track cash inflows and outflows",
+      "inflows": "Inflows",
+      "outflows": "Outflows",
+      "balance": "Balance",
+      "export": "Export Report"
+    },
+    "profitMarginCalculator": {
+      "name": "Profit Margin Calculator",
+      "description": "Calculate profit margins",
+      "revenue": "Revenue",
+      "costs": "Costs",
+      "margins": "Margins",
+      "analysis": "Analysis"
+    },
+    "salesForecaster": {
+      "name": "Sales Forecaster",
+      "description": "Forecast future sales",
+      "historical": "Historical Data",
+      "method": "Forecast Method",
+      "forecast": "Forecast",
+      "export": "Export Forecast"
+    },
+    "leadScoring": {
+      "name": "Lead Scoring",
+      "description": "Score and prioritize leads",
+      "criteria": "Scoring Criteria",
+      "leads": "Leads",
+      "addLead": "Add Lead",
+      "export": "Export Leads"
+    },
+    "emailCampaign": {
+      "name": "Email Campaign Planner",
+      "description": "Plan email marketing campaigns",
+      "campaign": "Campaign Details",
+      "emails": "Email Sequence",
+      "addEmail": "Add Email",
+      "preview": "Preview"
+    },
+    "abTestPlanner": {
+      "name": "A/B Test Planner",
+      "description": "Plan and analyze A/B tests",
+      "hypothesis": "Hypothesis",
+      "variants": "Variants",
+      "metrics": "Success Metrics",
+      "results": "Results"
+    },
+    "contentCalendar": {
+      "name": "Content Calendar",
+      "description": "Plan content publishing schedule",
+      "view": "View",
+      "addContent": "Add Content",
+      "calendar": "Calendar",
+      "export": "Export Calendar"
+    },
+    "seoChecker": {
+      "name": "SEO Checker",
+      "description": "Check SEO best practices",
+      "url": "Page URL",
+      "title": "Page Title",
+      "analysis": "Analysis",
+      "score": "SEO Score"
+    },
+    "keywordPlanner": {
+      "name": "Keyword Planner",
+      "description": "Research and organize keywords",
+      "keywords": "Keywords",
+      "addKeyword": "Add Keyword",
+      "groups": "Keyword Groups",
+      "export": "Export Keywords"
+    },
+    "hashtagGenerator": {
+      "name": "Hashtag Generator",
+      "description": "Generate social media hashtags",
+      "topic": "Topic",
+      "platform": "Platform",
+      "hashtags": "Generated Hashtags",
+      "copy": "Copy Hashtags"
+    },
+    "pressRelease": {
+      "name": "Press Release Template",
+      "description": "Create press releases",
+      "details": "Release Details",
+      "body": "Body Content",
+      "preview": "Preview",
+      "copy": "Copy Release"
+    },
+    "mediaKit": {
+      "name": "Media Kit Builder",
+      "description": "Create influencer media kits",
+      "profile": "Profile",
+      "stats": "Statistics",
+      "rates": "Rates",
+      "preview": "Preview",
+      "copy": "Copy Media Kit"
+    },
+    "testimonialCollector": {
+      "name": "Testimonial Collector",
+      "description": "Collect and manage testimonials",
+      "testimonials": "Testimonials",
+      "addTestimonial": "Add Testimonial",
+      "approved": "Approved",
+      "export": "Export Testimonials"
+    },
+    "caseStudyTemplate": {
+      "name": "Case Study Template",
+      "description": "Create case study documents",
+      "overview": "Overview",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "metrics": "Key Metrics",
+      "testimonial": "Testimonial",
+      "cta": "Call to Action",
+      "export": "Export Case Study"
+    },
+    "newsletterBuilder": {
+      "name": "Newsletter Builder",
+      "description": "Build email newsletters",
+      "details": "Newsletter Details",
+      "addSection": "Add Section",
+      "preview": "Preview",
+      "copyText": "Copy Text",
+      "copyHtml": "Copy HTML"
+    },
+    "surveyCreator": {
+      "name": "Survey Creator",
+      "description": "Create surveys and questionnaires",
+      "details": "Survey Details",
+      "addQuestion": "Add Question",
+      "questions": "Questions",
+      "export": "Export Survey"
+    },
+    "feedbackForm": {
+      "name": "Feedback Form Builder",
+      "description": "Create feedback collection forms",
+      "settings": "Form Settings",
+      "addField": "Add Field",
+      "fields": "Form Fields",
+      "copyHtml": "Copy HTML",
+      "copyText": "Copy Text"
+    },
+    "flashcardMaker": {
+      "name": "Flashcard Maker",
+      "description": "Create and study flashcards",
+      "addCard": "Add Card",
+      "cards": "Cards",
+      "study": "Study Mode",
+      "categories": "Categories"
+    },
+    "quizGenerator": {
+      "name": "Quiz Generator",
+      "description": "Create multiple choice quizzes",
+      "addQuestion": "Add Question",
+      "questions": "Questions",
+      "start": "Start Quiz",
+      "results": "Results"
+    },
+    "studyTimer": {
+      "name": "Study Timer",
+      "description": "Pomodoro-style study timer",
+      "focus": "Focus Time",
+      "break": "Break Time",
+      "start": "Start Session",
+      "sessions": "Sessions"
+    },
+    "noteSummarizer": {
+      "name": "Note Summarizer",
+      "description": "Summarize and extract key points from notes",
+      "input": "Your Notes",
+      "summarize": "Summarize",
+      "keyPoints": "Key Points"
+    },
+    "vocabularyBuilder": {
+      "name": "Vocabulary Builder",
+      "description": "Build and practice vocabulary",
+      "addWord": "Add Word",
+      "words": "Words",
+      "practice": "Practice",
+      "mastered": "Mastered"
+    },
+    "grammarChecker": {
+      "name": "Grammar Checker",
+      "description": "Check grammar and spelling",
+      "input": "Your Text",
+      "check": "Check Grammar",
+      "issues": "Issues Found"
+    },
+    "citationGenerator": {
+      "name": "Citation Generator",
+      "description": "Generate citations in various formats",
+      "type": "Source Type",
+      "format": "Citation Format",
+      "generate": "Generate Citation",
+      "copy": "Copy Citation"
+    },
+    "bibliographyMaker": {
+      "name": "Bibliography Maker",
+      "description": "Create bibliography lists",
+      "addSource": "Add Source",
+      "sources": "Sources",
+      "format": "Format",
+      "export": "Export Bibliography"
+    },
+    "essayOutliner": {
+      "name": "Essay Outliner",
+      "description": "Create structured essay outlines",
+      "thesis": "Thesis Statement",
+      "addSection": "Add Section",
+      "sections": "Sections",
+      "export": "Export Outline"
+    },
+    "mindMapper": {
+      "name": "Mind Mapper",
+      "description": "Create visual mind maps",
+      "centralTopic": "Central Topic",
+      "addNode": "Add Node",
+      "nodes": "Nodes",
+      "export": "Export Map"
+    },
+    "mathProblemSolver": {
+      "name": "Math Problem Solver",
+      "description": "Solve math problems step by step",
+      "expression": "Math Expression",
+      "solve": "Solve",
+      "steps": "Solution Steps"
+    },
+    "periodicTable": {
+      "name": "Periodic Table",
+      "description": "Interactive periodic table of elements",
+      "search": "Search Elements",
+      "categories": "Categories",
+      "details": "Element Details"
+    },
+    "multiplicationTable": {
+      "name": "Multiplication Table",
+      "description": "Interactive multiplication table with practice",
+      "table": "Table",
+      "practice": "Practice Mode",
+      "range": "Number Range"
+    },
+    "fractionCalculator": {
+      "name": "Fraction Calculator",
+      "description": "Calculate with fractions",
+      "operation": "Operation",
+      "calculate": "Calculate",
+      "result": "Result"
+    },
+    "gradeCalculator": {
+      "name": "Grade Calculator",
+      "description": "Calculate weighted grades",
+      "addCategory": "Add Category",
+      "categories": "Categories",
+      "calculate": "Calculate Grade"
+    },
+    "gpaCalculator": {
+      "name": "GPA Calculator",
+      "description": "Calculate GPA from courses",
+      "addCourse": "Add Course",
+      "courses": "Courses",
+      "scale": "Grading Scale"
+    },
+    "readingSpeedTest": {
+      "name": "Reading Speed Test",
+      "description": "Test your reading speed",
+      "start": "Start Test",
+      "passage": "Reading Passage",
+      "results": "Your Results"
+    },
+    "typingSpeedTest": {
+      "name": "Typing Speed Test",
+      "description": "Test your typing speed and accuracy",
+      "start": "Start Test",
+      "text": "Type this text",
+      "results": "Your Results"
+    },
+    "learningGoalTracker": {
+      "name": "Learning Goal Tracker",
+      "description": "Track learning goals and progress",
+      "addGoal": "Add Goal",
+      "goals": "Goals",
+      "progress": "Progress",
+      "milestones": "Milestones"
+    },
+    "homeworkPlanner": {
+      "name": "Homework Planner",
+      "description": "Plan and track homework assignments",
+      "addAssignment": "Add Assignment",
+      "assignments": "Assignments",
+      "due": "Due Date",
+      "completed": "Completed"
+    },
+    "examCountdown": {
+      "name": "Exam Countdown",
+      "description": "Countdown to important exams",
+      "add": "Add Exam",
+      "upcoming": "Upcoming Exams",
+      "past": "Past Exams"
+    },
+    "studyGroupOrganizer": {
+      "name": "Study Group Organizer",
+      "description": "Organize study groups and meetings",
+      "createGroup": "Create Group",
+      "members": "Members",
+      "meetings": "Meetings",
+      "export": "Export Details"
+    },
+    "languageLearningTracker": {
+      "name": "Language Learning Tracker",
+      "description": "Track language learning progress",
+      "addLanguage": "Add Language",
+      "logSession": "Log Session",
+      "history": "History",
+      "streak": "Current Streak"
+    },
+    "spellingPractice": {
+      "name": "Spelling Practice",
+      "description": "Practice spelling with word lists",
+      "mode": "Practice Mode",
+      "difficulty": "Difficulty",
+      "start": "Start Practice"
+    },
+    "mathFactsFluency": {
+      "name": "Math Facts Fluency",
+      "description": "Practice math facts for speed",
+      "operation": "Operation",
+      "start": "Start Practice",
+      "tips": "Practice Tips"
+    },
+    "courseScheduler": {
+      "name": "Course Scheduler",
+      "description": "Create weekly course schedules",
+      "addCourse": "Add Course",
+      "courses": "Courses",
+      "schedule": "Schedule",
+      "export": "Export Schedule"
+    },
+    "researchPaperOutliner": {
+      "name": "Research Paper Outliner",
+      "description": "Create research paper outlines",
+      "thesis": "Thesis",
+      "sections": "Sections",
+      "export": "Export Outline",
+      "tips": "Writing Tips"
+    },
+    "thesisStatementBuilder": {
+      "name": "Thesis Statement Builder",
+      "description": "Build strong thesis statements",
+      "type": "Thesis Type",
+      "build": "Build Thesis",
+      "generate": "Generate",
+      "tips": "Tips"
+    },
+    "bookReportHelper": {
+      "name": "Book Report Helper",
+      "description": "Create book reports",
+      "bookInfo": "Book Information",
+      "setting": "Setting",
+      "characters": "Characters",
+      "plot": "Plot Summary",
+      "themes": "Themes",
+      "reflection": "Personal Reflection",
+      "generate": "Generate Report"
+    },
+    "scienceExperimentLog": {
+      "name": "Science Experiment Log",
+      "description": "Document science experiments",
+      "newExperiment": "New Experiment",
+      "hypothesis": "Hypothesis",
+      "materials": "Materials",
+      "procedure": "Procedure",
+      "observations": "Observations",
+      "conclusion": "Conclusion",
+      "export": "Export Log"
+    },
+    "historyTimelineMaker": {
+      "name": "History Timeline Maker",
+      "description": "Create historical timelines",
+      "addEvent": "Add Event",
+      "events": "Events",
+      "export": "Export Timeline"
+    },
+    "geographyQuiz": {
+      "name": "Geography Quiz",
+      "description": "Test geography knowledge",
+      "category": "Category",
+      "difficulty": "Difficulty",
+      "start": "Start Quiz"
+    },
+    "musicTheoryHelper": {
+      "name": "Music Theory Helper",
+      "description": "Learn music theory concepts",
+      "rootNote": "Root Note",
+      "scale": "Scale",
+      "chord": "Chord",
+      "intervals": "Intervals",
+      "circleOfFifths": "Circle of Fifths"
+    },
+    "debatePrep": {
+      "name": "Debate Prep",
+      "description": "Prepare for debates",
+      "opening": "Opening Statement",
+      "arguments": "Arguments",
+      "counterArguments": "Counter-Arguments",
+      "closing": "Closing Statement",
+      "export": "Export Prep",
+      "tips": "Debate Tips"
+    },
+    "presentationTimer": {
+      "name": "Presentation Timer",
+      "description": "Time presentations with sections",
+      "duration": "Total Duration",
+      "sections": "Sections",
+      "warning": "Warning Time",
+      "start": "Start Timer",
+      "tips": "Presentation Tips"
+    },
+    "classParticipationTracker": {
+      "name": "Class Participation Tracker",
+      "description": "Track class participation",
+      "addCourse": "Add Course",
+      "logParticipation": "Log Participation",
+      "history": "History",
+      "stats": "Statistics"
+    },
+    "studyBreakReminder": {
+      "name": "Study Break Reminder",
+      "description": "Remind to take study breaks",
+      "studyDuration": "Study Duration",
+      "breakDuration": "Break Duration",
+      "sessions": "Sessions Before Long Break",
+      "start": "Start Session",
+      "tips": "Study Tips"
+    },
+    "learningStyleQuiz": {
+      "name": "Learning Style Quiz",
+      "description": "Discover your learning style",
+      "start": "Start Quiz",
+      "results": "Your Learning Style"
+    },
+    "academicCalendar": {
+      "name": "Academic Calendar",
+      "description": "Track academic events and deadlines",
+      "addEvent": "Add Event",
+      "upcoming": "Upcoming Events",
+      "types": "Event Types"
+    },
+    "studyPlaylist": {
+      "name": "Study Playlist Builder",
+      "description": "Build study music playlists",
+      "createPlaylist": "Create Playlist",
+      "addTrack": "Add Track",
+      "tracks": "Tracks",
+      "suggestions": "Suggested Tracks",
+      "tips": "Music Tips"
     }
   }
 }

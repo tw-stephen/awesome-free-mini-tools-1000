@@ -18,7 +18,7 @@ export default function ChartMaker() {
     { label: 'May', value: 40 },
   ])
   const [title, setTitle] = useState('Monthly Sales')
-  const [colors, setColors] = useState(['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6'])
+  const [colors] = useState(['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6'])
 
   useEffect(() => {
     drawChart()

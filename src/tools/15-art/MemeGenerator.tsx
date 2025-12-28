@@ -78,13 +78,6 @@ export default function MemeGenerator() {
     link.click()
   }
 
-  const templates = [
-    { name: 'Drake', color: '#1da1f2' },
-    { name: 'Distracted BF', color: '#e74c3c' },
-    { name: 'Success Kid', color: '#27ae60' },
-    { name: 'One Does Not', color: '#8e44ad' },
-  ]
-
   return (
     <div className="space-y-4">
       <div className="card p-4">

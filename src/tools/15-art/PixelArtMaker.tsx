@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export default function PixelArtMaker() {
@@ -100,16 +100,16 @@ export default function PixelArtMaker() {
     <div className="space-y-4">
       <div className="card p-4">
         <div className="flex gap-2 mb-4">
-          {(['draw', 'erase', 'fill'] as const).map((t) => (
+          {(['draw', 'erase', 'fill'] as const).map((toolType) => (
             <button
-              key={t}
-              onClick={() => setTool(t)}
+              key={toolType}
+              onClick={() => setTool(toolType)}
               className={`px-4 py-2 rounded font-medium ${
-                tool === t ? 'bg-blue-500 text-white' : 'bg-slate-100 hover:bg-slate-200'
+                tool === toolType ? 'bg-blue-500 text-white' : 'bg-slate-100 hover:bg-slate-200'
               }`}
             >
-              {t === 'draw' && '✏️'} {t === 'erase' && '🧹'} {t === 'fill' && '🪣'}
-              {t('tools.pixelArtMaker.' + t)}
+              {toolType === 'draw' && '✏️'} {toolType === 'erase' && '🧹'} {toolType === 'fill' && '🪣'}
+              {t('tools.pixelArtMaker.' + toolType)}
             </button>
           ))}
         </div>

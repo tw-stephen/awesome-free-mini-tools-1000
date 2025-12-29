@@ -33,6 +33,7 @@ import EmojiFinder from './01-text/EmojiFinder'
 import PasswordGenerator from './01-text/PasswordGenerator'
 import UuidGenerator from './01-text/UuidGenerator'
 import HashGenerator from './01-text/HashGenerator'
+import HmacGenerator from './01-text/HmacGenerator'
 import RegexTester from './01-text/RegexTester'
 import MarkdownPreviewer from './01-text/MarkdownPreviewer'
 import JsonFormatter from './01-text/JsonFormatter'
@@ -230,6 +231,31 @@ import WaterIntakeTracker from './20-health/WaterIntakeTracker'
 import SleepLogger from './20-health/SleepLogger'
 import ExerciseTimer from './20-health/ExerciseTimer'
 import StepCounter from './20-health/StepCounter'
+// Category 21: Creativity Tools (#768-#790)
+import CreativityColorMixer from './21-creativity/ColorMixer'
+import CreativityPatternGenerator from './21-creativity/PatternGenerator'
+import CreativityAsciiArtGenerator from './21-creativity/AsciiArtGenerator'
+import CreativityPixelArtMaker from './21-creativity/PixelArtMaker'
+import CreativityGradientMaker from './21-creativity/GradientMaker'
+import CreativityFontPairing from './21-creativity/FontPairing'
+import CreativityColorHarmony from './21-creativity/ColorHarmony'
+import CreativityLogoIdeas from './21-creativity/LogoIdeas'
+import CreativityMoodboardMaker from './21-creativity/MoodboardMaker'
+import CreativityIconPreviewer from './21-creativity/IconPreviewer'
+import CreativityPaletteExtractor from './21-creativity/PaletteExtractor'
+import CreativityStyleGuideGenerator from './21-creativity/StyleGuideGenerator'
+import CreativityMockupViewer from './21-creativity/MockupViewer'
+import CreativityTypographyScale from './21-creativity/TypographyScale'
+import CreativitySpacingCalculator from './21-creativity/SpacingCalculator'
+import CreativityBreakpointCalculator from './21-creativity/BreakpointCalculator'
+import CreativityAnimationTimingCalculator from './21-creativity/AnimationTimingCalculator'
+import CreativityShadowGenerator from './21-creativity/ShadowGenerator'
+import CreativityBorderGenerator from './21-creativity/BorderGenerator'
+import CreativityFilterPreview from './21-creativity/FilterPreview'
+import CreativityBlendModePreview from './21-creativity/BlendModePreview'
+import CreativityTextEffectGenerator from './21-creativity/TextEffectGenerator'
+import CreativityBackgroundPatternGenerator from './21-creativity/BackgroundPatternGenerator'
+
 import TipCalculator from './06-utility/TipCalculator'
 import PercentageCalculator from './06-utility/PercentageCalculator'
 import LoanCalculator from './06-utility/LoanCalculator'
@@ -391,6 +417,7 @@ import MathFactsPractice from './09-education/MathFactsPractice'
 import ReadingLog from './09-education/ReadingLog'
 import ScienceGlossary from './09-education/ScienceGlossary'
 // Health Tools (363-402)
+import IdealWeightCalculator from './10-health/IdealWeightCalculator'
 import BodyFatCalculator from './10-health/BodyFatCalculator'
 import HealthCalorieCounter from './10-health/CalorieCounter'
 import WaterIntakeCalculator from './10-health/WaterIntakeCalculator'
@@ -1554,6 +1581,14 @@ export const tools: ToolInfo[] = [
     descriptionKey: 'tools.hashGenerator.description',
     category: '01-text',
     component: HashGenerator,
+  },
+  {
+    id: '035',
+    path: 'hmac-generator',
+    nameKey: 'tools.hmacGenerator.name',
+    descriptionKey: 'tools.hmacGenerator.description',
+    category: '01-text',
+    component: HmacGenerator,
   },
   {
     id: '036',
@@ -4179,6 +4214,14 @@ export const tools: ToolInfo[] = [
     component: ScienceGlossary,
   },
   // Health Tools (363-402)
+  {
+    id: '363',
+    path: 'ideal-weight-calculator',
+    nameKey: 'tools.idealWeight.name',
+    descriptionKey: 'tools.idealWeight.description',
+    category: '10-health',
+    component: IdealWeightCalculator,
+  },
   {
     id: '364',
     path: 'body-fat-calculator',
@@ -7417,6 +7460,191 @@ export const tools: ToolInfo[] = [
     category: '20-health',
     component: StepCounter,
   },
+  // Creativity Tools (21-creativity) - 768+
+  {
+    id: '768',
+    path: 'color-mixer',
+    nameKey: 'tools.colorMixer.name',
+    descriptionKey: 'tools.colorMixer.description',
+    category: '21-creativity',
+    component: CreativityColorMixer,
+  },
+  {
+    id: '769',
+    path: 'pattern-generator',
+    nameKey: 'tools.patternGenerator.name',
+    descriptionKey: 'tools.patternGenerator.description',
+    category: '21-creativity',
+    component: CreativityPatternGenerator,
+  },
+  {
+    id: '770',
+    path: 'ascii-art-generator',
+    nameKey: 'tools.asciiArtGenerator.name',
+    descriptionKey: 'tools.asciiArtGenerator.description',
+    category: '21-creativity',
+    component: CreativityAsciiArtGenerator,
+  },
+  {
+    id: '771',
+    path: 'pixel-art-maker',
+    nameKey: 'tools.pixelArtMaker.name',
+    descriptionKey: 'tools.pixelArtMaker.description',
+    category: '21-creativity',
+    component: CreativityPixelArtMaker,
+  },
+  {
+    id: '772',
+    path: 'gradient-maker',
+    nameKey: 'tools.gradientMaker.name',
+    descriptionKey: 'tools.gradientMaker.description',
+    category: '21-creativity',
+    component: CreativityGradientMaker,
+  },
+  {
+    id: '773',
+    path: 'font-pairing',
+    nameKey: 'tools.fontPairing.name',
+    descriptionKey: 'tools.fontPairing.description',
+    category: '21-creativity',
+    component: CreativityFontPairing,
+  },
+  {
+    id: '774',
+    path: 'color-harmony',
+    nameKey: 'tools.colorHarmony.name',
+    descriptionKey: 'tools.colorHarmony.description',
+    category: '21-creativity',
+    component: CreativityColorHarmony,
+  },
+  {
+    id: '775',
+    path: 'logo-ideas',
+    nameKey: 'tools.logoIdeas.name',
+    descriptionKey: 'tools.logoIdeas.description',
+    category: '21-creativity',
+    component: CreativityLogoIdeas,
+  },
+  {
+    id: '776',
+    path: 'moodboard-maker',
+    nameKey: 'tools.moodboardMaker.name',
+    descriptionKey: 'tools.moodboardMaker.description',
+    category: '21-creativity',
+    component: CreativityMoodboardMaker,
+  },
+  {
+    id: '777',
+    path: 'icon-previewer',
+    nameKey: 'tools.iconPreviewer.name',
+    descriptionKey: 'tools.iconPreviewer.description',
+    category: '21-creativity',
+    component: CreativityIconPreviewer,
+  },
+  {
+    id: '778',
+    path: 'palette-extractor',
+    nameKey: 'tools.paletteExtractor.name',
+    descriptionKey: 'tools.paletteExtractor.description',
+    category: '21-creativity',
+    component: CreativityPaletteExtractor,
+  },
+  {
+    id: '779',
+    path: 'style-guide-generator',
+    nameKey: 'tools.styleGuideGenerator.name',
+    descriptionKey: 'tools.styleGuideGenerator.description',
+    category: '21-creativity',
+    component: CreativityStyleGuideGenerator,
+  },
+  {
+    id: '780',
+    path: 'mockup-viewer',
+    nameKey: 'tools.mockupViewer.name',
+    descriptionKey: 'tools.mockupViewer.description',
+    category: '21-creativity',
+    component: CreativityMockupViewer,
+  },
+  {
+    id: '781',
+    path: 'typography-scale',
+    nameKey: 'tools.typographyScale.name',
+    descriptionKey: 'tools.typographyScale.description',
+    category: '21-creativity',
+    component: CreativityTypographyScale,
+  },
+  {
+    id: '782',
+    path: 'spacing-calculator',
+    nameKey: 'tools.spacingCalculator.name',
+    descriptionKey: 'tools.spacingCalculator.description',
+    category: '21-creativity',
+    component: CreativitySpacingCalculator,
+  },
+  {
+    id: '783',
+    path: 'breakpoint-calculator',
+    nameKey: 'tools.breakpointCalculator.name',
+    descriptionKey: 'tools.breakpointCalculator.description',
+    category: '21-creativity',
+    component: CreativityBreakpointCalculator,
+  },
+  {
+    id: '784',
+    path: 'animation-timing-calculator',
+    nameKey: 'tools.animationTimingCalculator.name',
+    descriptionKey: 'tools.animationTimingCalculator.description',
+    category: '21-creativity',
+    component: CreativityAnimationTimingCalculator,
+  },
+  {
+    id: '785',
+    path: 'shadow-generator',
+    nameKey: 'tools.shadowGenerator.name',
+    descriptionKey: 'tools.shadowGenerator.description',
+    category: '21-creativity',
+    component: CreativityShadowGenerator,
+  },
+  {
+    id: '786',
+    path: 'border-generator',
+    nameKey: 'tools.borderGenerator.name',
+    descriptionKey: 'tools.borderGenerator.description',
+    category: '21-creativity',
+    component: CreativityBorderGenerator,
+  },
+  {
+    id: '787',
+    path: 'filter-preview',
+    nameKey: 'tools.filterPreview.name',
+    descriptionKey: 'tools.filterPreview.description',
+    category: '21-creativity',
+    component: CreativityFilterPreview,
+  },
+  {
+    id: '788',
+    path: 'blend-mode-preview',
+    nameKey: 'tools.blendModePreview.name',
+    descriptionKey: 'tools.blendModePreview.description',
+    category: '21-creativity',
+    component: CreativityBlendModePreview,
+  },
+  {
+    id: '789',
+    path: 'text-effect-generator',
+    nameKey: 'tools.textEffectGenerator.name',
+    descriptionKey: 'tools.textEffectGenerator.description',
+    category: '21-creativity',
+    component: CreativityTextEffectGenerator,
+  },
+  {
+    id: '790',
+    path: 'background-pattern-generator',
+    nameKey: 'tools.backgroundPatternGenerator.name',
+    descriptionKey: 'tools.backgroundPatternGenerator.description',
+    category: '21-creativity',
+    component: CreativityBackgroundPatternGenerator,
+  },
 ]
 
 export const categories = [
@@ -7440,6 +7668,7 @@ export const categories = [
   { id: '18-business', nameKey: 'categories.18-business' },
   { id: '19-education', nameKey: 'categories.19-education' },
   { id: '20-health', nameKey: 'categories.20-health' },
+  { id: '21-creativity', nameKey: 'categories.21-creativity' },
   { id: '25-other', nameKey: 'categories.25-other' },
 ]
 

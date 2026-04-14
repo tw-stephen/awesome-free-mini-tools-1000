@@ -29,7 +29,7 @@ export default function TypingSpeedTest() {
   }, [])
 
   useEffect(() => {
-    let interval: NodeJS.Timeout
+    let interval: ReturnType<typeof setInterval> | undefined
     if (status === 'running' && timeLeft > 0) {
       interval = setInterval(() => {
         setTimeLeft(prev => {

@@ -5,6 +5,11 @@ export default function CholesterolTracker() {
   const [hdl, setHdl] = useState('')
   const [total, setTotal] = useState('')
   const [result, setResult] = useState<{ ratio: number; risk: string; color: string; advice: string } | null>(null)
+  const fields = [
+    { label: 'LDL (mg/dL)', value: ldl, setValue: setLdl },
+    { label: 'HDL (mg/dL)', value: hdl, setValue: setHdl },
+    { label: 'Total (mg/dL)', value: total, setValue: setTotal }
+  ]
 
   const analyze = () => {
     const l = parseFloat(ldl), h = parseFloat(hdl), t = parseFloat(total)
@@ -19,13 +24,13 @@ export default function CholesterolTracker() {
   }
 
   return (
-    <div className="space-y-4">
+      <div className="space-y-4">
       <h2 className="text-lg font-semibold">Cholesterol Tracker</h2>
       <div className="grid grid-cols-3 gap-2">
-        {[['LDL (mg/dL)', ldl, setLdl], ['HDL (mg/dL)', hdl, setHdl], ['Total (mg/dL)', total, setTotal]].map(([label, val, set]) => (
-          <div key={label as string}>
+        {fields.map(({ label, value, setValue }) => (
+          <div key={label}>
             <label className="text-xs font-medium block mb-1">{label}</label>
-            <input type="number" value={val as string} onChange={(e) => (set as (v: string) => void)(e.target.value)}
+            <input type="number" value={value} onChange={(e) => setValue(e.target.value)}
               className="w-full border rounded p-2 text-sm" placeholder="0" />
           </div>
         ))}

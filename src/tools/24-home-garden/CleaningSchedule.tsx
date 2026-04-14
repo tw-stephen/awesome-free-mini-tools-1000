@@ -14,9 +14,9 @@ export default function CleaningSchedule() {
   const { t } = useTranslation()
   const [tasks, setTasks] = useState<CleaningTask[]>([])
   const [showAddTask, setShowAddTask] = useState(false)
-  const [newTask, setNewTask] = useState({
+  const [newTask, setNewTask] = useState<Pick<CleaningTask, 'name' | 'frequency' | 'room'>>({
     name: '',
-    frequency: 'weekly' as const,
+    frequency: 'weekly',
     room: 'Living Room',
   })
   const [filterRoom, setFilterRoom] = useState('all')

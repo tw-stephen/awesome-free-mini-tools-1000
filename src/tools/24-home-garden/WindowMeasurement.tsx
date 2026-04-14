@@ -14,12 +14,19 @@ interface WindowData {
 export default function WindowMeasurement() {
   const { t } = useTranslation()
   const [windows, setWindows] = useState<WindowData[]>([])
-  const [currentWindow, setCurrentWindow] = useState({
+  const [currentWindow, setCurrentWindow] = useState<{
+    name: string
+    width: string
+    height: string
+    sillDepth: string
+    mountType: WindowData['mountType']
+    treatmentType: string
+  }>({
     name: '',
     width: '',
     height: '',
     sillDepth: '',
-    mountType: 'inside' as const,
+    mountType: 'inside',
     treatmentType: 'curtain',
   })
   const [unit, setUnit] = useState<'cm' | 'in'>('cm')

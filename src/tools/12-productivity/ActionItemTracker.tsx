@@ -18,11 +18,11 @@ export default function ActionItemTracker() {
   const [items, setItems] = useState<ActionItem[]>([])
   const [filter, setFilter] = useState<'all' | 'pending' | 'in-progress' | 'completed'>('all')
   const [showForm, setShowForm] = useState(false)
-  const [newItem, setNewItem] = useState({
+  const [newItem, setNewItem] = useState<Pick<ActionItem, 'title' | 'assignee' | 'dueDate' | 'priority' | 'source' | 'notes'>>({
     title: '',
     assignee: '',
     dueDate: '',
-    priority: 'medium' as const,
+    priority: 'medium',
     source: '',
     notes: ''
   })

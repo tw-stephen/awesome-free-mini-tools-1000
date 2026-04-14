@@ -7,7 +7,7 @@ export default function ReactionTimeTest() {
   const [startTime, setStartTime] = useState<number | null>(null)
   const [reactionTime, setReactionTime] = useState<number | null>(null)
   const [attempts, setAttempts] = useState<number[]>([])
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null)
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
     return () => {

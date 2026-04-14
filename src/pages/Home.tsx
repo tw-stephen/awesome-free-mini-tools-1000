@@ -1,12 +1,14 @@
 import { useTranslation } from 'react-i18next'
 import { tools, categories, getToolsByCategory } from '../tools/registry'
+import { getFaqContent } from '../content/faq'
 
 interface HomeProps {
   onNavigate: (path: string) => void
 }
 
 export default function Home({ onNavigate }: HomeProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+  const faq = getFaqContent(i18n.resolvedLanguage)
 
   return (
     <div className="max-w-4xl mx-auto">
@@ -70,6 +72,22 @@ export default function Home({ onNavigate }: HomeProps) {
           </div>
         )
       })}
+
+      <section className="mt-12 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+        <div className="max-w-2xl">
+          <h2 className="text-2xl font-bold text-slate-800">{faq.title}</h2>
+          <p className="mt-2 text-slate-600">{faq.intro}</p>
+        </div>
+
+        <div className="mt-6 space-y-4">
+          {faq.items.map((item) => (
+            <article key={item.question} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <h3 className="text-lg font-semibold text-slate-800">{item.question}</h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">{item.answer}</p>
+            </article>
+          ))}
+        </div>
+      </section>
     </div>
   )
 }

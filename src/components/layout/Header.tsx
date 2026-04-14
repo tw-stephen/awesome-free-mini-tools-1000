@@ -1,11 +1,14 @@
 import { useTranslation } from 'react-i18next'
-import LanguageSwitcher from '../ui/LanguageSwitcher'
+import LanguageSwitcher from '../ui/LanguageSwitcher.tsx'
 
 export default function Header() {
   const { t } = useTranslation()
 
   const handleHomeClick = () => {
-    window.location.hash = ''
+    const url = new URL(window.location.href)
+    url.searchParams.delete('tool')
+    url.hash = ''
+    window.history.pushState({}, '', `${url.pathname}${url.search}`)
   }
 
   return (

@@ -1,0 +1,30 @@
+# Awesome Free Mini Tools 1000
+
+Last updated: 2026-04-14
+
+## Summary (English)
+Awesome Free Mini Tools 1000 is a browser-first collection of text, image, data, developer, and productivity utilities. The site focuses on privacy-first, frontend-only tools that run without mandatory sign-up or server-side processing.
+
+## Summary (Traditional Chinese)
+Awesome Free Mini Tools 1000 是以瀏覽器直接執行為核心的工具集合，涵蓋文字、圖片、資料轉換、開發與生產力任務。重點是前端本地處理、免登入、降低資料外傳風險。
+
+## Summary (Japanese)
+Awesome Free Mini Tools 1000 は、テキスト処理、画像処理、データ変換、開発支援、生産性向上のためのブラウザツール集です。多くの機能はフロントエンドだけで動作し、登録不要で使えます。
+
+## Key Pages
+- / : Collection overview and FAQ
+- /?tool={tool-path} : Individual tool pages with shareable URLs
+- /llms.txt : AI-readable summary
+- /sitemap.xml : Full crawl map
+- /news-sitemap.xml : Recently refreshed tool URLs
+
+## Topics
+- Browser-based utilities
+- Text processing and data conversion
+- Image helpers and chart generators
+- Developer tools and productivity workflows
+
+## Freshness
+- Tool URLs are generated into the sitemap during build.
+- The collection is designed for continuous additions.
+
